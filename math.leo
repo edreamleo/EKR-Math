@@ -1337,7 +1337,7 @@ last = c.lastTopLevel()
 last = last.insertAfter()
 last.h = '--- Converted ipynb files'
 base_path = os.path.dirname(c.fileName())
-dirs = [z for z in glob.glob(f"{base_path}{os.sep}*") if os.path.isdir(z)]
+dirs = [z for z in glob.glob(f"{base_path}/Python/*") if os.path.isdir(z)]
 for dir_ in dirs:
     files = [z for z in glob.glob(f"{dir_}{os.sep}*.ipynb")]
     if not files:
@@ -1376,7 +1376,6 @@ c.redraw()</t>
 @wrap
 
 ***10 in, 1 out.
-
 
 
 @language python
