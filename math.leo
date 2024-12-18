@@ -77,6 +77,10 @@
 <v t="ekr.20241212164526.14"><vh>@command exec-py-file</vh></v>
 <v t="ekr.20241212164526.17"><vh>@command import-ipynb</vh></v>
 <v t="ekr.20241217135604.1"><vh>@command pdflatex</vh></v>
+<v t="ekr.20241218050405.3"><vh>@command toggle-plot-tab</vh>
+<v t="ekr.20241218050659.1"><vh>&lt;&lt; PlotWindow imports &gt;&gt;</vh></v>
+<v t="ekr.20241218050405.2"><vh>class PlotWindow</vh></v>
+</v>
 </v>
 <v t="ekr.20241212164559.106"><vh>Chapters</vh>
 <v t="ekr.20241212164559.107"><vh>@chapter 1</vh>
@@ -122,17 +126,6 @@
 <v t="ekr.20241212164559.139"><vh>Declutter</vh>
 <v t="ekr.20241212164559.300"><vh>@bool tree-declutter = False</vh></v>
 <v t="ekr.20241212164559.141"><vh>@data tree-declutter-patterns</vh></v>
-<v t="ekr.20241212164559.142"><vh>--- unused patterns</vh>
-<v t="ekr.20241212164559.143"><vh> About Decluttering</vh>
-<v t="ekr.20241212164559.144"><vh>Rule &amp; replacement lines</vh></v>
-<v t="ekr.20241212164559.145"><vh>Style lines</vh></v>
-</v>
-<v t="ekr.20241212164559.146"><vh>declutter: add icon to folders and remove...</vh></v>
-<v t="ekr.20241212164559.147"><vh>declutter: demo pattern</vh></v>
-<v t="ekr.20241212164559.148"><vh>declutter: hide org-mode tags</vh></v>
-<v t="ekr.20241212164559.149"><vh>declutter: replace @&lt;file&gt; with an icon</vh></v>
-<v t="ekr.20241212164559.150"><vh>declutter: show last part of long filenames</vh></v>
-</v>
 </v>
 <v t="ekr.20241212164559.151"><vh>Environment settings</vh>
 <v t="ekr.20241212164559.152"><vh>@ifenv COMPUTERNAME, edreamleo-pc, other-pc</vh>
@@ -176,20 +169,10 @@
 </v>
 <v t="ekr.20241212164559.183" descendentVnodeUnknownAttributes="7d71005803000000302e3071017d71025808000000616e6e6f7461746571037d71042858080000007072696f7269747971054d0f27580a000000707269736574646174657106580a000000323032312d30332d333071077573732e"><vh>Plugins (one of these is essential)</vh>
 <v t="ekr.20241212164559.307" descendentVnodeUnknownAttributes="7d710058010000003071017d71025808000000616e6e6f7461746571037d71042858080000007072696f7269747971054d0f27580a000000707269736574646174657106580a000000323032312d30332d333071077573732e"><vh>@enabled-plugins</vh></v>
-<v t="ekr.20241212164559.185"><vh>@@bool scripting-at-plugin-nodes = True</vh></v>
-<v t="ekr.20241212164559.186"><vh>mod_http settings</vh>
-<v t="ekr.20241212164559.187"><vh>@bool http-active = True</vh></v>
-<v t="ekr.20241212164559.188"><vh>@int port = 8080</vh></v>
-<v t="ekr.20241212164559.189"><vh>@string rst-http-attributename = 'rst_http_attribute'</vh></v>
-</v>
 <v t="ekr.20241212164559.190"><vh>viewrendered settings</vh>
 <v t="ekr.20241212164559.191"><vh>@bool view-rendered-auto-create = False</vh></v>
 <v t="ekr.20241212164559.192"><vh>@bool view-rendered-auto-hide = False</vh></v>
 <v t="ekr.20241212164559.193"><vh>@string view-rendered-default-kind = rst</vh></v>
-</v>
-<v t="ekr.20241212164559.194"><vh>wikiview plugin</vh>
-<v t="ekr.20241212164559.195"><vh>@data wikiview-link-patterns</vh></v>
-<v t="ekr.20241212164559.196"><vh>@bool wikiview-active = True</vh></v>
 </v>
 </v>
 <v t="ekr.20241212164559.197"><vh>Scintilla settings</vh>
@@ -233,6 +216,8 @@
 </v>
 <v t="ekr.20241212171838.1"><vh>Files</vh>
 <v t="ekr.20241212071918.1"><vh>@file weather.py</vh></v>
+<v t="ekr.20241218043342.1"><vh>@edit readme.md</vh></v>
+<v t="ekr.20241218044150.1"><vh>@file ekr_style.py</vh></v>
 <v t="ekr.20241218004929.1"><vh>--- Converted ipynb files</vh>
 <v t="ekr.20241218004929.2"><vh>CH01</vh>
 <v t="ekr.20241212122548.3"><vh>@file Python/CH01/CH01_SEC02.py</vh></v>
@@ -1347,11 +1332,7 @@ c.redraw()</t>
 <t tx="ekr.20241212164526.2">@language rest
 @wrap
 
-Post: EKR-Math status:
-- math.leo is now my life :-)
-- @command pdflatex works, but overleaf is way better.
-
-Add Thomas's code.
+Try plotnine.
 
 @language python
 </t>
@@ -1416,155 +1397,6 @@ Leo reads a file that has been changed outside of Leo.
 RULE ^@file (.*)
 REPLACE \1
 ICON file_icons/file_file.png</t>
-<t tx="ekr.20241212164559.142"></t>
-<t tx="ekr.20241212164559.143"># **Decluttering** replaces controls custom formatting of headlines, including:
-
-# - Hiding or changing headline text,
-# - Adding icons to headlines,
-# - Changing the styling of headlines.
-
-# Decluttering is *inactive* when you are editing a headline.
-
-# Decluttering is *completely optional*. To enable decluttering, use::
-
-     # @bool tree-declutter = True
-     
-# Decluttering is controlled by **decluttering rulesets**.
-# You specify decluttering rulesets in the body text of::
-     
-    # @data tree-declutter-patterns
-    
-# As usual with @data nodes:
-
-# - Blank lines and lines starting with '#' are ignored.
-# - You may organize the text of the @data node using child nodes.
-
-# Each ruleset consists of a list of lines:
-
-# - The first line is a **rule line**, containing a **find pattern**.
-# - The second line is a **replacement line**.
-# - The ruleset ends with zero or more **style lines**.
-
-# Find patterns are `regular expressions &lt;https://docs.python.org/2/library/re.html&gt;`_.
-# Decluttering affects only those headlines that match a rule pattern. 
-
-# The following section shows some example rulesets. Later sections discuss decluttering commands, patterns and styles in more detail.
-</t>
-<t tx="ekr.20241212164559.144"># All rulesets start with a **rule line** of the form::
-
-    # RULE &lt;regular expression&gt;
-    
-# The ruleset matches a headline if and only if the regular expression matches. Matches can start anywhere in the headline. Leo first attempts to a match using re.match. If that doesn't work, Leo tries re.search.
-
-# A **replacement line** must follow the rule line. Here are the valid forms::
-
-    # REPLACE &lt;substitution expression&gt;
-    # REPLACE-HEAD
-    # REPLACE-TAIL
-    # REPLACE-REST
-    
-# - REPLACE replaces the headline by the value of the substitution expression.  For example::
-
-    # REPLACE \1
-    
-  # matches replaces the headline by the first matched regex group.
-
-# - REPLACE-HEAD replaces replace the headline by the text that precedes the matched text.
-
-# - REPLACE-TAIL replaces the headline by the text that follows the matched text.
-
-# - REPLACE-REST replaces the headline by everything except the matched text.
-</t>
-<t tx="ekr.20241212164559.145"># Leo applies style lines only if they appear in a ruleset that matches a headline.
-# Style lines do the following...
-
-# Add an icon to the headline::
-
-    # ICON path/to/icon
-    
-# Set the background or foreground color to a color number or names::
-
-    # BG #FF8800
-    # FG @solarized-magenta
-
-# Set the font to a given font name::
-
-    # Font Times
-    
-# Set the font size in pixels (PX) or points (PT)::
-
-    # PX 40
-    # PT 16
-    
-# Enable or disable italics::
-
-    # ITALIC 0
-    # ITALIC 1
-
-# Set the font weight to one of Light, Normal, DemiBold, Bold, Black::
-
-    # WEIGHT DemoBold
-</t>
-<t tx="ekr.20241212164559.146"># Add Icon to folders and remove /-/
-RULE ^/(.*)/$
-REPLACE \1 
-ICON file_icons/folder.png
-
-# Add icon to path folders and remove @path
-RULE ^@path (.*)
-REPLACE \1 
-ICON file_icons/folder_path.png
-
-# Add Icon to removed folders and remove */-/*
-RULE ^\*/(.*)/\*$
-REPLACE \1 
-ICON file_icons/folder_removed.png
-
-# Add Icon to removed files and remove *-* but not **-**
-RULE ^\*([^\*/]*[^\*]*[^\*/]*)\*$
-REPLACE \1 
-ICON file_icons/removed.png
-</t>
-<t tx="ekr.20241212164559.147"># if the node name starts with 'peacock node DEMO', make a mess of it
-RULE ^(peacock node DEMO)
-REPLACE LOOK: \1
-ICON Tango/16x16/emotes/face-grin.png
-ICON Tango/16x16/emotes/face-wink.png
-FG @solarized-magenta
-BG white
-FONT Times
-PX 40
-ITALIC 1
-WEIGHT Bold
-</t>
-<t tx="ekr.20241212164559.148"># RULE :([\w_@]+:)+\s*$
-# REPLACE-HEAD
-</t>
-<t tx="ekr.20241212164559.149"># remove @clean etc. and use an icon
-RULE ^@clean (.*)
-REPLACE \1
-ICON file_icons/file_clean.png
-
-RULE ^@auto (.*)
-REPLACE \1
-ICON file_icons/file_auto.png
-
-RULE ^@edit (.*)
-REPLACE \1
-ICON file_icons/file_edit.png
-
-RULE ^@asis (.*)
-REPLACE \1
-ICON file_icons/file_asis.png
-
-RULE ^@nosent (.*)
-REPLACE \1
-ICON file_icons/file_nosent.png
-
-RULE ^@file (.*)
-REPLACE \1
-ICON file_icons/file_file.png
-</t>
 <t tx="ekr.20241212164559.15"># The headline must be: @outline-data tree-abbreviations
 
 # A list tree abbreviation names.
@@ -1578,10 +1410,6 @@ ICON file_icons/file_file.png
 importer;;
 per-commander-plugin;;
 demo;;
-</t>
-<t tx="ekr.20241212164559.150"># show the last part of long filenames
-RULE ^.{1,1000}/(.{20})
-REPLACE …/\1
 </t>
 <t tx="ekr.20241212164559.151"></t>
 <t tx="ekr.20241212164559.152"></t>
@@ -1839,11 +1667,6 @@ Node = Any
 </t>
 <t tx="ekr.20241212164559.182">The directory to which stub files are written.</t>
 <t tx="ekr.20241212164559.183"></t>
-<t tx="ekr.20241212164559.185">True: dynamically loads plugins in @plugin nodes when a window is created.</t>
-<t tx="ekr.20241212164559.186"></t>
-<t tx="ekr.20241212164559.187"></t>
-<t tx="ekr.20241212164559.188"></t>
-<t tx="ekr.20241212164559.189"></t>
 <t tx="ekr.20241212164559.19">'''
 A template for demonstrations based on plugins/demo.py.
 The demo;; abbreviation will create this tree.
@@ -1869,54 +1692,6 @@ except Exception:
 <t tx="ekr.20241212164559.191"># True: show vr pane when opening a file.</t>
 <t tx="ekr.20241212164559.192"># True: hide the vr pane for text-only renderings.</t>
 <t tx="ekr.20241212164559.193"></t>
-<t tx="ekr.20241212164559.194"></t>
-<t tx="ekr.20241212164559.195"># regex patterns for text to be hidden by the wikiview plugin
-# Blanks lines and lines starting with '#' are comment lines.
-
-# Each non-comment line represents a pattern.
-# Use \b# for patterns starting with '#'
-# Only NON `groups` parts of the pattern in parentheses will be shown.
-# The first character of the pattern (not counting \b) is the leadin character.
-# The pattern will be applied only for strings starting with the leadin character.
-
-# UNLs
-
-\bunl:(//.*#.*--&gt;).*
-\bunl:(//.*#).*
-\bunl:(//.*--&gt;).*
-\bunl:(//).*
-\bfile:(//.*--&gt;).*
-\bhttps?:(//.*--&gt;).*
-## \bfile:(//.*--&gt;)\S+\b
-## \bhttps?:(//.*--&gt;)\S+\b
-
-# regular urls
-
-\bhttps?:(//.*/)\w+\b
-\bfile:(//.*/)\w+\b
-
-# restructuredText `Visible text &lt;http://invisible.url/here&gt;`
-
-(`)\S+(\s*&lt;https?://\S+&gt;`_)
-(`)\S+(\s*&lt;file://\S+&gt;`_)
-
-# Test patterns: see http://pythex.org/
-
-# unl://leoSettings.leo#@settings--&gt;Plugins--&gt;wikiview plugin
-# unl://ekr.leo#Startup--&gt;@settings--&gt;@@data global-abbreviations
-# unl://#Startup--&gt;@settings--&gt;@@data global-abbreviations
-# unl://Startup--&gt;@settings--&gt;@@data global-abbreviations
-# file://Startup--&gt;@settings
-# file://#some--&gt;headlines--&gt;mynode
-# http://#some--&gt;headlines--&gt;mynode
-# https://#some--&gt;headlines--&gt;mynode
-# http://www.google.com/search
-# https://www.google.com/search
-# file://www.google.com/search
-# `Python &lt;https://www.python.org/&gt;`_ 
-# `Python &lt;file://www.python.org/&gt;`_ 
-</t>
-<t tx="ekr.20241212164559.196">Should wikiview mode be active by default?</t>
 <t tx="ekr.20241212164559.197"></t>
 <t tx="ekr.20241212164559.199"></t>
 <t tx="ekr.20241212164559.20">if c.isChanged(): c.save()
@@ -10547,6 +10322,84 @@ plt.show()
 <t tx="ekr.20241218004932.99">@others
 @language python
 @tabwidth -4
+</t>
+<t tx="ekr.20241218050405.2">class PlotWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.canvas = FigureCanvas()
+        self.toolbar = NavigationToolbar(self.canvas, self)
+
+        self.button = QPushButton('Plot')
+        self.button.clicked.connect(self.plotdemo)
+
+        layout = QVBoxLayout(self)
+        layout.addWidget(self.toolbar)
+        layout.addWidget(self.canvas)
+        layout.addWidget(self.button)
+        self.setLayout(layout)
+        self.setStyleSheet('* {background: lightgrey;}')
+
+    def plotfig(self, fig):
+        self.canvas.figure = fig
+        self.canvas.draw()
+
+    def plotdemo(self):
+        """Generate and plot some data.
+        
+        Cycles through curve type and color
+        randomly. Adapted from 
+        https://plotnine.readthedocs.io/en/stable/tutorials/miscellaneous-a-pyqt5-application.html
+        """
+        n = 100
+        x = np.linspace(0, 2 * np.pi, n)
+        y1 = np.sin(x)
+        y2 = np.random.rand(n)
+        y3 = np.cos(x) * np.sin(x)
+
+        # change the dependent variable and color each time this method is called
+        y = random.choice([y1, y2, y3])
+        color = random.choice(['blue', 'red', 'green', 'cyan'])
+
+        plt.plot(x, y, color)
+        fig = plt.gcf()
+        self.plotfig(fig)
+        fig.clear()
+</t>
+<t tx="ekr.20241218050405.3">"""Create, show, or hide Plot9 tab in Log pane."""
+
+&lt;&lt; PlotWindow imports &gt;&gt;
+@others  # Define PlotWindow class.
+
+log = c.frame.log
+TABNAME = 'Pyplot'
+WIDGET_NAME = f'{TABNAME}-widget'
+VISIBLE = f'{TABNAME}-visible'
+
+if log.contentsDict.get(VISIBLE, False):
+    log.deleteTab(TABNAME)
+    log.contentsDict[VISIBLE] = False
+    log.contentsDict[WIDGET_NAME] = None
+else:
+    # Create our widget and embed it in a tab
+    w = PlotWindow()
+    log.createTab(TABNAME, widget = w, createText = False)
+    log.selectTab(TABNAME)
+    log.contentsDict[VISIBLE] = True
+    log.contentsDict[WIDGET_NAME] = w
+</t>
+<t tx="ekr.20241218050659.1">import random
+import numpy as np
+
+from matplotlib.backends.qt_compat import QtWidgets
+from matplotlib.backends.backend_qtagg import (
+    FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
+from matplotlib import pyplot as plt
+
+QApplication = QtWidgets.QApplication
+QPushButton = QtWidgets.QPushButton
+QDialog = QtWidgets.QDialog
+QVBoxLayout = QtWidgets.QVBoxLayout
+QWidget = QtWidgets.QWidget
 </t>
 </tnodes>
 </leo_file>
