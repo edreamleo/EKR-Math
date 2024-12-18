@@ -1,5 +1,5 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212122548.3: * @file CH01/CH01_SEC02.py
+#@+node:ekr.20241212122548.3: * @file Python/CH01/CH01_SEC02.py
 #@+<< ch1_sec2 imports >>
 #@+node:ekr.20241212122548.5: ** << ch1_sec2 imports >>
 import os

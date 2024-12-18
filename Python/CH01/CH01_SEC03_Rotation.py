@@ -1,5 +1,5 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100513.9: * @file CH01/CH01_SEC03_Rotation.py
+#@+node:ekr.20241212100513.9: * @file Python/CH01/CH01_SEC03_Rotation.py
 #@+<< ch1_sec3 imports >>
 #@+node:ekr.20241212100513.11: ** << ch1_sec3 imports >>
 import matplotlib.pyplot as plt
