@@ -1,3 +1,10 @@
+# EKR-Math: .gitignore
+
+# Ignore the entire Data directory. It contains many inconveniently large files.
+# Furthermore, scripts will not change any files in this directory
+
+Data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
