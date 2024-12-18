@@ -989,7 +989,6 @@
 <v t="ekr.20241217092849.1"><vh>Pyplot: graph parabola and table of x-intercepts</vh></v>
 <v t="ekr.20241217093836.1"><vh>Pyplot: graph table of x-intercepts</vh></v>
 </v>
-<v t="ekr.20241212164526.2"><vh>*** To do</vh></v>
 <v t="ekr.20241214073404.1"><vh>Problem set 1</vh>
 <v t="ekr.20241214073548.1"><vh>1-1</vh>
 <v t="ekr.20241214074624.1"><vh>Derivative of f(x) = cos(x^3)</vh></v>
@@ -998,6 +997,7 @@
 <v t="ekr.20241214074032.2"><vh>1-3</vh></v>
 <v t="ekr.20241214074033.1"><vh>1-4</vh></v>
 </v>
+<v t="ekr.20241212164526.2"><vh>*** To do</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212164526.10">&lt;h3&gt;Generalizations&lt;/h3&gt;
@@ -1367,8 +1367,6 @@ c.redraw()</t>
 @wrap
 
 Post: EKR-Math status.
-
-
 
 
 @language python
