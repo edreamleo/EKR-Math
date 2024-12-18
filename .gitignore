@@ -5,6 +5,10 @@
 
 Data
 
+# Ignore the ZipFiles directory.
+
+ZipFiles
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
