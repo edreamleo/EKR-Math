@@ -12842,11 +12842,6 @@ http://faculty.washington.edu/sbrunton/me564/hw/2022_564hw1.pdf
 
 https://www.overleaf.com/project/675d9303d9ec3ac6df5baf7c
 
-Problem sets:
-- Check work.
-- Graph results, derivatives, integrals.
-- Typeset notes.
-- Act like a teacher.
 
 </t>
 <t tx="ekr.20241214073548.1">@language rest
