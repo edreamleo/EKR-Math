@@ -6,7 +6,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="ekr.20241212164559.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735803000000302e3671067d71075808000000616e6e6f7461746571087d71092858080000007072696f72697479710a4d0f27580a00000070726973657464617465710b580a000000323032312d30332d3330710c75735803000000302e32710d7d710e580b0000005f5f626f6f6b6d61726b73710f7d7110580700000069735f6475706571114930300a7373752e"><vh>Startup</vh>
+<v t="ekr.20241212164559.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735803000000302e3571067d71075808000000616e6e6f7461746571087d71092858080000007072696f72697479710a4d0f27580a00000070726973657464617465710b580a000000323032312d30332d3330710c75735803000000302e32710d7d710e580b0000005f5f626f6f6b6d61726b73710f7d7110580700000069735f6475706571114930300a7373752e"><vh>Startup</vh>
 <v t="ekr.20241212164559.3" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735806000000302e32302e3071067d71075808000000616e6e6f7461746571087d71092858080000007072696f72697479710a4d0f27580a00000070726973657464617465710b580a000000323032312d30332d3330710c7573752e"><vh>@settings</vh>
 <v t="ekr.20241212164559.4"><vh>@bool allow-text-zoom = True</vh></v>
 <v t="ekr.20241212164559.5"><vh>@bool check-python-code-on-write = True</vh></v>
@@ -74,9 +74,13 @@
 <v t="ekr.20241212164559.217"><vh>Buttons &amp; commands</vh>
 <v t="ekr.20241212164559.223"><vh>@button backup</vh></v>
 <v t="ekr.20241217065902.1"><vh>@button close-figures</vh></v>
-<v t="ekr.20241212164526.14"><vh>@command exec-py-file</vh></v>
+<v t="ekr.20241212164526.14"><vh>@button exec-py-file</vh></v>
+<v t="ekr.20241217135604.1"><vh>@button pdflatex</vh>
+<v t="ekr.20241223031235.1"><vh>head</vh></v>
+<v t="ekr.20241223031312.1"><vh>tail</vh></v>
+<v t="ekr.20241223031814.1"><vh>get_contents</vh></v>
+</v>
 <v t="ekr.20241212164526.17"><vh>@command import-ipynb</vh></v>
-<v t="ekr.20241217135604.1"><vh>@command pdflatex</vh></v>
 <v t="ekr.20241218050405.3"><vh>@command toggle-plot-tab</vh>
 <v t="ekr.20241218050659.1"><vh>&lt;&lt; PlotWindow imports &gt;&gt;</vh></v>
 <v t="ekr.20241218050405.2"><vh>class PlotWindow</vh></v>
@@ -211,82 +215,32 @@
 <v t="ekr.20241212164559.302"></v>
 </v>
 <v t="ekr.20241212164559.305"></v>
-<v t="ekr.20241212164559.306"></v>
 <v t="ekr.20241212164559.307" descendentVnodeUnknownAttributes="7d710058010000003071017d71025808000000616e6e6f7461746571037d71042858080000007072696f7269747971054d0f27580a000000707269736574646174657106580a000000323032312d30332d333071077573732e"></v>
 </v>
 <v t="ekr.20241212171838.1"><vh>Files</vh>
 <v t="ekr.20241212071918.1"><vh>@file weather.py</vh></v>
 <v t="ekr.20241218043342.1"><vh>@edit readme.md</vh></v>
 <v t="ekr.20241218044150.1"><vh>@file ekr_style.py</vh></v>
+</v>
 <v t="ekr.20241218004929.1"><vh>--- Converted ipynb files</vh>
 <v t="ekr.20241218004929.2"><vh>CH01</vh>
 <v t="ekr.20241212122548.3"><vh>@file Python/CH01/CH01_SEC02.py</vh></v>
 <v t="ekr.20241212100513.9"><vh>@file Python/CH01/CH01_SEC03_Rotation.py</vh></v>
-<v t="ekr.20241218004929.14"><vh># @file CH01\CH01_SEC04_1_Linear.py</vh>
-<v t="ekr.20241218004929.16"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.17"><vh>Three methods of computing regression</vh></v>
-</v>
-<v t="ekr.20241218004929.18"><vh># @file CH01\CH01_SEC04_2_Cement.py</vh>
-<v t="ekr.20241218004929.20"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.21"><vh>Alternative Methods:</vh></v>
-<v t="ekr.20241218004929.22"><vh>Cell 3</vh></v>
-</v>
-<v t="ekr.20241218004929.23"><vh># @file CH01\CH01_SEC04_3_Housing.py</vh>
-<v t="ekr.20241218004929.25"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.26"><vh>A_mean = np.mean(A,axis=0)</vh></v>
-</v>
-<v t="ekr.20241218004929.27"><vh># @file CH01\CH01_SEC05_1_PCAGaussian.py</vh>
-<v t="ekr.20241218004929.29"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.30"><vh>Cell 2</vh></v>
-</v>
-<v t="ekr.20241218004929.31"><vh># @file CH01\CH01_SEC05_2_OvarianCancer.py</vh>
-<v t="ekr.20241218004929.33"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.34"><vh>fig2 = plt.figure()</vh></v>
-</v>
-<v t="ekr.20241218004929.35"><vh># @file CH01\CH01_SEC06_1.py</vh>
-<v t="ekr.20241218004929.37"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.38"><vh>for person in range(len(nfaces)):</vh></v>
-</v>
-<v t="ekr.20241218004929.39"><vh># @file CH01\CH01_SEC06_2_3_4.py</vh>
-<v t="ekr.20241218004929.41"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.42"><vh># Now show eigenface reconstruction of</vh></v>
-<v t="ekr.20241218004929.43"><vh># Project person 2 and 7 onto PC5 and</vh></v>
-<v t="ekr.20241218004929.44"><vh>Cell 4</vh></v>
-</v>
-<v t="ekr.20241218004929.45"><vh># @file CH01\CH01_SEC07_1.py</vh>
-<v t="ekr.20241218004929.47"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.48"><vh>sigma = 1</vh></v>
-<v t="ekr.20241218004929.49"><vh>U, S, VT =</vh></v>
-<v t="ekr.20241218004929.50"><vh>Cumulative energy</vh></v>
-<v t="ekr.20241218004929.51"><vh># Plot Singular Values</vh></v>
-<v t="ekr.20241218004929.52"><vh>Cell 6</vh></v>
-</v>
-<v t="ekr.20241218004929.53"><vh># @file CH01\CH01_SEC07_2.py</vh>
-<v t="ekr.20241218004929.55"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.56"><vh>X_rot = skimage.transform.rotate(X,10)</vh></v>
-<v t="ekr.20241218004929.57"><vh>U, S, VT =</vh></v>
-<v t="ekr.20241218004929.58"><vh>U_rot, S_rot, VT_rot =</vh></v>
-<v t="ekr.20241218004929.59"><vh>Cell 5</vh></v>
-</v>
-<v t="ekr.20241218004929.60"><vh># @file CH01\CH01_SEC07_3.py</vh>
-<v t="ekr.20241218004929.62"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.63"><vh>Xrot = X</vh></v>
-<v t="ekr.20241218004929.64"><vh>Cell 3</vh></v>
-</v>
-<v t="ekr.20241218004929.65"><vh># @file CH01\CH01_SEC08_RSVD.py</vh>
-<v t="ekr.20241218004929.67"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.68"><vh>A = imread(os.path.join('..','DATA','jup</vh></v>
-<v t="ekr.20241218004929.69"><vh># Reconstruction</vh></v>
-<v t="ekr.20241218004929.70"><vh># Plot</vh></v>
-<v t="ekr.20241218004929.71"><vh># Illustrate power iterations</vh></v>
-<v t="ekr.20241218004929.72"><vh>Cell 6</vh></v>
-</v>
-<v t="ekr.20241218004929.73"><vh># @file CH01\CH01_SEC09_Tensor.py</vh>
-<v t="ekr.20241218004929.75"><vh>import matplotlib.pyplot as plt</vh></v>
-<v t="ekr.20241218004929.76"><vh>plt.rcParams['figure.figsize'] = [16,10]</vh></v>
-<v t="ekr.20241218004929.77"><vh>Tensor factorization method requires the</vh></v>
-<v t="ekr.20241218004929.78"><vh>Cell 4</vh></v>
-<v t="ekr.20241218004929.79"><vh>Cell 5</vh></v>
+<v t="ekr.20241212100513.14"><vh>@file Python/CH01\CH01_SEC04_1_Linear.py</vh></v>
+<v t="ekr.20241212100513.18"><vh>@file Python/CH01\CH01_SEC04_2_Cement.py</vh></v>
+<v t="ekr.20241212100513.23"><vh>@file Python/CH01\CH01_SEC04_3_Housing.py</vh></v>
+<v t="ekr.20241212100513.27"><vh>@file Python/CH01\CH01_SEC05_1_PCAGaussian.py</vh></v>
+<v t="ekr.20241212100513.31"><vh>@file Python/CH01\CH01_SEC05_2_OvarianCancer.py</vh></v>
+<v t="ekr.20241212100513.35"><vh>@file Python/CH01\CH01_SEC06_1.py</vh></v>
+<v t="ekr.20241212100513.39"><vh>@file Python/CH01\CH01_SEC06_2_3_4.py</vh></v>
+<v t="ekr.20241212100513.45"><vh>@file Python/CH01\CH01_SEC07_1.py</vh></v>
+<v t="ekr.20241212100514.1"><vh>@file Python/CH01\CH01_SEC07_2.py</vh></v>
+<v t="ekr.20241212100514.8"><vh>@file Python/CH01\CH01_SEC07_3.py</vh></v>
+<v t="ekr.20241212100514.13"><vh>@file Python/CH01\CH01_SEC08_RSVD.py</vh></v>
+<v t="ekr.20241212100514.21"><vh>@@@file Python/CH01\CH01_SEC09_Tensor.py</vh>
+<v t="ekr.20241212100514.23"><vh>animation</vh></v>
+<v t="ekr.20241212100514.24"><vh>plot 1</vh></v>
+<v t="ekr.20241212100514.25"><vh>plot 2</vh></v>
 </v>
 </v>
 <v t="ekr.20241218004929.80"><vh>CH02</vh>
@@ -946,21 +900,67 @@
 </v>
 </v>
 </v>
+<v t="ekr.20241223024937.1" descendentVnodeUnknownAttributes="7d7100285805000000302e302e3171017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735809000000302e302e312e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Projects</vh>
+<v t="ekr.20241223020730.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3171017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735807000000302e312e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Rendering</vh>
+<v t="ekr.20241223020730.3"><vh>mathjax (VR3 only)</vh>
+<v t="ekr.20241223020730.5"><vh>mathjax-test2.html (works)</vh></v>
 </v>
-<v t="ekr.20241213052734.1"><vh>--- Recent files</vh>
-<v t="ekr.20241212122548.3"></v>
-<v t="ekr.20241212100513.9"></v>
+<v t="ekr.20241223020730.7" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735805000000302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>working VR examples</vh>
+<v t="ekr.20241223020730.8" descendentVnodeUnknownAttributes="7d71005803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a7373732e"><vh>at-html tests</vh>
+<v t="ekr.20241223020730.9" descendentVnodeUnknownAttributes="7d710058010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a7373732e"><vh>@html sphinx Link</vh></v>
+<v t="ekr.20241223020730.10"><vh>@html display Leo tree (cool)</vh></v>
+<v t="ekr.20241223020730.11"><vh>@html Leo's home page</vh></v>
 </v>
-<v t="ekr.20241212171851.1"><vh>--- Recent</vh>
-<v t="ekr.20241217150611.1"><vh>--- plt scripts</vh>
+<v t="ekr.20241223020730.12"><vh>at-image tests</vh>
+<v t="ekr.20241223020730.13"><vh>@image LeoSplash (works, but very large)</vh></v>
+<v t="ekr.20241223020730.14"><vh>@path C:\Repos\leo-editor\leo\Icons</vh>
+<v t="ekr.20241223020730.15"><vh>@image LeoSplash (test: using @path)</vh></v>
+</v>
+</v>
+<v t="ekr.20241223020730.16"><vh>at-pyplot tests</vh>
+<v t="ekr.20241223020730.17"><vh>@pyplot barchar_demo</vh></v>
+<v t="ekr.20241223020730.18"><vh>@pyplot basic_example 1</vh></v>
+<v t="ekr.20241223020730.19"><vh>@pyplot basic_example 2</vh></v>
+<v t="ekr.20241223020730.20"><vh>@pyplot matplotlib animate_decay</vh>
+<v t="ekr.20241223020730.21"><vh>data_gen</vh></v>
+<v t="ekr.20241223020730.22"><vh>init</vh></v>
+<v t="ekr.20241223020730.23"><vh>run</vh></v>
+</v>
+<v t="ekr.20241223020730.24"><vh>@pyplot two graphs in same window</vh></v>
+</v>
+<v t="ekr.20241223020730.25"><vh>at-svg tests</vh>
+<v t="ekr.20241223020730.26"><vh>@svg bubbles sources</vh></v>
+<v t="ekr.20241223020730.27"><vh>@svg bubbles.svg</vh></v>
+</v>
+<v t="ekr.20241223020730.28"><vh>docstring test</vh></v>
+<v t="ekr.20241223020730.29"><vh>markdown tests</vh>
+<v t="ekr.20241223020730.30"><vh>markdown test (including url)</vh></v>
+<v t="ekr.20241223020730.31"><vh>markdown test (math)</vh></v>
+<v t="ekr.20241223020730.32"><vh>markdown test (link)</vh></v>
+</v>
+<v t="ekr.20241223020730.33"><vh>rst tests</vh>
+<v t="ekr.20241223020730.34"><vh>rst test (including url)</vh></v>
+<v t="ekr.20241223020730.35"><vh>rst example</vh>
+<v t="ekr.20241223020730.36"><vh>python</vh></v>
+</v>
+<v t="ekr.20241223020730.37"><vh>python code block in rst</vh></v>
+</v>
+<v t="ekr.20241223020730.38"><vh>URLs tests</vh>
+<v t="ekr.20241223020730.39"><vh>@url Leo's home page (md)</vh></v>
+<v t="ekr.20241223020730.40"><vh>@url Leo's home page (rST)</vh></v>
+<v t="ekr.20241223020730.41"><vh>@url mail (rst)</vh></v>
+<v t="ekr.20241223020730.42"><vh>@url weather (md)</vh></v>
+</v>
+</v>
+</v>
+<v t="ekr.20241217150611.1"><vh>Plt scripts: Use execute-script!</vh>
 <v t="ekr.20241217063500.1"><vh>Pyplot: graph parabola with slopes</vh></v>
 <v t="ekr.20241217092849.1"><vh>Pyplot: graph parabola and table of x-intercepts</vh></v>
 <v t="ekr.20241217093836.1"><vh>Pyplot: graph table of x-intercepts</vh></v>
 </v>
-<v t="ekr.20241217135604.1"></v>
-<v t="ekr.20241217131850.1"><vh>Latex: math notes</vh></v>
-<v t="ekr.20241217131613.1"><vh>math abbreviations</vh></v>
-<v t="ekr.20241212164526.16"><vh>Warnings</vh></v>
+</v>
+<v t="ekr.20241223024752.1"><vh>LaTeX study notes</vh>
+<v t="ekr.20241223031647.1"><vh>Math notes</vh></v>
 <v t="ekr.20241214073404.1"><vh>Problem set 1</vh>
 <v t="ekr.20241214073548.1"><vh>1-1</vh>
 <v t="ekr.20241214074624.1"><vh>Derivative of f(x) = cos(x^3)</vh></v>
@@ -970,314 +970,100 @@
 <v t="ekr.20241214074033.1"><vh>1-4</vh></v>
 </v>
 </v>
-<v t="ekr.20241212164526.2"><vh>*** To do</vh></v>
+<v t="ekr.20241217135604.1"></v>
 </vnodes>
 <tnodes>
+<t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
+import numpy as np
+#### import os
+from matplotlib import animation  ###, rc
+from IPython.display import HTML
+# Tensor factorization method requires the TensorLy module,
+# available at http://tensorly.org/stable/installation.html
+from tensorly.decomposition import parafac
+
+@others
+@language python
+@tabwidth -4
+</t>
+<t tx="ekr.20241212100514.23"># # %matplotlib inline
+
+plt.rcParams['figure.figsize'] = [8, 8]
+plt.rcParams.update({'font.size': 18})
+plt.rcParams['animation.html'] = 'jshtml'
+
+x = np.arange(-5, 5.01, 0.1)
+y = np.arange(-6, 6.01, 0.1)
+t = np.arange(0, 10 * np.pi + 0.1, 0.1)
+
+X, Y, T = np.meshgrid(x, y, t)
+
+A = np.exp(-(X ** 2 + 0.5 * Y ** 2)) * np.cos(2 * T) + \
+    (np.divide(np.ones_like(X), np.cosh(X)) * np.tanh(X) * np.exp(-0.2 * Y ** 2)) * np.sin(T)
+
+fig = plt.figure()
+
+# ValueError: For X (102) and Y (122) with flat shading,
+# A should have shape (121, 101, 3) or (121, 101, 4) or (121, 101) or (12221,), not (0,)
+
+pcm = plt.pcolormesh(X[:,:, 0], Y[:,:, 0], A[:,:, 0], vmin=-1, vmax=1)
+    # , shading='interp')
+
+def init():
+    pcm.set_array(np.array([]))
+    return pcm
+
+def animate(iter):
+    pcm.set_array(A[: -1, : -1, iter].ravel())
+    return pcm
+
+anim = animation.FuncAnimation(fig, animate,
+    init_func=init,
+    frames=len(t),
+    interval=50, blit=False,
+    repeat=False)
+
+HTML(anim.to_jshtml())
+</t>
+<t tx="ekr.20241212100514.24">plt.rcParams['figure.figsize'] = [16, 10]
+
+fig, axs = plt.subplots(2, 4)
+axs = axs.reshape(-1)
+
+for j in range(8):
+    plt.sca(axs[j])
+    plt.pcolormesh(X[:,:, 0], Y[:,:, 0], A[:, :, 8 * (j + 1) - 3], vmin=-1, vmax=1, shading='interp')
+    axs[j].axis('off')
+    plt.set_cmap('hot')
+
+</t>
+<t tx="ekr.20241212100514.25">
+plt.rcParams['figure.figsize'] = [12, 12]
+
+A1, A2, A3 = parafac(A, 2)
+
+fig, axs = plt.subplots(3, 1)
+axs[0].plot(y, A1, linewidth=2)
+axs[1].plot(x, A2, linewidth=2)
+axs[2].plot(t, A3, linewidth=2)
+plt.show()
+
+</t>
 <t tx="ekr.20241212164526.14">g.cls()
 import os
 
-# Must execute the script in the proper folder.
-dir_ = os.path.dirname(c.fileName())
-os.chdir(dir_)
+# Must execute the script in the Python folder.
+ekr_math_dir = os.path.dirname(c.fileName())
+python_dir = os.path.join(ekr_math_dir, 'Python')
+os.chdir(python_dir)
 
 # All the sections have a common naming convention.
-chapter = 'CH01'
-section = r'SEC03_Rotation.py'
-path = fr'Python/{chapter}/{chapter}_{section}'
-
-# No need to hang Leo.
-g.execute_shell_commands(f"&amp;python {path}")
-</t>
-<t tx="ekr.20241212164526.16">tbo: beautified: CH01_SEC02.py
-tbo: beautified: CH01_SEC03_Rotation.py
-CH01_SEC03_Rotation.py:24:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH01_SEC04_1_Linear.py
-tbo: beautified: CH01_SEC04_2_Cement.py
-tbo: beautified: CH01_SEC04_3_Housing.py
-tbo: beautified: CH01_SEC05_1_PCAGaussian.py
-tbo: beautified: CH01_SEC05_2_OvarianCancer.py
-CH01_SEC05_2_OvarianCancer.py:25:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH01_SEC06_1.py
-tbo: beautified: CH01_SEC06_2_3_4.py
-tbo: beautified: CH01_SEC07_1.py
-tbo: beautified: CH01_SEC07_2.py
-CH01_SEC07_2.py:24:1: 'scipy.misc' imported but unused
-CH01_SEC07_2.py:42:9: undefined name 'skimage'
-CH01_SEC07_2.py:46:12: undefined name 'Y'
-tbo: beautified: CH01_SEC07_3.py
-CH01_SEC07_3.py:23:1: 'matplotlib.cm' imported but unused
-tbo: beautified: CH01_SEC08_RSVD.py
-tbo: beautified: CH01_SEC09_Tensor.py
-CH01_SEC09_Tensor.py:24:1: 'os' imported but unused
-CH01_SEC09_Tensor.py:25:1: 'matplotlib.rc' imported but unused
-CH01_SEC03_Rotation.py:24:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-CH01_SEC05_2_OvarianCancer.py:25:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-CH01_SEC07_2.py:24:1: 'scipy.misc' imported but unused
-CH01_SEC07_2.py:42:9: undefined name 'skimage'
-CH01_SEC07_2.py:46:12: undefined name 'Y'
-CH01_SEC07_3.py:23:1: 'matplotlib.cm' imported but unused
-CH01_SEC09_Tensor.py:24:1: 'os' imported but unused
-CH01_SEC09_Tensor.py:25:1: 'matplotlib.rc' imported but unused
-tbo: beautified: CH02_SEC01_0_InnerProduct.py
-tbo: beautified: CH02_SEC01_1_FourierSines.py
-tbo: beautified: CH02_SEC01_2_Gibbs.py
-tbo: beautified: CH02_SEC01_2_Gibbs_Movie.py
-CH02_SEC01_2_Gibbs_Movie.py:24:1: 'matplotlib.rc' imported but unused
-tbo: beautified: CH02_SEC02_1_DFT.py
-tbo: beautified: CH02_SEC02_2_Denoise.py
-tbo: beautified: CH02_SEC02_3_SpectralDerivative.py
-tbo: beautified: CH02_SEC03_1_FFTHeat.py
-CH02_SEC03_1_FFTHeat.py:25:1: 'mpl_toolkits.mplot3d.axes3d' imported but unused
-tbo: beautified: CH02_SEC03_2_FFTWave.py
-CH02_SEC03_2_FFTWave.py:25:1: 'mpl_toolkits.mplot3d.axes3d' imported but unused
-tbo: beautified: CH02_SEC03_3_FFTBurgers.py
-CH02_SEC03_3_FFTBurgers.py:25:1: 'mpl_toolkits.mplot3d.axes3d' imported but unused
-tbo: beautified: CH02_SEC04_1_SpectrogramChirp.py
-tbo: beautified: CH02_SEC05_HAAR.py
-tbo: beautified: CH02_SEC06_1_2DFFT.py
-tbo: beautified: CH02_SEC06_2_Compress.py
-tbo: beautified: CH02_SEC06_3_Denoise.py
-tbo: beautified: CH02_SEC06_4_Wavelet.py
-tbo: beautified: CH02_SEC06_5_WaveletCompress.py
-tbo: beautified: CH03_SEC01_Compress.py
-CH03_SEC01_Compress.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH03_SEC03_1_Underdetermined.py
-CH03_SEC03_1_Underdetermined.py:24:1: 'os' imported but unused
-tbo: beautified: CH03_SEC03_2_AudioCS.py
-tbo: beautified: CH03_SEC04_Matrices.py
-CH03_SEC04_Matrices.py:24:1: 'matplotlib.cm' imported but unused
-CH03_SEC04_Matrices.py:25:1: 'matplotlib.colors.LinearSegmentedColormap' imported but unused
-tbo: beautified: CH03_SEC05_1_RobustRegression.py
-CH03_SEC05_1_RobustRegression.py:24:1: 'os' imported but unused
-tbo: beautified: CH03_SEC05_2_LASSO.py
-CH03_SEC05_2_LASSO.py:24:1: 'os' imported but unused
-CH03_SEC05_2_LASSO.py:25:1: 'scipy.io' imported but unused
-tbo: beautified: CH03_SEC06_SparseRepresentation.py
-CH03_SEC06_SparseRepresentation.py:26:1: 'sklearn.linear_model' imported but unused
-CH03_SEC06_SparseRepresentation.py:27:1: 'sklearn.model_selection' imported but unused
-tbo: beautified: CH03_SEC07_RPCA.py
-tbo: beautified: CH04_SEC01_LinearRegression.py
-tbo: beautified: CH04_SEC02_1_GradientDescent.py
-CH04_SEC02_1_GradientDescent.py:27:1: 'matplotlib.cm' imported but unused
-CH04_SEC02_1_GradientDescent.py:28:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH04_SEC03_1_OverUnderDetermined.py
-CH04_SEC03_1_OverUnderDetermined.py:25:1: 'scipy.optimize.fmin' imported but unused
-tbo: beautified: CH04_SEC04_1_CompareRegression.py
-tbo: beautified: CH04_SEC05_0_Fig4p16_Pareto.py
-tbo: beautified: CH04_SEC05_1_CrossValidate.py
-CH04_SEC05_1_CrossValidate.py:24:1: 'matplotlib.patches.Rectangle' imported but unused
-tbo: beautified: CH04_SEC06_1_kFoldValidation.py
-CH04_SEC06_1_kFoldValidation.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH04_SEC07_1_ModelValidation.py
-tbo: beautified: CH04_SEC07_2_RegressAIC_BIC.py
-CH04_SEC07_2_RegressAIC_BIC.py:25:1: 'statsmodels.tsa.arima_process' imported but unused
-CH04_SEC07_2_RegressAIC_BIC.py:25:1: 'statsmodels.tsa.arima_model' imported but unused
-CH04_SEC07_2_RegressAIC_BIC.py:48:16: undefined name 'sm'
-CH04_SEC07_2_RegressAIC_BIC.py:56:17: undefined name 'sm'
-tbo: beautified: CH05_SEC01_1_FischerExtraction.py
-CH05_SEC01_1_FischerExtraction.py:27:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH05_SEC02_1_Fig5p7_Fig5p8.py
-tbo: beautified: CH05_SEC03_1_Kmeans.py
-tbo: beautified: CH05_SEC04_1_Dendrogram.py
-tbo: beautified: CH05_SEC05_1_GaussianMixtureModels.py
-CH05_SEC05_1_GaussianMixtureModels.py:28:1: 'mpl_toolkits.mplot3d' imported but unused
-tbo: beautified: CH05_SEC06_1_LDA_Classify.py
-CH05_SEC06_1_LDA_Classify.py:27:1: 'mpl_toolkits.mplot3d' imported but unused
-tbo: beautified: CH05_SEC07_1_SVM.py
-CH05_SEC07_1_SVM.py:29:1: 'mpl_toolkits.mplot3d' imported but unused
-tbo: beautified: CH05_SEC08_1_Trees.py
-CH05_SEC08_1_Trees.py:32:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH06_SEC01_1_NN.py
-tbo: beautified: CH06_SEC04_1_StochasticGradientDescent.py
-CH06_SEC04_1_StochasticGradientDescent.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH06_SEC05_1_DeepCNN.py
-tbo: beautified: CH06_SEC06_1_NNLorenz.py
-CH06_SEC06_1_NNLorenz.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-CH06_SEC06_1_NNLorenz.py:29:1: 'keras.layers.Conv2D' imported but unused
-CH06_SEC06_1_NNLorenz.py:29:1: 'keras.layers.Flatten' imported but unused
-CH06_SEC06_1_NNLorenz.py:29:1: 'keras.layers.MaxPool2D' imported but unused
-CH06_SEC06_1_NNLorenz.py:31:1: 'keras.layers.Activation' imported but unused
-CH06_SEC06_1_NNLorenz.py:32:1: 'keras.utils.generic_utils.get_custom_objects' imported but unused
-tbo: beautified: CH07_SEC01_SimulateLogistic.py
-tbo: beautified: CH07_SEC01_SimulateLorenz.py
-CH07_SEC01_SimulateLorenz.py:25:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH07_SEC02_DMD_Cylinder.py
-tbo: beautified: CH07_SEC03_SINDY_Lorenz.py
-CH07_SEC03_SINDY_Lorenz.py:25:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH07_SEC04_Koopman.py
-CH07_SEC04_Koopman.py:25:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH07_SEC05_HAVOK_Lorenz.py
-CH07_SEC05_HAVOK_Lorenz.py:25:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH08_SEC01_CruiseControl.py
-tbo: beautified: CH08_SEC07_1_LQR.py
-CH08_SEC07_1_LQR.py:24:1: 'matplotlib.rcParams' imported but unused
-CH08_SEC07_1_LQR.py:25:1: 'matplotlib.rc' imported but unused
-CH08_SEC07_1_LQR.py:27:1: 'from control.matlab import *' used; unable to detect undefined names
-CH08_SEC07_1_LQR.py:29:1: 'slycot' imported but unused
-CH08_SEC07_1_LQR.py:55:21: 'ctrb' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_1_LQR.py:63:5: 'lqr' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_1_LQR.py:96:29: 't' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH08_SEC07_2b_Obsv.py
-CH08_SEC07_2b_Obsv.py:24:1: 'matplotlib.rcParams' imported but unused
-CH08_SEC07_2b_Obsv.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH08_SEC07_2b_Obsv.py:26:1: 'slycot' imported but unused
-CH08_SEC07_2b_Obsv.py:27:1: 'scipy.integrate' imported but unused
-CH08_SEC07_2b_Obsv.py:28:1: 'scipy.linalg.schur' imported but unused
-CH08_SEC07_2b_Obsv.py:53:42: 'obsv' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2b_Obsv.py:54:67: 'obsv' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2b_Obsv.py:66:42: 'obsv' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2b_Obsv.py:70:7: 'ss' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2b_Obsv.py:71:54: 'gram' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH08_SEC07_2_KalmanFilter.py
-CH08_SEC07_2_KalmanFilter.py:24:1: 'matplotlib.rcParams' imported but unused
-CH08_SEC07_2_KalmanFilter.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH08_SEC07_2_KalmanFilter.py:26:1: 'slycot' imported but unused
-CH08_SEC07_2_KalmanFilter.py:27:1: 'scipy.integrate' imported but unused
-CH08_SEC07_2_KalmanFilter.py:53:68: 'obsv' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:83:17: 'care' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:105:8: 'ss' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:108:12: 'ss' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:111:9: 'ss' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:128:11: 'lsim' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:129:15: 'lsim' may be undefined, or defined from star imports: control.matlab
-CH08_SEC07_2_KalmanFilter.py:130:14: 'lsim' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH08_SEC08_1_TransferFunction.py
-CH08_SEC08_1_TransferFunction.py:24:1: 'matplotlib.rcParams' imported but unused
-CH08_SEC08_1_TransferFunction.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH08_SEC08_1_TransferFunction.py:26:1: 'slycot' imported but unused
-CH08_SEC08_1_TransferFunction.py:27:1: 'scipy.signal' imported but unused
-CH08_SEC08_1_TransferFunction.py:36:5: 'tf' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_1_TransferFunction.py:38:17: 'bode' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_1_TransferFunction.py:46:5: 'ss2tf' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_1_TransferFunction.py:48:10: 'impulse' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH08_SEC08_2_SandT.py
-CH08_SEC08_2_SandT.py:24:1: 'matplotlib.rcParams' imported but unused
-CH08_SEC08_2_SandT.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH08_SEC08_2_SandT.py:26:1: 'slycot' imported but unused
-CH08_SEC08_2_SandT.py:27:1: 'scipy.signal' imported but unused
-CH08_SEC08_2_SandT.py:36:5: 'tf' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_2_SandT.py:40:11: 'bode' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_2_SandT.py:41:11: 'bode' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_2_SandT.py:42:11: 'bode' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH08_SEC08_3_PlantInversion.py
-CH08_SEC08_3_PlantInversion.py:24:1: 'matplotlib.rcParams' imported but unused
-CH08_SEC08_3_PlantInversion.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH08_SEC08_3_PlantInversion.py:26:1: 'slycot' imported but unused
-CH08_SEC08_3_PlantInversion.py:27:1: 'scipy.signal' imported but unused
-CH08_SEC08_3_PlantInversion.py:36:5: 'tf' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_3_PlantInversion.py:46:18: 'margin' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_3_PlantInversion.py:47:11: 'bode' may be undefined, or defined from star imports: control.matlab
-CH08_SEC08_3_PlantInversion.py:57:6: 'feedback' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH09_SEC02_1_GramianPlot.py
-CH09_SEC02_1_GramianPlot.py:24:1: 'matplotlib.rcParams' imported but unused
-CH09_SEC02_1_GramianPlot.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH09_SEC02_1_GramianPlot.py:26:1: 'slycot' imported but unused
-CH09_SEC02_1_GramianPlot.py:27:1: 'scipy.signal' imported but unused
-CH09_SEC02_1_GramianPlot.py:42:7: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_1_GramianPlot.py:44:6: 'gram' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_1_GramianPlot.py:45:6: 'gram' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_1_GramianPlot.py:47:8: 'balred' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_1_GramianPlot.py:49:7: 'gram' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_1_GramianPlot.py:50:7: 'gram' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH09_SEC02_2_BalancedTruncation.py
-CH09_SEC02_2_BalancedTruncation.py:24:1: 'matplotlib.rcParams' imported but unused
-CH09_SEC02_2_BalancedTruncation.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH09_SEC02_2_BalancedTruncation.py:26:1: 'slycot' imported but unused
-CH09_SEC02_2_BalancedTruncation.py:28:1: 'scipy.signal' imported but unused
-CH09_SEC02_2_BalancedTruncation.py:45:11: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:54:8: 'hsvd' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:59:9: 'balred' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:65:30: 'p' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:65:33: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:66:30: 'n' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:66:33: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:70:10: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:72:17: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:73:41: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:74:39: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:81:22: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:81:39: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:86:31: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:86:38: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:86:58: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:86:65: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:92:19: 'n' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:92:22: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:93:19: 'n' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:93:22: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:95:20: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:95:27: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:96:20: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:96:27: 'q' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:106:11: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:111:24: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:112:20: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC02_2_BalancedTruncation.py:113:24: 'impulse' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH09_SEC03_ERA_OKID.py
-CH09_SEC03_ERA_OKID.py:24:1: 'matplotlib.rcParams' imported but unused
-CH09_SEC03_ERA_OKID.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH09_SEC03_ERA_OKID.py:26:1: 'slycot' imported but unused
-CH09_SEC03_ERA_OKID.py:27:1: 'scipy.signal' imported but unused
-CH09_SEC03_ERA_OKID.py:50:11: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:59:25: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:160:10: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:166:11: 'lsim' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:174:14: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:185:23: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:186:23: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_ERA_OKID.py:187:23: 'impulse' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH09_SEC03_Fig9p5.py
-CH09_SEC03_Fig9p5.py:24:1: 'matplotlib.rcParams' imported but unused
-CH09_SEC03_Fig9p5.py:25:1: 'from control.matlab import *' used; unable to detect undefined names
-CH09_SEC03_Fig9p5.py:26:1: 'slycot' imported but unused
-CH09_SEC03_Fig9p5.py:27:1: 'scipy.signal' imported but unused
-CH09_SEC03_Fig9p5.py:29:1: 'scipy.linalg.fractional_matrix_power' imported but unused
-CH09_SEC03_Fig9p5.py:50:7: 'ss' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_Fig9p5.py:57:8: 'impulse' may be undefined, or defined from star imports: control.matlab
-CH09_SEC03_Fig9p5.py:84:11: 'lsim' may be undefined, or defined from star imports: control.matlab
-tbo: beautified: CH10_SEC03_ESCfixed.py
-CH10_SEC03_ESCfixed.py:24:1: 'matplotlib.rcParams' imported but unused
-CH10_SEC03_ESCfixed.py:25:1: 'scipy.io' imported but unused
-CH10_SEC03_ESCfixed.py:26:1: 'os' imported but unused
-tbo: beautified: CH10_SEC03_ESCsinusoidal.py
-CH10_SEC03_ESCsinusoidal.py:24:1: 'matplotlib.rcParams' imported but unused
-CH10_SEC03_ESCsinusoidal.py:25:1: 'scipy.io' imported but unused
-CH10_SEC03_ESCsinusoidal.py:26:1: 'os' imported but unused
-tbo: beautified: CH11_SEC01_1_Fig11p1.py
-CH11_SEC01_1_Fig11p1.py:24:1: 'matplotlib.rcParams' imported but unused
-CH11_SEC01_1_Fig11p1.py:25:1: 'os' imported but unused
-tbo: beautified: CH11_SEC02_1_HarmonicOscillator.py
-CH11_SEC02_1_HarmonicOscillator.py:25:1: 'matplotlib.rcParams' imported but unused
-tbo: beautified: CH11_SEC03_1_NonlinearSchrodinger.py
-CH11_SEC03_1_NonlinearSchrodinger.py:24:1: 'matplotlib.rcParams' imported but unused
-CH11_SEC03_1_NonlinearSchrodinger.py:24:1: 'matplotlib.cm' imported but unused
-CH11_SEC03_1_NonlinearSchrodinger.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH11_SEC05_1_Invariance.py
-CH11_SEC05_1_Invariance.py:24:1: 'matplotlib.rcParams' imported but unused
-CH11_SEC05_1_Invariance.py:24:1: 'matplotlib.cm' imported but unused
-CH11_SEC05_1_Invariance.py:25:1: 'scipy.integrate' imported but unused
-CH11_SEC05_1_Invariance.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH12_SEC01_1_GAPPY.py
-CH12_SEC01_1_GAPPY.py:25:1: 'matplotlib.rcParams' imported but unused
-tbo: beautified: CH12_SEC02_1_GAPPY.py
-CH12_SEC02_1_GAPPY.py:23:1: 'scipy.sparse.linalg' imported but unused
-CH12_SEC02_1_GAPPY.py:25:1: 'matplotlib.rcParams' imported but unused
-tbo: beautified: CH12_SEC03_1_GAPPY_ConditionNumber.py
-CH12_SEC03_1_GAPPY_ConditionNumber.py:23:1: 'scipy.sparse.linalg' imported but unused
-CH12_SEC03_1_GAPPY_ConditionNumber.py:25:1: 'matplotlib.rcParams' imported but unused
-CH12_SEC03_1_GAPPY_ConditionNumber.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH12_SEC04_1_GAPPY_Variance.py
-CH12_SEC04_1_GAPPY_Variance.py:23:1: 'scipy.sparse.linalg' imported but unused
-CH12_SEC04_1_GAPPY_Variance.py:25:1: 'matplotlib.rcParams' imported but unused
-CH12_SEC04_1_GAPPY_Variance.py:26:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH12_SEC06_1_DEIM.py
-CH12_SEC06_1_DEIM.py:23:1: 'scipy.sparse.linalg' imported but unused
-CH12_SEC06_1_DEIM.py:25:1: 'matplotlib.rcParams' imported but unused
-CH12_SEC06_1_DEIM.py:28:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
-tbo: beautified: CH12_SEC06_2_DEIM.py
-CH12_SEC06_2_DEIM.py:23:1: 'scipy.sparse.linalg' imported but unused
-CH12_SEC06_2_DEIM.py:25:1: 'matplotlib.rcParams' imported but unused
-CH12_SEC06_2_DEIM.py:28:1: 'mpl_toolkits.mplot3d.Axes3D' imported but unused
+if p.isAnyAtFileNode():
+    path = c.fullPath(p)
+    # No need to hang Leo.
+    g.execute_shell_commands(f"&amp;python {path}")
+else:
+    print(f"Not an @file node: {p.h}")
 </t>
 <t tx="ekr.20241212164526.17">g.cls()
 import glob
@@ -1329,13 +1115,6 @@ c.contractAllHeadlines()
 c.selectPosition(last)
 last.expand()
 c.redraw()</t>
-<t tx="ekr.20241212164526.2">@language rest
-@wrap
-
-Try plotnine.
-
-@language python
-</t>
 <t tx="ekr.20241212164559.1"></t>
 <t tx="ekr.20241212164559.106"></t>
 <t tx="ekr.20241212164559.107"></t>
@@ -1853,7 +1632,8 @@ print('Done')</t>
     r'C:\Repos\RustPython\vm\src\stdlib\ast', # gen.rs automatically generated by ast/asdl_rs.py.
 )
 </t>
-<t tx="ekr.20241212164559.305">execute-script
+<t tx="ekr.20241212164559.305">pdflatex
+exec-py-file
 close-figures
 
 # backup
@@ -1864,13 +1644,16 @@ close-figures
 <t tx="ekr.20241212164559.306"># legacy: (default) Leo's legacy layout
 # big-tree: replaces @bool big-outline-pane
 # horizontal-thirds: VR &amp; VR3 panes at bottom.</t>
-<t tx="ekr.20241212164559.307" annotate="7d71002858080000007072696f7269747971014d0f27580a000000707269736574646174657102580a000000323032312d30332d33307103752e"> # Recommended plugins, from leoSettings.leo:
+<t tx="ekr.20241212164559.307" annotate="7d71002858080000007072696f7269747971014d0f27580a000000707269736574646174657102580a000000323032312d30332d33307103752e">@language python
+
+# Recommended plugins, from leoSettings.leo:
 
 plugins_menu.py
-contextmenu.py      # Required by the vim.py and xemacs.py plugins.
+# contextmenu.py      # Required by the vim.py and xemacs.py plugins.
 mod_scripting.py
 nav_qt.py
 viewrendered.py
+# viewrendered3.py
 </t>
 <t tx="ekr.20241212164559.31">class &lt;|Controller Class Name|&gt;:
     
@@ -2053,8 +1836,6 @@ go: ^\s*(.*):([0-9]+):([0-9]+):.+$
 python: ^\s*File "(.+)", line ([0-9]+), in .+$
 rust: ^\s*--&gt; (.+):([0-9]+):([0-9]+)\s*$</t>
 <t tx="ekr.20241212171838.1"></t>
-<t tx="ekr.20241212171851.1"></t>
-<t tx="ekr.20241213052734.1"></t>
 <t tx="ekr.20241214073404.1">@language rest
 @wrap
 
@@ -2234,97 +2015,36 @@ plt.show()  # Generates a warning: The event loop is already running
 
 # g.cls()
 </t>
-<t tx="ekr.20241217131613.1">Existing abbrevs: circle: ∘, dot: •
-Compare \circ, \cdot, \dot{x} (dot above x).</t>
-<t tx="ekr.20241217131850.1">@language latex
+<t tx="ekr.20241217135604.1">"""
+Convert p.b to EKR-Math/temp.pdf using pdflatex.
 
-% A copy of the overleaf `Math Notes` project.
-% A test of @command pdflatex.
-
-\documentclass[12pt]{article}
-\usepackage{graphicx} % Images.
-\usepackage{tikz}     % Evaluate expressions.
-\usepackage{hyperref} % For \href.
-\usepackage{pgfplots} % For inline plots.
-\usepackage{amsmath}  % For alignment.
-\usepackage[
-    bindingoffset=0.2in, footskip=.25in,
-    left=0.5in, right=2.5in, top=0.5in, bottom=0.5in,
-]{geometry}
-
-\title{My Title}
-\author{Edward K. Ream}
-\date{December 2024}
-
-\pagenumbering{gobble}
-\setlength{\parskip}{6pt}
-\setlength{\parindent}{0pt}
-\pgfplotsset{compat=1.18}
-
-\begin{document}
-% \maketitle
-
-\section*{Math Notes}
-
-\subsection*{Horizontal spacing}
-\vspace{-1mm}
-
-See ``\href{https://tex.stackexchange.com/questions/74353}{About spacing}":
-$\backslash , \backslash ; \backslash quad \,etc.$
-
-\subsection*{Special characters}
-\vspace{-5mm}
-
-% flalign and `&amp;&amp;` create left alignment.
-\begin{flalign*} 
-    \backslash circ     &amp; \quad \circ &amp;&amp;\\
-    \backslash cdot     &amp; \quad \cdot \\
-    \backslash dot\{x\} &amp; \quad \dot{x}
-\end{flalign*}
-
-\subsection*{Point-slope form of lines}
-
-See \href{https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:point-slope-form/a/point-slope-form-review}{Khan: Point-slope form}.
-
-The line passing through $(x1, y1)$ is $y-y1= m(x-x1)$.
-
-Setting $y=0$ and solving for $x$, the $x$ intercept is 
-$x = x1 -y1 / m$.
-
-\subsection*{Test Plot}
-
-\end{document}</t>
-<t tx="ekr.20241217135604.1">"""Use pdflatex to convert the give node to a .pdf file"""
-
-# This works, but the overleaf command seems more convenient.
-
+p.b should contain the full LaTeX document.
+"""
 g.cls()
 import os
+import textwrap
 
-h = 'Latex: math notes'
-p = g.findNodeAnywhere(c, h)
-assert p, h
+@others  # Define head, tail, helpers.
 
-home = g.os_path_finalize_join('~')
-assert os.path.exists(home), home
-os.chdir(home)
-
-# Create ~/temp.tex
-path = g.os_path_finalize_join('~/temp.tex')
-contents = p.b.replace('@language latex', '')
-with open(path, 'w') as f:
-    f.write(contents)
+# Create EKR-Math/temp.tex
+path = g.os_path_finalize_join(os.getcwd(), 'temp.tex')
+contents = get_contents(p)
+with open(path, 'wb') as f:  # Was 'w'.
+    f.write(g.toEncodedString(contents))
+    print(f"Wrote {path}")
 
 # Render and open.
 g.execute_shell_commands([
-    f"pdflatex {path}", # Invoke pdflatex.cmd.
+    f"&amp;pdflatex {path}", # Invoke pdflatex.cmd.
     # '&amp;temp.pdf',      # Open in acrobat reader.
     # '&amp;moz temp.pdf',  # Open in browser!
     # '&amp;ed temp.log',   # Open in scite.
 ])
 
 </t>
-<t tx="ekr.20241217150611.1"># Just use execute-script!</t>
+<t tx="ekr.20241217150611.1">
+# Try plotnine.
+</t>
 <t tx="ekr.20241218004929.1"></t>
 <t tx="ekr.20241218004929.101">import numpy as np
 import matplotlib.pyplot as plt
@@ -2396,20 +2116,20 @@ ffilt = np.fft.ifft(fhat) # Inverse FFT for filtered time signal
 fig,axs = plt.subplots(3,1)
 
 plt.sca(axs[0])
-plt.plot(t,f,color='r',LineWidth=1.5,label='Noisy')
-plt.plot(t,f_clean,color='k',LineWidth=2,label='Clean')
+plt.plot(t,f,color='r',linewidth=1.5,label='Noisy')
+plt.plot(t,f_clean,color='k',linewidth=2,label='Clean')
 plt.xlim(t[0],t[-1])
 plt.legend()
 
 plt.sca(axs[1])
-plt.plot(t,f_clean,color='k',LineWidth=1.5,label='Clean')
-plt.plot(t,ffilt,color='b',LineWidth=2,label='Filtered')
+plt.plot(t,f_clean,color='k',linewidth=1.5,label='Clean')
+plt.plot(t,ffilt,color='b',linewidth=2,label='Filtered')
 plt.xlim(t[0],t[-1])
 plt.legend()
 
 plt.sca(axs[2])
-plt.plot(freq[L],PSD[L],color='r',LineWidth=2,label='Noisy')
-plt.plot(freq[L],PSDclean[L],color='b',LineWidth=1.5,label='Filtered')
+plt.plot(freq[L],PSD[L],color='r',linewidth=2,label='Noisy')
+plt.plot(freq[L],PSDclean[L],color='b',linewidth=1.5,label='Filtered')
 plt.xlim(freq[L[0]],freq[L[-1]])
 plt.legend()
 
@@ -2451,9 +2171,9 @@ dfFFT = np.real(np.fft.ifft(dfhat))
 
 </t>
 <t tx="ekr.20241218004929.116">## Plots
-plt.plot(x,df.real,color='k',LineWidth=2,label='True Derivative')
-plt.plot(x,dfFD.real,'--',color='b',LineWidth=1.5,label='Finite Diff.')
-plt.plot(x,dfFFT.real,'--',color='r',LineWidth=1.5,label='FFT Derivative')
+plt.plot(x,df.real,color='k',linewidth=2,label='True Derivative')
+plt.plot(x,dfFD.real,'--',color='b',linewidth=1.5,label='Finite Diff.')
+plt.plot(x,dfFFT.real,'--',color='r',linewidth=1.5,label='FFT Derivative')
 plt.legend()
 plt.show()
 
@@ -2603,774 +2323,7 @@ plt.show()
 
 </t>
 <t tx="ekr.20241218004929.125"></t>
-<t tx="ekr.20241218004929.14">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.16">import matplotlib.pyplot as plt
-import numpy as np
-plt.rcParams['figure.figsize'] = [8, 8]
-plt.rcParams.update({'font.size': 18})
-
-x = 3 # True slope
-a = np.arange(-2,2,0.25)
-a = a.reshape(-1, 1)
-b = x*a + np.random.randn(*a.shape) # Add noise
-
-plt.plot(a, x*a, Color='k', LineWidth=2, label='True line') # True relationship
-plt.plot(a, b, 'x', Color='r', MarkerSize = 10, label='Noisy data') # Noisy measurements
-
-U, S, VT = np.linalg.svd(a,full_matrices=False)
-xtilde = VT.T @ np.linalg.inv(np.diag(S)) @ U.T @ b # Least-square fit
-
-plt.plot(a,xtilde * a,'--',Color='b',LineWidth=4, label='Regression line')
-
-plt.xlabel('a')
-plt.ylabel('b')
-
-plt.grid(linestyle='--')
-plt.legend()
-plt.show()
-
-
-</t>
-<t tx="ekr.20241218004929.17"># Three methods of computing regression
-
-xtilde1 = VT.T @ np.linalg.inv(np.diag(S)) @ U.T @ b
-xtilde2 = np.linalg.pinv(a) @ b
-
-# The third method is specific to Matlab:
-# xtilde3 = regress(b,a)
-</t>
-<t tx="ekr.20241218004929.18">@others
-@language python
-@tabwidth -4
-</t>
 <t tx="ekr.20241218004929.2"></t>
-<t tx="ekr.20241218004929.20">import matplotlib.pyplot as plt
-import numpy as np
-import os
-plt.rcParams['figure.figsize'] = [8, 8]
-plt.rcParams.update({'font.size': 18})
-
-# Load dataset
-A = np.loadtxt(os.path.join('..','DATA','hald_ingredients.csv'),delimiter=',')
-b = np.loadtxt(os.path.join('..','DATA','hald_heat.csv'),delimiter=',')
-
-# Solve Ax=b using SVD
-U, S, VT = np.linalg.svd(A,full_matrices=0)
-x = VT.T @ np.linalg.inv(np.diag(S)) @ U.T @ b
-
-plt.plot(b, Color='k', LineWidth=2, label='Heat Data') # True relationship
-plt.plot(A@x, '-o', Color='r', LineWidth=1.5, MarkerSize=6, label='Regression')
-plt.legend()
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.21"># Alternative Methods:
-
-# The first alternative is specific to Matlab:
-# x = regress(b,A)
-
-# Alternative 2:
-x = np.linalg.pinv(A)*b
-
-</t>
-<t tx="ekr.20241218004929.22"></t>
-<t tx="ekr.20241218004929.23">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.25">import matplotlib.pyplot as plt
-import numpy as np
-import os
-plt.rcParams['figure.figsize'] = [16, 8]
-plt.rcParams.update({'font.size': 18})
-
-# Load dataset
-H = np.loadtxt(os.path.join('..','DATA','housing.data'))
-b = H[:,-1] # housing values in $1000s
-A = H[:,:-1] # other factors
-
-# Pad with ones for nonzero offset
-A = np.pad(A,[(0,0),(0,1)],mode='constant',constant_values=1)
-
-
-# Solve Ax=b using SVD
-# Note that the book uses the Matlab-specific "regress" command
-U, S, VT = np.linalg.svd(A,full_matrices=0)
-x = VT.T @ np.linalg.inv(np.diag(S)) @ U.T @ b
-
-fig = plt.figure()
-ax1 = fig.add_subplot(121)
-
-plt.plot(b, Color='k', LineWidth=2, label='Housing Value') # True relationship
-plt.plot(A@x, '-o', Color='r', LineWidth=1.5, MarkerSize=6, label='Regression')
-plt.xlabel('Neighborhood')
-plt.ylabel('Median Home Value [$1k]')
-plt.legend()
-
-ax2 = fig.add_subplot(122)
-sort_ind = np.argsort(H[:,-1])
-b = b[sort_ind] # sorted values
-plt.plot(b, Color='k', LineWidth=2, label='Housing Value') # True relationship
-plt.plot(A[sort_ind,:]@x, '-o', Color='r', LineWidth=1.5, MarkerSize=6, label='Regression')
-plt.xlabel('Neighborhood')
-plt.legend()
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.26">A_mean = np.mean(A,axis=0)
-A_mean = A_mean.reshape(-1, 1)
-
-A2 = A - np.ones((A.shape[0],1)) @ A_mean.T
-
-for j in range(A.shape[1]-1):
-    A2std = np.std(A2[:,j])
-    A2[:,j] = A2[:,j]/A2std
-    
-A2[:,-1] = np.ones(A.shape[0])
-
-U, S, VT = np.linalg.svd(A2,full_matrices=0)
-x = VT.T @ np.linalg.inv(np.diag(S)) @ U.T @ b
-x_tick = range(len(x)-1)+np.ones(len(x)-1)
-plt.bar(x_tick,x[:-1])
-plt.xlabel('Attribute')
-plt.ylabel('Significance')
-plt.xticks(x_tick)
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.27">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.29">import matplotlib.pyplot as plt
-import numpy as np
-plt.rcParams['figure.figsize'] = [16, 8]
-
-xC = np.array([2, 1])      # Center of data (mean)
-sig = np.array([2, 0.5])   # Principal axes
-
-theta = np.pi/3            # Rotate cloud by pi/3
-
-R = np.array([[np.cos(theta), -np.sin(theta)],     # Rotation matrix
-              [np.sin(theta), np.cos(theta)]])
-
-nPoints = 10000            # Create 10,000 points
-X = R @ np.diag(sig) @ np.random.randn(2,nPoints) + np.diag(xC) @ np.ones((2,nPoints))
-
-fig = plt.figure()
-ax1 = fig.add_subplot(121)
-ax1.plot(X[0,:],X[1,:], '.', Color='k')
-ax1.grid()
-plt.xlim((-6, 8))
-plt.ylim((-6,8))
-
-## f_ch01_ex03_1b
-
-Xavg = np.mean(X,axis=1)                  # Compute mean
-B = X - np.tile(Xavg,(nPoints,1)).T       # Mean-subtracted data
-
-# Find principal components (SVD)
-U, S, VT = np.linalg.svd(B/np.sqrt(nPoints),full_matrices=0)
-
-ax2 = fig.add_subplot(122)
-ax2.plot(X[0,:],X[1,:], '.', Color='k')   # Plot data to overlay PCA
-ax2.grid()
-plt.xlim((-6, 8))
-plt.ylim((-6,8))
-
-theta = 2 * np.pi * np.arange(0,1,0.01)
-
-# 1-std confidence interval
-Xstd = U @ np.diag(S) @ np.array([np.cos(theta),np.sin(theta)])
-
-ax2.plot(Xavg[0] + Xstd[0,:], Xavg[1] + Xstd[1,:],'-',color='r',LineWidth=3)
-ax2.plot(Xavg[0] + 2*Xstd[0,:], Xavg[1] + 2*Xstd[1,:],'-',color='r',LineWidth=3)
-ax2.plot(Xavg[0] + 3*Xstd[0,:], Xavg[1] + 3*Xstd[1,:],'-',color='r',LineWidth=3)
-
-# Plot principal components U[:,0]S[0] and U[:,1]S[1]
-ax2.plot(np.array([Xavg[0], Xavg[0]+U[0,0]*S[0]]),
-         np.array([Xavg[1], Xavg[1]+U[1,0]*S[0]]),'-',color='cyan',LineWidth=5)
-ax2.plot(np.array([Xavg[0], Xavg[0]+U[0,1]*S[1]]),
-         np.array([Xavg[1], Xavg[1]+U[1,1]*S[1]]),'-',color='cyan',LineWidth=5)
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.30"></t>
-<t tx="ekr.20241218004929.31">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.33">import matplotlib.pyplot as plt
-import numpy as np
-import os
-from mpl_toolkits.mplot3d import Axes3D
-plt.rcParams['figure.figsize'] = [16, 8]
-plt.rcParams.update({'font.size': 18})
-
-
-obs = np.loadtxt(os.path.join('..','DATA','ovariancancer_obs.csv'),delimiter=',')
-
-f = open(os.path.join('..','DATA','ovariancancer_grp.csv'), "r")
-grp = f.read().split("\n")
-
-U, S, VT = np.linalg.svd(obs,full_matrices=0)
-
-fig1 = plt.figure()
-ax1 = fig1.add_subplot(121)
-ax1.semilogy(S,'-o',color='k')
-ax2 = fig1.add_subplot(122)
-ax2.plot(np.cumsum(S)/np.sum(S),'-o',color='k')
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.34">fig2 = plt.figure()
-ax = fig2.add_subplot(111, projection='3d')
-
-for j in range(obs.shape[0]):
-    x = VT[0,:] @ obs[j,:].T
-    y = VT[1,:] @ obs[j,:].T
-    z = VT[2,:] @ obs[j,:].T
-    
-    if grp[j] == 'Cancer':
-        ax.scatter(x,y,z,marker='x',color='r',s=50)
-    else:
-        ax.scatter(x,y,z,marker='o',color='b',s=50)
-
-ax.view_init(25,20)
-plt.show()
-</t>
-<t tx="ekr.20241218004929.35">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.37">import matplotlib.pyplot as plt
-import numpy as np
-import os
-import scipy.io
-plt.rcParams['figure.figsize'] = [10, 10]
-plt.rcParams.update({'font.size': 18})
-
-mat_contents = scipy.io.loadmat(os.path.join('..','DATA','allFaces.mat'))
-faces = mat_contents['faces']
-m = int(mat_contents['m'])
-n = int(mat_contents['n'])
-nfaces = np.ndarray.flatten(mat_contents['nfaces'])
-
-allPersons = np.zeros((n*6,m*6))
-count = 0
-
-for j in range(6):
-    for k in range(6):
-        allPersons[j*n : (j+1)*n, k*m : (k+1)*m] = np.reshape(faces[:,np.sum(nfaces[:count])],(m,n)).T
-        count += 1
-        
-img = plt.imshow(allPersons)
-img.set_cmap('gray')
-plt.axis('off')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.38">for person in range(len(nfaces)):
-    subset = faces[:,sum(nfaces[:person]) : sum(nfaces[:(person+1)])]
-    allFaces = np.zeros((n*8,m*8))
-    
-    count = 0
-    
-    for j in range(8):
-        for k in range(8):
-            if count &lt; nfaces[person]:
-                allFaces[j*n:(j+1)*n,k*m:(k+1)*m] = np.reshape(subset[:,count],(m,n)).T
-                count += 1
-                
-    img = plt.imshow(allFaces)
-    img.set_cmap('gray')
-    plt.axis('off')
-    plt.show()
-</t>
-<t tx="ekr.20241218004929.39">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.41">import matplotlib.pyplot as plt
-import numpy as np
-import os
-import scipy.io
-plt.rcParams['figure.figsize'] = [8, 8]
-plt.rcParams.update({'font.size': 18})
-
-mat_contents = scipy.io.loadmat(os.path.join('..','DATA','allFaces.mat'))
-faces = mat_contents['faces']
-m = int(mat_contents['m'])
-n = int(mat_contents['n'])
-nfaces = np.ndarray.flatten(mat_contents['nfaces'])
-
-# We use the first 36 people for training data
-trainingFaces = faces[:,:np.sum(nfaces[:36])]
-avgFace = np.mean(trainingFaces,axis=1) # size n*m by 1
-
-# Compute eigenfaces on mean-subtracted training data
-X = trainingFaces - np.tile(avgFace,(trainingFaces.shape[1],1)).T
-U, S, VT = np.linalg.svd(X,full_matrices=0)
-
-fig1 = plt.figure()
-ax1 = fig1.add_subplot(121)
-img_avg = ax1.imshow(np.reshape(avgFace,(m,n)).T)
-img_avg.set_cmap('gray')
-plt.axis('off')
-
-ax2 = fig1.add_subplot(122)
-img_u1 = ax2.imshow(np.reshape(U[:,0],(m,n)).T)
-img_u1.set_cmap('gray')
-plt.axis('off')
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.42">## Now show eigenface reconstruction of image that was omitted from test set
-
-testFace = faces[:,np.sum(nfaces[:36])] # First face of person 37
-plt.imshow(np.reshape(testFace,(m,n)).T)
-plt.set_cmap('gray')
-plt.title('Original Image')
-plt.axis('off')
-plt.show()
-
-testFaceMS = testFace - avgFace
-r_list = [25, 50, 100, 200, 400, 800, 1600]
-
-for r in r_list:
-    reconFace = avgFace + U[:,:r]  @ U[:,:r].T @ testFaceMS
-    img = plt.imshow(np.reshape(reconFace,(m,n)).T)
-    img.set_cmap('gray')
-    plt.title('r = ' + str(r))
-    plt.axis('off')
-    plt.show()
-
-</t>
-<t tx="ekr.20241218004929.43">## Project person 2 and 7 onto PC5 and PC6
-
-P1num = 2 # Person number 2
-P2num = 7 # Person number 7
-
-P1 = faces[:,np.sum(nfaces[:(P1num-1)]):np.sum(nfaces[:P1num])]
-P2 = faces[:,np.sum(nfaces[:(P2num-1)]):np.sum(nfaces[:P2num])]
-
-P1 = P1 - np.tile(avgFace,(P1.shape[1],1)).T
-P2 = P2 - np.tile(avgFace,(P2.shape[1],1)).T
-
-PCAmodes = [5, 6] # Project onto PCA modes 5 and 6
-PCACoordsP1 = U[:,PCAmodes-np.ones_like(PCAmodes)].T @ P1
-PCACoordsP2 = U[:,PCAmodes-np.ones_like(PCAmodes)].T @ P2
-
-plt.plot(PCACoordsP1[0,:],PCACoordsP1[1,:],'d',Color='k',label='Person 2')
-plt.plot(PCACoordsP2[0,:],PCACoordsP2[1,:],'^',Color='r',label='Person 7')
-
-plt.legend()
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.44"></t>
-<t tx="ekr.20241218004929.45">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.47">import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-import numpy as np
-plt.rcParams['figure.figsize'] = [8, 8]
-plt.rcParams.update({'font.size': 18})
-
-t = np.arange(-3,3,0.01)
-
-Utrue = np.array([np.cos(17*t) * np.exp(-t**2), np.sin(11*t)]).T
-Strue = np.array([[2, 0],[0, 0.5]])
-Vtrue = np.array([np.sin(5*t) * np.exp(-t**2), np.cos(13*t)]).T
-
-X = Utrue @ Strue @ Vtrue.T
-
-plt.imshow(X)
-plt.set_cmap('gray')
-plt.axis('off')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.48">sigma = 1
-Xnoisy = X + sigma*np.random.randn(*X.shape)
-plt.imshow(Xnoisy)
-plt.set_cmap('gray')
-plt.axis('off')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.49">U, S, VT = np.linalg.svd(Xnoisy,full_matrices=0)
-N = Xnoisy.shape[0]
-cutoff = (4/np.sqrt(3)) * np.sqrt(N) * sigma # Hard threshold
-r = np.max(np.where(S &gt; cutoff)) # Keep modes w/ sig &gt; cutoff 
-
-Xclean = U[:,:(r+1)] @ np.diag(S[:(r+1)]) @ VT[:(r+1),:]
-plt.imshow(Xclean)
-plt.set_cmap('gray')
-plt.axis('off')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.50">cdS = np.cumsum(S) / np.sum(S) # Cumulative energy
-r90 = np.min(np.where(cdS &gt; 0.90)) # Find r to capture 90% energy
-
-X90 = U[:,:(r90+1)] @ np.diag(S[:(r90+1)]) @ VT[:(r90+1),:]
-plt.imshow(X90)
-plt.set_cmap('gray')
-plt.axis('off')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.51">## Plot Singular Values
-
-fig1,ax1 = plt.subplots(1)
-
-ax1.semilogy(S,'-o', color='k', LineWidth=2)
-ax1.semilogy(np.diag(S[:(r+1)]),'o', color='r', LineWidth=2)
-ax1.plot(np.array([-20, N+20]),np.array([cutoff, cutoff]),'--', color='r', LineWidth=2)
-rect = patches.Rectangle((-5,20),100,200,LineWidth=2,LineStyle='--',FaceColor='none',EdgeColor='k')
-ax1.add_patch(rect)
-plt.xlim((-10,610))
-plt.ylim((0.003,300))
-ax1.grid()
-plt.show()
-
-fig2,ax2 = plt.subplots(1)
-
-ax2.semilogy(S,'-o', color='k', LineWidth=2)
-ax2.semilogy(np.diag(S[:(r+1)]),'o', color='r', LineWidth=2)
-ax2.plot(np.array([-20, N+20]),np.array([cutoff, cutoff]),'--', color='r', LineWidth=2)
-plt.xlim((-5,100))
-plt.ylim((20,200))
-ax2.grid()
-plt.show()
-
-fig3,ax3 = plt.subplots(1)
-ax3.plot(cdS,'-o',color='k',LineWidth=2)
-ax3.plot(cdS[:(r90+1)],'o',color='b',LineWidth=2)
-ax3.plot(cdS[:(r+1)],'o',color='r',LineWidth=2)
-plt.xticks(np.array([0, 300, r90, 600]))
-plt.yticks(np.array([0, 0.5, 0.9, 1]))
-plt.xlim((-10,610))
-ax3.plot(np.array([r90, r90, -10]),np.array([0, 0.9, 0.9]),'--',color='b',LineWidth=2)
-
-ax3.grid()
-plt.show()
-
-
-
-</t>
-<t tx="ekr.20241218004929.52"></t>
-<t tx="ekr.20241218004929.53">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.55">import matplotlib.pyplot as plt
-import numpy as np
-import scipy.misc
-plt.rcParams['figure.figsize'] = [8,8]
-plt.rcParams.update({'font.size': 18})
-
-n = 1000
-q = int(n/4)
-X = np.zeros((n,n))
-X[(q-1):(3*q),(q-1):(3*q)] = 1
-
-plt.imshow(X)
-plt.set_cmap('gray')
-plt.axis('off')
-plt.title('Unrotated Matrix')
-plt.show()
-
-
-</t>
-<t tx="ekr.20241218004929.56">X_rot = skimage.transform.rotate(X,10)
-X_rot[np.nonzero(X_rot)] = 1
-
-
-plt.imshow(Y)
-plt.set_cmap('gray')
-plt.axis('off')
-plt.title('Rotated Matrix')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.57">U, S, VT = np.linalg.svd(X,full_matrices=0)
-
-
-plt.semilogy(S,'-o',color='k')
-plt.ylim((10**(-16),10**(4)+1))
-plt.yticks(np.power(10,np.arange(-16,4,4, dtype=float)))
-plt.xticks(np.arange(0,1000,250))
-plt.grid()
-plt.title('Unrotated Matrix: Spectrum')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.58">U_rot, S_rot, VT_rot = np.linalg.svd(X_rot,full_matrices=0)
-
-plt.semilogy(S_rot,'-o',color='k')
-plt.ylim((10**(-16),10**(4)+1))
-plt.yticks(np.power(10,np.arange(-16,4,4, dtype=float)))
-plt.xticks(np.arange(0,1000,250))
-plt.grid()
-plt.title('Rotated Matrix: Spectrum')
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.59"></t>
-<t tx="ekr.20241218004929.60">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.62">import matplotlib.pyplot as plt
-import matplotlib.cm
-import numpy as np
-import skimage.transform
-
-plt.rcParams['figure.figsize'] = [12,6]
-plt.rcParams.update({'font.size': 18})
-
-n = 1000
-q = int(n/4)
-X = np.zeros((n,n))
-X[(q-1):(3*q),(q-1):(3*q)] = 1
-
-nAngles = 12 # Sweep through 12 different angles, from 0:4:44 degrees
-cm_np = np.array([[0,0,2/3],
-                 [0,0,1],
-                 [0,1/3,1],
-                 [0,2/3,1],
-                 [0,1,1],
-                 [1/3,1,2/3],
-                 [2/3,1,1/3],
-                 [1,1,0],
-                 [1,2/3,0],
-                 [1,1/3,0],
-                 [1,0,0],
-                 [2/3,0,0]])
-
-
-cmap = plt.cm.jet
-cmap.set_bad(alpha = 0.0)
-
-U, S, VT = np.linalg.svd(X,full_matrices=0)
-
-fig1 = plt.figure()
-ax1 = fig1.add_subplot(121)
-plt.imshow(np.ma.masked_where(X == 0, X),vmin=0,vmax=nAngles)
-plt.set_cmap(cmap)
-plt.axis('off')
-
-
-ax2 = fig1.add_subplot(122)
-plt.semilogy(S,'-o',color=tuple(cm_np[0]))
-plt.grid()
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.63">Xrot = X
-
-fig, axs = plt.subplots(1,2)
-
-for j in range(nAngles):
-    Xrot = skimage.transform.rotate(X,j*4) #rotate by theta = j*4 degrees
-    Xrot[np.nonzero(Xrot)] = j
-    
-    U, S, VT = np.linalg.svd(Xrot)
-
-    axs[0].imshow(np.ma.masked_where(Xrot == 0, Xrot),vmin=0,vmax=nAngles)
-    plt.set_cmap(cmap)
-    axs[0].axis('off')
-
-    axs[1].semilogy(S,'-o',color=tuple(cm_np[j]))
-    axs[1].axis('on')
-    axs[1].grid(1)
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.64"></t>
-<t tx="ekr.20241218004929.65">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.67">import matplotlib.pyplot as plt
-from matplotlib.image import imread
-import numpy as np
-import os
-
-plt.rcParams['figure.figsize'] = [16,6]
-plt.rcParams.update({'font.size': 18})
-
-# Define randomized SVD function
-def rSVD(X,r,q,p):
-    # Step 1: Sample column space of X with P matrix
-    ny = X.shape[1]
-    P = np.random.randn(ny,r+p)
-    Z = X @ P
-    for k in range(q):
-        Z = X @ (X.T @ Z)
-
-    Q, R = np.linalg.qr(Z,mode='reduced')
-
-    # Step 2: Compute SVD on projected Y = Q.T @ X
-    Y = Q.T @ X
-    UY, S, VT = np.linalg.svd(Y,full_matrices=0)
-    U = Q @ UY
-
-    return U, S, VT
-
-
-</t>
-<t tx="ekr.20241218004929.68">A = imread(os.path.join('..','DATA','jupiter.jpg'))
-X = np.mean(A,axis=2) # Convert RGB -&gt; grayscale
-
-U, S, VT = np.linalg.svd(X,full_matrices=0) # Deterministic SVD
-
-r = 400 # Target rank
-q = 1   # Power iterations
-p = 5   # Oversampling parameter
-
-rU, rS, rVT = rSVD(X,r,q,p)
-
-</t>
-<t tx="ekr.20241218004929.69">## Reconstruction
-XSVD = U[:,:(r+1)] @ np.diag(S[:(r+1)]) @ VT[:(r+1),:] # SVD approximation
-errSVD = np.linalg.norm(X-XSVD,ord=2) / np.linalg.norm(X,ord=2)
-
-XrSVD = rU[:,:(r+1)] @ np.diag(rS[:(r+1)]) @ rVT[:(r+1),:] # SVD approximation
-errSVD = np.linalg.norm(X-XrSVD,ord=2) / np.linalg.norm(X,ord=2)
-
-</t>
-<t tx="ekr.20241218004929.70">## Plot
-fig, axs = plt.subplots(1,3)
-
-plt.set_cmap('gray')
-axs[0].imshow(X)
-axs[0].axis('off')
-axs[1].imshow(XSVD)
-axs[1].axis('off')
-axs[2].imshow(XrSVD)
-axs[2].axis('off')
-
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.71">## Illustrate power iterations
-X = np.random.randn(1000,100)
-U, S, VT = np.linalg.svd(X,full_matrices=0)
-S = np.arange(1,0,-0.01)
-X = U @ np.diag(S) @ VT
-
-color_list = np.array([[0,0,2/3],  # Define color map
-                 [0,0,1],
-                 [0,1/3,1],
-                 [0,2/3,1],
-                 [0,1,1],
-                 [1/3,1,2/3],
-                 [2/3,1,1/3],
-                 [1,1,0],
-                 [1,2/3,0],
-                 [1,1/3,0],
-                 [1,0,0],
-                 [2/3,0,0]])
-
-plt.plot(S,'o-',color='k',LineWidth=2,label='SVD')
-
-Y = X
-for q in range(1,6):
-    Y = X.T @ Y
-    Y = X @ Y
-    Uq, Sq, VTq = np.linalg.svd(Y,full_matrices=0)
-    plt.plot(Sq,'-o',color=tuple(color_list[2*q+1]),LineWidth=2,label='rSVD, q = '+str(q))
-
-plt.legend()
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.72"></t>
-<t tx="ekr.20241218004929.73">@others
-@language python
-@tabwidth -4
-</t>
-<t tx="ekr.20241218004929.75">import matplotlib.pyplot as plt
-import numpy as np
-import os
-from matplotlib import animation, rc
-from IPython.display import HTML
-# # %matplotlib inline
-
-plt.rcParams['figure.figsize'] = [8,8]
-plt.rcParams.update({'font.size': 18})
-plt.rcParams['animation.html'] = 'jshtml'
-
-x = np.arange(-5,5.01,0.1)
-y = np.arange(-6,6.01,0.1)
-t = np.arange(0,10*np.pi+0.1,0.1)
-
-X,Y,T = np.meshgrid(x,y,t)
-
-A = np.exp(-(X**2 + 0.5*Y**2)) * np.cos(2*T) + \
-    (np.divide(np.ones_like(X),np.cosh(X)) * np.tanh(X) * np.exp(-0.2*Y**2)) * np.sin(T)
-
-fig = plt.figure()
-pcm = plt.pcolormesh(X[:,:,0],Y[:,:,0],A[:,:,0],vmin=-1,vmax=1,shading='interp')
-
-    
-def init():
-    pcm.set_array(np.array([]))
-    return pcm
-
-def animate(iter):
-    pcm.set_array(A[:-1,:-1,iter].ravel())
-#     print('Frame ' + str(iter))
-    return pcm
-
-anim = animation.FuncAnimation(fig,animate,init_func=init,frames=len(t),interval=50,blit=False,repeat=False)
-HTML(anim.to_jshtml())
-
-</t>
-<t tx="ekr.20241218004929.76">plt.rcParams['figure.figsize'] = [16,10]
-
-fig, axs = plt.subplots(2,4)
-axs = axs.reshape(-1)
-
-for j in range(8):
-    plt.sca(axs[j])
-    plt.pcolormesh(X[:,:,0],Y[:,:,0],A[:,:,8*(j+1)-3],vmin=-1,vmax=1,shading='interp')
-    axs[j].axis('off')
-    plt.set_cmap('hot')
-
-</t>
-<t tx="ekr.20241218004929.77"># Tensor factorization method requires the TensorLy module,
-# available at http://tensorly.org/stable/installation.html
-
-from tensorly.decomposition import parafac
-plt.rcParams['figure.figsize'] = [12,12]
-
-
-A1, A2, A3 = parafac(A,2)
-
-fig, axs = plt.subplots(3,1)
-axs[0].plot(y,A1,LineWidth=2)
-axs[1].plot(x,A2,LineWidth=2)
-axs[2].plot(t,A3,LineWidth=2)
-plt.show()
-
-</t>
-<t tx="ekr.20241218004929.78"></t>
-<t tx="ekr.20241218004929.79"></t>
 <t tx="ekr.20241218004929.80"></t>
 <t tx="ekr.20241218004929.81">@others
 @language python
@@ -3397,10 +2350,10 @@ g_interp = interpolate.interp1d(x, g, kind='cubic')
 ff = f_interp(xf)  
 gf = g_interp(xf)
 
-plt.plot(xf[10:-10],ff[10:-10],color='k',LineWidth=2)
+plt.plot(xf[10:-10],ff[10:-10],color='k',linewidth=2)
 plt.plot(x[1:-2],f[1:-2],'o',color='b')
 
-plt.plot(xf[10:-10],gf[10:-10],color='k',LineWidth=2)
+plt.plot(xf[10:-10],gf[10:-10],color='k',linewidth=2)
 plt.plot(x[1:-2],g[1:-2],'o',color='r')
 
 plt.show()
@@ -3430,7 +2383,7 @@ f[nquart:2*nquart] = (4/n)*np.arange(1,nquart+1)
 f[2*nquart:3*nquart] = np.ones(nquart) - (4/n)*np.arange(0,nquart)
 
 fig, ax = plt.subplots()
-ax.plot(x,f,'-',color='k',LineWidth=2)
+ax.plot(x,f,'-',color='k',linewidth=2)
 
 # Compute Fourier series
 name = "Accent"
@@ -3471,13 +2424,13 @@ thresh = np.median(ERR) * np.sqrt(kmax) * (4/np.sqrt(3))
 r = np.max(np.where(ERR &gt; thresh))
 
 fig, axs = plt.subplots(2,1)
-axs[0].semilogy(np.arange(kmax),A,color='k',LineWidth=2)
-axs[0].semilogy(r,A[r],'o',color='b',MarkerSize=10)
+axs[0].semilogy(np.arange(kmax),A,color='k',linewidth=2)
+axs[0].semilogy(r,A[r],'o',color='b',markersize=10)
 plt.sca(axs[0])
 plt.title('Fourier Coefficients')
 
-axs[1].semilogy(np.arange(kmax),ERR,color='k',LineWidth=2)
-axs[1].semilogy(r,ERR[r],'o',color='b',MarkerSize=10)
+axs[1].semilogy(np.arange(kmax),ERR,color='k',linewidth=2)
+axs[1].semilogy(r,ERR[r],'o',color='b',markersize=10)
 plt.sca(axs[1])
 plt.title('Error')
 
@@ -3511,8 +2464,8 @@ for k in range(1,101):
     Bk = np.sum(f * np.sin(2*np.pi*k*x/L)) * dx * 2 / L
     fFS = fFS + Ak*np.cos(2*k*np.pi*x/L) + Bk*np.sin(2*k*np.pi*x/L)
     
-plt.plot(x,f,color='k',LineWidth=2)
-plt.plot(x,fFS,'-',color='r',LineWidth=1.5)
+plt.plot(x,f,color='k',linewidth=2)
+plt.plot(x,fFS,'-',color='r',linewidth=1.5)
 plt.show()
 
 </t>
@@ -3544,8 +2497,8 @@ A0 = np.sum(f * np.ones_like(x)) * dx * 2 / L
 fFS = A0/2 * np.ones_like(f)
 
 fig,ax = plt.subplots()
-plt.plot(x,f,color='k',LineWidth=2)
-fFS_plot, = plt.plot([],[],color='r',LineWidth=2)
+plt.plot(x,f,color='k',linewidth=2)
+fFS_plot, = plt.plot([],[],color='r',linewidth=2)
 
 all_fFS = np.zeros((len(fFS),101))
 all_fFS[:,0] = fFS
@@ -3844,13 +2797,13 @@ f21 = np.pad(f21, (2, 2), 'constant')
 f22 = np.pad(f22, (2, 2), 'constant')
 
 fig,axs = plt.subplots(3,1)
-axs[0].plot(x,f10,color='k',LineWidth=2)
+axs[0].plot(x,f10,color='k',linewidth=2)
 axs[0].set_xlim(-0.2,1.2)
 axs[0].set_ylim(-1.75,1.75)
-axs[1].plot(x,f21,color='k',LineWidth=2)
+axs[1].plot(x,f21,color='k',linewidth=2)
 axs[1].set_xlim(-0.2,1.2)
 axs[1].set_ylim(-1.75,1.75)
-axs[2].plot(x,f22,color='k',LineWidth=2)
+axs[2].plot(x,f22,color='k',linewidth=2)
 axs[2].set_xlim(-0.2,1.2)
 axs[2].set_ylim(-1.75,1.75)
 plt.show()
@@ -3899,9 +2852,9 @@ y3 = np.polyval(p3,xf)
 
 plt.figure()
 plt.plot(xf,y1,color='k',label='E_\infty')
-plt.plot(xf,y2,'--',color='k',LineWidth=2,label='E_1')
-plt.plot(xf,y3,color='k',LineWidth=2,label='E_2')
-plt.plot(x,y,'o',color='r',LineWidth=2)
+plt.plot(xf,y2,'--',color='k',linewidth=2,label='E_1')
+plt.plot(xf,y3,color='k',linewidth=2,label='E_2')
+plt.plot(x,y,'o',color='r',linewidth=2)
 
 plt.ylim(0,4)
 plt.legend()
@@ -3924,9 +2877,9 @@ y3 = np.polyval(p3,xf)
 
 plt.figure()
 plt.plot(xf,y1,color='k',label='E_\infty')
-plt.plot(xf,y2,'--',color='k',LineWidth=2,label='E_1')
-plt.plot(xf,y3,color='k',LineWidth=2,label='E_2')
-plt.plot(x,y,'o',color='r',LineWidth=2)
+plt.plot(xf,y2,'--',color='k',linewidth=2,label='E_1')
+plt.plot(xf,y3,color='k',linewidth=2,label='E_2')
+plt.plot(x,y,'o',color='r',linewidth=2)
 
 plt.ylim(0,4)
 plt.legend()
@@ -3941,7 +2894,7 @@ plt.show()
 </t>
 <t tx="ekr.20241218004930.13">x = np.arange(-5,5,0.001)
 fMexHat = (1-np.power(x,2)) * np.exp(-np.power(x,2)/2)
-plt.plot(x,fMexHat,color='k',LineWidth=2)
+plt.plot(x,fMexHat,color='k',linewidth=2)
 plt.show()
 
 </t>
@@ -4021,7 +2974,7 @@ for j in range(len(x)-1):
 <t tx="ekr.20241218004930.135">fig,ax = plt.subplots(1,1,subplot_kw={'projection': '3d'})
 ax.plot_surface(X, Y, Fquad,linewidth=0,color='k',alpha=0.3)
 ax.scatter(x,y,f,'o',color='r',s=200)
-ax.plot(x,y,f,':',color='k',LineWidth=3)
+ax.plot(x,y,f,':',color='k',linewidth=3)
 ax.contour(X, Y, Fquad, zdir='z', offset=ax.get_zlim()[0], cmap='gray')
 ax.view_init(elev=40, azim=-140)
 plt.show()
@@ -4106,11 +3059,11 @@ plt.show()
 </t>
 <t tx="ekr.20241218004930.138">fig,ax = plt.subplots(1,1,subplot_kw={'projection': '3d'})
 ax.plot_surface(X, Y, F-0.2,cmap='binary',alpha=0.5)
-ax.plot(x1,y1,f1,'o',color='r',MarkerSize=10)
+ax.plot(x1,y1,f1,'o',color='r',markersize=10)
 ax.plot(x1,y1,f1,':',color='k')
-ax.plot(x2,y2,f2,'o',color='m',MarkerSize=10)
+ax.plot(x2,y2,f2,'o',color='m',markersize=10)
 ax.plot(x2,y2,f2,':',color='k')
-ax.plot(x3,y3,f3,'o',color='b',MarkerSize=10)
+ax.plot(x3,y3,f3,'o',color='b',markersize=10)
 ax.plot(x3,y3,f3,':',color='k')
 ax.view_init(elev=40, azim=-100)
 plt.show()
@@ -4186,11 +3139,11 @@ plt.show()
 </t>
 <t tx="ekr.20241218004930.141">fig,ax = plt.subplots(1,1,subplot_kw={'projection': '3d'})
 ax.plot_surface(X, Y, F-0.2,cmap='binary',alpha=0.5)
-ax.plot(x1,y1,f1,'o',color='r',MarkerSize=10)
+ax.plot(x1,y1,f1,'o',color='r',markersize=10)
 ax.plot(x1,y1,f1,':',color='k')
-ax.plot(x2,y2,f2,'o',color='m',MarkerSize=10)
+ax.plot(x2,y2,f2,'o',color='m',markersize=10)
 ax.plot(x2,y2,f2,':',color='k')
-ax.plot(x3,y3,f3,'o',color='b',MarkerSize=10)
+ax.plot(x3,y3,f3,'o',color='b',markersize=10)
 ax.plot(x3,y3,f3,':',color='k')
 ax.view_init(elev=40, azim=-100)
 plt.show()
@@ -4490,9 +3443,9 @@ y3 = (np.tile(y2,(5,1)) + 2*np.random.rand(5,n) + 1)
 y3 = np.reshape(y3,-1)
 x3 = np.tile(x,(1,5)).reshape(-1)
 
-plt.plot(x,y,color='k',LineWidth=2)
+plt.plot(x,y,color='k',linewidth=2)
 
-rect = Rectangle((0.5,0.4), 0.9, 1.6,LineWidth=1,edgecolor='k',facecolor='grey',alpha=0.6) 
+rect = Rectangle((0.5,0.4), 0.9, 1.6,linewidth=1,edgecolor='k',facecolor='grey',alpha=0.6) 
 ax.add_patch(rect)
 
 plt.scatter(x2,y2,100,color='magenta',edgecolors='k')
@@ -4529,8 +3482,8 @@ n2 = len(x2)
 ftrain = np.power(x1,2) # Train parabola x = [0,4]
 ftest = np.power(x2,2)  # Test parabola x = [4,8]
 
-plt.plot(x1,ftrain,color='r',LineWidth=2)
-plt.plot(x2,ftest,color='b',LineWidth=2)
+plt.plot(x1,ftrain,color='r',linewidth=2)
+plt.plot(x2,ftest,color='b',linewidth=2)
 plt.show()
 M = 30 # number of model terms
 Eni = np.zeros((100,M))
@@ -4803,10 +3756,10 @@ g2 = g2/np.trapz(g2,x)
 g3 = g3/np.trapz(g3,x)
 
 plt.figure()
-plt.plot(x,f,LineWidth=2,label='f')
-plt.plot(x,g1,LineWidth=2,label='g1')
-plt.plot(x,g2,LineWidth=2,label='g2')
-plt.plot(x,g3,LineWidth=2,label='g3')
+plt.plot(x,f,linewidth=2,label='f')
+plt.plot(x,g1,linewidth=2,label='g1')
+plt.plot(x,g2,linewidth=2,label='g2')
+plt.plot(x,g3,linewidth=2,label='g3')
 plt.legend()
 plt.show()
 
@@ -5257,7 +4210,7 @@ ysep = -(1/slope)*xsep+b
 fig,axs = plt.subplots(2)
 axs[0].plot(x[:n1],y[:n1],'ro')
 axs[0].plot(x3[:n1],y3[:n1],'bo')
-axs[0].plot(xsep,ysep,c='k',LineWidth=2)
+axs[0].plot(xsep,ysep,c='k',linewidth=2)
 axs[0].set_xlim(-2,4)
 axs[0].set_ylim(-3,2)
 
@@ -5265,7 +4218,7 @@ axs[0].set_ylim(-3,2)
 
 axs[1].plot(x[n1:],y[n1:],'ro')
 axs[1].plot(x3[n1:],y3[n1:],'bo')
-axs[1].plot(xsep,ysep,c='k',LineWidth=2)
+axs[1].plot(xsep,ysep,c='k',linewidth=2)
 axs[1].set_xlim(-2,4)
 axs[1].set_ylim(-3,2)
 
@@ -5287,8 +4240,8 @@ plt.show()
 
 </t>
 <t tx="ekr.20241218004930.223">plt.bar(range(100),dn['leaves'])
-plt.plot(np.array([0, 100]),np.array([50, 50]),'r:',LineWidth=2)
-plt.plot(np.array([50.5, 50.5]),np.array([0, 100]),'r:',LineWidth=2)
+plt.plot(np.array([0, 100]),np.array([50, 50]),'r:',linewidth=2)
+plt.plot(np.array([50.5, 50.5]),np.array([0, 100]),'r:',linewidth=2)
 
 plt.show()
 
@@ -5368,8 +4321,8 @@ plt.show()
 
 </t>
 <t tx="ekr.20241218004930.232">plt.bar(range(100),dn['leaves'])
-plt.plot(np.array([0, 100]),np.array([50, 50]),'r:',LineWidth=2)
-plt.plot(np.array([50.5, 50.5]),np.array([0, 100]),'r:',LineWidth=2)
+plt.plot(np.array([0, 100]),np.array([50, 50]),'r:',linewidth=2)
+plt.plot(np.array([50.5, 50.5]),np.array([0, 100]),'r:',linewidth=2)
 
 plt.show()
 
@@ -5751,9 +4704,9 @@ s_L2 = np.linalg.pinv(Theta) @ y
 </t>
 <t tx="ekr.20241218004930.50">fig,axs = plt.subplots(2,2)
 axs = axs.reshape(-1)
-axs[0].plot(s_L1,color='b',LineWidth=1.5)
+axs[0].plot(s_L1,color='b',linewidth=1.5)
 axs[0].set_ylim(-0.2,0.2)
-axs[1].plot(s_L2,color='r',LineWidth=1.5)
+axs[1].plot(s_L2,color='r',linewidth=1.5)
 axs[1].set_ylim(-0.2,0.2)
 axs[2].hist(s_L1,bins=np.arange(-0.105,0.105,0.01),rwidth=0.9)
 axs[3].hist(s_L2,bins=np.arange(-0.105,0.105,0.01),rwidth=0.9)
@@ -5813,23 +4766,23 @@ L = int(np.floor(n/2))
 fig,axs = plt.subplots(2,2)
 axs = axs.reshape(-1)
 
-axs[1].plot(freq[:L],PSD[:L],color='k',LineWidth=2)
+axs[1].plot(freq[:L],PSD[:L],color='k',linewidth=2)
 axs[1].set_xlim(0, 1024)
 axs[1].set_ylim(0, 1200)
 
-axs[0].plot(t,x,color='k',LineWidth=2)
-axs[0].plot(perm/n,y,color='r',marker='x',LineWidth=0,ms=12,mew=4)
+axs[0].plot(t,x,color='k',linewidth=2)
+axs[0].plot(perm/n,y,color='r',marker='x',linewidth=0,ms=12,mew=4)
 axs[0].set_xlim(time_window[0],time_window[1])
 axs[0].set_ylim(-2, 2)
 
-axs[2].plot(t,xrecon,color='r',LineWidth=2)
+axs[2].plot(t,xrecon,color='r',linewidth=2)
 axs[2].set_xlim(time_window[0],time_window[1])
 axs[2].set_ylim(-2, 2)
 
 xtrecon = np.fft.fft(xrecon,n) # computes the (fast) discrete fourier transform
 PSDrecon = xtrecon * np.conj(xtrecon)/n # Power spectrum (how much power in each freq)
 
-axs[3].plot(freq[:L],PSDrecon[:L],color='r',LineWidth=2)
+axs[3].plot(freq[:L],PSDrecon[:L],color='r',linewidth=2)
 axs[3].set_xlim(0, 1024)
 axs[3].set_ylim(0, 1200)
 
@@ -6372,7 +5325,7 @@ L = -lda.coef_[0]
 
 
 x = np.arange(-0.15,0.25,0.005)
-axs[0].plot(x,-(L[0]*x+K)/L[1],'k',LineWidth=2)
+axs[0].plot(x,-(L[0]*x+K)/L[1],'k',linewidth=2)
 
 
 # Quadratic Discriminant
@@ -8017,7 +6970,7 @@ for jj in range(100):
     E[jj] = 100*np.sum(np.abs(test_class-truth))/40
     
 plt.bar(range(100),E,color=(0.5,0.5,0.5))
-plt.plot(range(100),np.mean(E)*np.ones(100),'r:',LineWidth=3)
+plt.plot(range(100),np.mean(E)*np.ones(100),'r:',linewidth=3)
 plt.show()
 
 </t>
@@ -10400,6 +9353,1002 @@ QPushButton = QtWidgets.QPushButton
 QDialog = QtWidgets.QDialog
 QVBoxLayout = QtWidgets.QVBoxLayout
 QWidget = QtWidgets.QWidget
+</t>
+<t tx="ekr.20241223020730.1"></t>
+<t tx="ekr.20241223020730.10">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+ul.leo-tree-example  {
+    background-color: #ffffec;
+    zoom: 150%; # blurs icons a bit.
+}
+ul.leo-tree-example li {
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding-left: 27px;
+}
+li {
+    background-image:
+url('https://raw.github.com/vivainio/leo/master/leo/Icons/box00.GIF');
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding-left: 27px;
+}
+li.selected {
+    background-color: lightgrey;
+}
+li.leaf {
+    list-style-type: none;
+}
+li.plus {
+  list-style-image: url('http://leoeditor.com/plusnode.gif')
+}
+li.minus {
+  list-style-image: url('http://leoeditor.com/minusnode.gif')
+}
+li.leaf {
+  background-image: url('http://leoeditor.com/box00.GIF')
+}
+li.body {
+  background-image: url('http://leoeditor.com/box01.GIF')
+}
+li.mark {
+  background-image: url('http://leoeditor.com/box02.GIF')
+}
+li.mark-body {
+  background-image: url('http://leoeditor.com/box03.GIF')
+}
+li.clone {
+  background-image: url('http://leoeditor.com/box04.GIF')
+}
+li.clone-body {
+  background-image: url('http://leoeditor.com/box05.GIF')
+}
+li.clone-mark {
+  background-image: url('http://leoeditor.com/box06.GIF')
+}
+li.clone-mark-body {
+  background-image: url('http://leoeditor.com/box07.GIF')
+}
+li.dirty {
+  background-image: url('http://leoeditor.com/box08.GIF')
+}
+li.dirty-body {
+  background-image: url('http://leoeditor.com/box09.GIF')
+}
+li.dirty-mark {
+  background-image: url('http://leoeditor.com/box10.GIF')
+}
+li.dirty-mark-body {
+  background-image: url('http://leoeditor.com/box11.GIF')
+}
+li.dirty-clone {
+  background-image: url('http://leoeditor.com/box12.GIF')
+}
+li.dirty-clone-body {
+  background-image: url('http://leoeditor.com/box13.GIF')
+}
+li.dirty-clone-mark {
+  background-image: url('http://leoeditor.com/box14.GIF')
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;ul class="leo-tree-example"&gt;
+&lt;li class='plus clone-mark'&gt;
+test
+&lt;/li&gt;
+&lt;ul&gt;
+  &lt;li class='plus clone-body'&gt;
+  child
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li class='leaf body'&gt;
+    grandchild
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li class='plus clone-body'&gt;
+  child
+  &lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li class='leaf body'&gt;
+    grandchild
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
+&lt;/html&gt;</t>
+<t tx="ekr.20241223020730.11">@language html
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;!--@+leo-ver=5-thin--&gt;
+&lt;!--@+node:ekr.20100808060203.4273: * @thin html/front.html--&gt;
+&lt;!--@@first--&gt;
+&lt;!--@@first--&gt;
+
+&lt;!--@@language html--&gt;
+&lt;!--@@tabwidth -2--&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;!--@+&lt;&lt; head &gt;&gt;--&gt;
+    &lt;!--@+node:ekr.20100808060203.4274: ** &lt;&lt; head &gt;&gt;--&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+
+    &lt;title&gt;Leo's Home Page&lt;/title&gt;
+    &lt;link rel="stylesheet" href="_static/default.css" type="text/css" /&gt;
+    &lt;link rel="stylesheet" href="_static/silver_city.css" type="text/css" /&gt;
+    &lt;!--
+    &lt;script type="text/javascript"&gt;
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '4.7-final',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false
+      };
+    &lt;/script&gt;
+    --&gt;
+    &lt;!-- &lt;script type="text/javascript" src="_static/jquery.js"&gt;&lt;/script&gt;--&gt;
+    &lt;!-- &lt;script type="text/javascript" src="_static/doctools.js"&gt;&lt;/script&gt;--&gt;
+    &lt;link rel="top" title="Leo v4.7-final documentation" href="index.html" /&gt;
+    &lt;link rel="Users Guide" title="Leo&amp;#8217;s Users Guide" href="leo_toc.html" /&gt;
+    &lt;!-- &lt;link rel="prev" title="Chapter 5: Using LeoÃ¢â‚¬â„¢s Commands" href="commands.html" /&gt;--&gt; 
+    &lt;!--@-&lt;&lt; head &gt;&gt;--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!--@+&lt;&lt; div top nav &gt;&gt;--&gt;
+    &lt;!--@+node:ekr.20100808060203.4276: ** &lt;&lt; div top nav &gt;&gt;--&gt;
+    &lt;div class="related"&gt;
+      &lt;h3&gt;Navigation&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li class="right" style="margin-right: 10px"&gt;
+          &lt;a href="genindex.html" title="General Index"
+             accesskey="I"&gt;index&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="right" &gt;
+          &lt;a href="leo_toc.html" title="Leo&amp;#8217;s Users Guide"
+             accesskey="N"&gt;contents&lt;/a&gt; |&lt;/li&gt;
+        &lt;!--
+        &lt;li class="right" &gt;
+          &lt;a href="commands.html" title="Chapter 5: Using Leo&amp;#8217;s Commands"
+             accesskey="P"&gt;previous&lt;/a&gt; |&lt;/li&gt;
+        --&gt;
+        &lt;li&gt;&lt;a href="leo_toc.html"&gt;Leo v4.7-final documentation&lt;/a&gt; &amp;raquo;&lt;/li&gt;
+
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!--@-&lt;&lt; div top nav &gt;&gt;--&gt;
+    &lt;div class="document"&gt;
+      &lt;div class="documentwrapper"&gt;
+        &lt;div class="bodywrapper"&gt;
+          &lt;div class="body"&gt;
+            &lt;!--@+&lt;&lt; div outer section &gt;&gt;--&gt;
+            &lt;!--@+node:ekr.20100808060203.4286: ** &lt;&lt; div outer section &gt;&gt;--&gt;
+            &lt;div class="section" id="Leo&amp;#8217;s Home page"&gt;
+
+                &lt;h1&gt;Leo&amp;#8217;s Home Page&lt;/h1&gt;
+
+                Leo is...
+
+                &lt;!--@+&lt;&lt; what is Leo list &gt;&gt;--&gt;
+                &lt;!--@+node:ekr.20100808060203.4288: *3* &lt;&lt; what is Leo list &gt;&gt;--&gt;
+                &lt;li&gt;
+                    An outline-oriented &lt;i&gt;browser&lt;/i&gt; and &lt;i&gt;project manager&lt;/i&gt; that organizes&lt;br&gt;
+                    programs, web sites, URL's, pictures, movies or any other kind of data.&lt;br&gt;
+                    You can organize your data in as many ways as you like within a &lt;i&gt;single&lt;/i&gt; outline.&lt;/li&gt;
+                &lt;li&gt;
+                    A &lt;i&gt;programmer's editor&lt;/i&gt; that fully integrates outline structure with programming.
+                    &lt;!--
+                    &lt;a HREF="http://www.eecs.harvard.edu/~nr/noweb/"&gt;noweb&lt;/a&gt; and
+                    &lt;a HREF="http://www-cs-faculty.stanford.edu/~knuth/cweb.html"&gt;CWEB&lt;/a&gt; markup.&lt;/li&gt;
+                    --&gt;
+                &lt;li&gt;
+                    &lt;i&gt;Fully scriptable&lt;/i&gt; using &lt;a HREF="http://www.python.org/"&gt;Python&lt;/a&gt;.
+                    Leo's core is 100% pure Python.&lt;/li&gt;
+                &lt;li&gt;
+                    &lt;i&gt;Portable&lt;/i&gt;. Leo runs on Windows, Linux and MacOS X.&lt;br&gt;
+                    Leo requires either the
+                    &lt;a HREF="http://docs.python.org/library/tkinter.html"&gt;Tkinter&lt;/a&gt; or
+                    &lt;a HREF="http://www.riverbankcomputing.co.uk/software/pyqt/intro"&gt;PyQt&lt;/a&gt; widget set.&lt;br&gt;
+                    Leo's outline files are &lt;a HREF="http://www.w3.org/XML/"&gt;XML&lt;/a&gt; format.&lt;/li&gt;
+                &lt;li&gt;
+                    &lt;a href="http://www.opensource.org/"&gt;&lt;i&gt;Open Software&lt;/i&gt;&lt;/a&gt;,
+                    distributed under the
+                    &lt;a href="http://www.opensource.org/licenses/mit-license.php/"&gt;MIT License&lt;/a&gt;.&lt;/li&gt;
+                &lt;!--@-&lt;&lt; what is Leo list &gt;&gt;--&gt;
+                &lt;!-- div body toc --&gt;
+                &lt;!-- &lt; &lt; inner sections &gt; &gt; --&gt;
+
+                &lt;p&gt;Leo has an active community of helpful users and developers.&lt;br&gt;
+                Please use the &lt;a href="http://groups.google.com/group/leo-editor"&gt;leo-editor&lt;/a&gt;
+                group to ask questions and make suggestions.&lt;/p&gt;
+
+                &lt;p&gt;Leo's author is &lt;a HREF="ekr.html"&gt;Edward K. Ream&lt;/a&gt;&lt;/p&gt;
+
+            &lt;/div&gt;
+            &lt;!--@-&lt;&lt; div outer section &gt;&gt;--&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!--@+&lt;&lt; sidebar &gt;&gt;--&gt;
+      &lt;!--@+node:ekr.20100808060203.4282: ** &lt;&lt; sidebar &gt;&gt;--&gt;
+      &lt;div class="sphinxsidebar"&gt;
+          &lt;div class="sphinxsidebarwrapper"&gt;
+              &lt;!--@+&lt;&lt; sidebar contents &gt;&gt;--&gt;
+              &lt;!--@+node:ekr.20100808060203.4283: *3* &lt;&lt; sidebar contents &gt;&gt;--&gt;
+              &lt;p class="logo"&gt;&lt;a href="leo_toc.html"&gt;
+                &lt;img class="logo" src="_static/Leo4-80-border.jpg" alt="Logo"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+              &lt;a class="reference external" href="intro.html"&gt;
+                Read this tutorial first&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="http://www.3dtree.com/ev/e/sbooks/leo/sbframetoc_ie.htm"&gt;
+                Another tutorial&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="http:screen-shots.html"&gt;
+                Screen shots of Leo&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="testimonials.html"&gt;
+                Quotes from Leo&amp;#8217;s Users&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external"
+                href="http://sourceforge.net/project/showfiles.php?group_id=3458&amp;amp;package_id=29106"&gt;
+                Download Leo&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="http://groups.google.com/group/leo-editor"&gt;
+                leo-editor: Google Groups&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="http://launchpad.net/leo-editor"&gt;
+                leo-editor: Launchpad&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="http://leo.zwiki.org"&gt;
+                Leo&amp;#8217;s Wiki&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="http://www.mind-mapping.org/"&gt;
+                Mind Mapping&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="leoLinks.html"&gt;
+                More links...&lt;/a&gt;&lt;br&gt;
+
+              &lt;!-- &lt;a class="reference external"  href="install.html"&gt;Installing Leo&lt;/a&gt;&lt;br&gt;--&gt; 
+              &lt;!-- &lt;a class="reference external"  href="intro.html"&gt;Beginners Guide&lt;/a&gt;&lt;br&gt;--&gt;
+              &lt;!-- &lt;a class="reference external"  href="leo_toc.html"&gt;Users Guide&lt;/a&gt;&lt;br&gt;--&gt;
+              &lt;!-- &lt;a class="reference external"  href="FAQ.html"&gt;FAQ&lt;/a&gt;&lt;br&gt;--&gt;
+              &lt;!--Leo&amp;#8217;s &lt;a class="reference external" href="http://www.greygreen.org/leo/"&gt;Daily snapshots&lt;/a&gt;&lt;br&gt;--&gt;
+              &lt;!-- 
+              &lt;h5&gt;Edward K. Ream&lt;/h5&gt;
+              &lt;a class="reference external" href="ekr.html"&gt;Home&lt;/a&gt;&lt;br&gt;
+              &lt;a class="reference external" href="mailto:edreamleo@gmail.com"&gt;Contact&lt;/a&gt;&lt;br&gt;
+              --&gt; 
+              &lt;!--@-&lt;&lt; sidebar contents &gt;&gt;--&gt;
+          &lt;!-- &lt; &lt; sidebar links &gt; &gt; --&gt;
+          &lt;!-- &lt; &lt; searchbox &gt; &gt; --&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!--@-&lt;&lt; sidebar &gt;&gt;--&gt;
+      &lt;div class="clearer"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!--@+&lt;&lt; div bottom nav &gt;&gt;--&gt;
+    &lt;!--@+node:ekr.20100808060203.4277: ** &lt;&lt; div bottom nav &gt;&gt;--&gt;
+    &lt;div class="related"&gt;
+      &lt;h3&gt;Navigation&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li class="right" style="margin-right: 10px"&gt;
+          &lt;a href="genindex.html" title="General Index"
+             &gt;index&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="right" &gt;
+          &lt;a href="leo_toc.html" title="Leo&amp;#8217;s Users Guide"
+             &gt;contents&lt;/a&gt; |&lt;/li&gt;
+        &lt;!--
+        &lt;li class="right" &gt;
+          &lt;a href="commands.html" title="Chapter 5: Using Leo&amp;#8217;s Commands"
+             &gt;previous&lt;/a&gt; |&lt;/li&gt;
+        --&gt;
+        &lt;li&gt;&lt;a href="leo_toc.html"&gt;Leo v4.7-final documentation&lt;/a&gt; &amp;raquo;&lt;/li&gt; 
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!--@-&lt;&lt; div bottom nav &gt;&gt;--&gt;
+    &lt;!--@+&lt;&lt; div footer &gt;&gt;--&gt;
+    &lt;!--@+node:ekr.20100808060203.4278: ** &lt;&lt; div footer &gt;&gt;--&gt;
+    &lt;div class="footer"&gt;
+      &amp;copy; Copyright 2010, Edward K. Ream.
+      Last updated on Aug 08, 2010.
+      Created using &lt;a href="http://sphinx.pocoo.org/"&gt;Sphinx&lt;/a&gt; 0.6.3.
+    &lt;/div&gt;
+    &lt;!--@-&lt;&lt; div footer &gt;&gt;--&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&lt;!--@-leo--&gt;
+</t>
+<t tx="ekr.20241223020730.12"></t>
+<t tx="ekr.20241223020730.13">C:\Repos\leo-editor\leo\Icons\LeoLogo.svg
+
+@language rest
+@wrap
+</t>
+<t tx="ekr.20241223020730.14"></t>
+<t tx="ekr.20241223020730.15">Leosplash.GIF
+</t>
+<t tx="ekr.20241223020730.16"></t>
+<t tx="ekr.20241223020730.17">#
+# a bar plot with errorbars
+N = 5
+menMeans = (20, 35, 30, 35, 27)
+menStd = (2, 3, 4, 1, 2)
+ind = np.arange(N)  # the x locations for the groups
+width = 0.35       # the width of the bars
+fig, ax = plt.subplots()
+rects1 = ax.bar(ind, menMeans, width, color='r', yerr=menStd)
+womenMeans = (25, 32, 34, 20, 25)
+womenStd = (3, 5, 2, 3, 3)
+rects2 = ax.bar(ind + width, womenMeans, width, color='y', yerr=womenStd)
+# add some text for labels, title and axes ticks
+ax.set_ylabel('Scores')
+ax.set_title('Scores by group and gender')
+ax.set_xticks(ind + width)
+ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
+ax.legend((rects1[0], rects2[0]), ('Men', 'Women'))
+
+def autolabel(rects):
+    # attach some text labels
+    for rect in rects:
+        height = rect.get_height()
+        ax.text(rect.get_x() + rect.get_width()/2., 1.05*height,
+                '%d' % int(height),
+                ha='center', va='bottom')
+
+autolabel(rects1)
+autolabel(rects2)
+</t>
+<t tx="ekr.20241223020730.18"># http://matplotlib.org/1.5.1/examples/animation/basic_example.html
+
+def update_line(num, data, line):
+        line.set_data(data[..., :num])
+        return line, # a tuple.
+
+fig1 = plt.figure()
+data = np.random.rand(2, 100) ### 2, 25)
+# g.printObj(data)
+l, = plt.plot([], [], 'r-')
+plt.xlim(0, 1)
+plt.ylim(0, 1)
+plt.xlabel('x')
+plt.title('test')
+line_ani = animation.FuncAnimation(fig1, update_line, 25,
+    fargs=(data, l), interval=50, blit=True)
+# Retain a reference to animation.
+g.app.permanentScriptDict['pyplot_animations'] = animation
+
+</t>
+<t tx="ekr.20241223020730.19"># http://matplotlib.org/1.5.1/examples/animation/basic_example.html
+
+fig2 = plt.figure()
+x = np.arange(-9, 10)
+y = np.arange(-9, 10).reshape(-1, 1)
+base = np.hypot(x, y)
+images = []
+for add in np.arange(15):
+    images.append((plt.pcolor(x, y, base + add, norm=plt.Normalize(0, 30)),))
+animation = animation.ArtistAnimation(fig2, images,
+    interval=50,
+    repeat_delay=30,
+    blit=True)
+# Retain a reference to animation.
+g.app.permanentScriptDict['pyplot_animations'] = animation
+</t>
+<t tx="ekr.20241223020730.20"># http://matplotlib.org/1.5.1/examples/animation/animate_decay.html
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import matplotlib.animation as animation
+
+@others
+
+# global data.
+fig, ax = plt.subplots()
+line, = ax.plot([], [], lw=2)
+ax.grid()
+xdata, ydata = [], []
+animation = animation.FuncAnimation(
+    fig, run, data_gen, blit=False, interval=10,
+    repeat=False, init_func=init,
+    cache_frame_data=False,
+)
+# Retain a reference to animation.
+g.app.permanentScriptDict['pyplot_animations'] = animation
+</t>
+<t tx="ekr.20241223020730.21">def data_gen(t=0):
+    for n in range(500): # n not used.
+        t += 0.1
+        yield t, np.sin(2*np.pi*t) * np.exp(-t/10.0)
+</t>
+<t tx="ekr.20241223020730.22">def init():
+    ax.set_ylim(-1.1, 1.1)
+    ax.set_xlim(0, 10)
+    del xdata[:]
+    del ydata[:]
+    line.set_data(xdata, ydata)
+    return line,
+</t>
+<t tx="ekr.20241223020730.23">def run(data):
+    # update the data
+    t, y = data
+    xdata.append(t)
+    ydata.append(y)
+    xmin, xmax = ax.get_xlim()
+    if t &gt;= xmax:
+        ax.set_xlim(xmin, 2*xmax)
+        ax.figure.canvas.draw()
+    line.set_data(xdata, ydata)
+    return line,
+</t>
+<t tx="ekr.20241223020730.24">x1 = np.linspace(0.0, 5.0)
+x2 = np.linspace(0.0, 2.0)
+y1 = np.cos(2 * np.pi * x1) * np.exp(-x1)
+y2 = np.cos(2 * np.pi * x2)
+# Grpah 1.
+plt.subplot(2, 1, 1)
+plt.plot(x1, y1, 'ko-')
+plt.title('A tale of 2 subplots')
+plt.ylabel('Damped oscillation')
+# Graph 2.
+plt.subplot(2, 1, 2)
+plt.plot(x2, y2, 'r.-')
+plt.xlabel('time (s)')
+plt.ylabel('Undamped')</t>
+<t tx="ekr.20241223020730.25"></t>
+<t tx="ekr.20241223020730.26">@nocolor-node
+&lt;?xml version="1.0" standalone="no"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"&gt;
+&lt;svg width="20cm" height="15cm" viewBox="0 0 800 600"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlik/"
+     baseProfile="tiny" version="1.2"&gt;
+   &lt;title&gt;Spheres&lt;/title&gt;
+   &lt;desc&gt;Semi-transparent bubbles on a colored background.&lt;/desc&gt;
+     &lt;defs&gt;
+       &lt;!-- Create radial gradients for each bubble. --&gt;
+       &lt;radialGradient id="blueBubble" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" stop-opacity="1" /&gt;
+         &lt;stop offset="25%" stop-color="#cdcdff" stop-opacity=".65" /&gt;
+         &lt;stop offset="100%" stop-color="#cdaacd" stop-opacity=".75" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="redBubble" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" stop-opacity="1" /&gt;
+         &lt;stop offset="25%" stop-color="#ffcdcd" stop-opacity=".65" /&gt;
+         &lt;stop offset="100%" stop-color="#bbbb99" stop-opacity=".75" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="greenBubble" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" stop-opacity="1" /&gt;
+         &lt;stop offset="25%" stop-color="#cdffcd" stop-opacity=".65" /&gt;
+         &lt;stop offset="100%" stop-color="#99aaaa" stop-opacity=".75" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="yellowBubble" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" stop-opacity="1" /&gt;
+         &lt;stop offset="25%" stop-color="#ffffcd" stop-opacity=".65" /&gt;
+         &lt;stop offset="100%" stop-color="#bbbbaa" stop-opacity=".75" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="background" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="400" fx="250" fy="250"&gt;
+         &lt;stop offset="0%" stop-color="#ffffee" /&gt;
+         &lt;stop offset="100%" stop-color="#ccccaa" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;linearGradient id="surface" gradientUnits="userSpaceOnUse"
+                       x1="-100" y1="200" x2="400" y2="200"&gt;
+         &lt;stop offset="0%" stop-color="#ffffcc" /&gt;
+         &lt;stop offset="100%" stop-color="#bbbb88" /&gt;
+       &lt;/linearGradient&gt;
+
+       &lt;!-- Create radial gradients for each circle to make them look like
+            spheres. --&gt;
+       &lt;radialGradient id="blueSphere" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" /&gt;
+         &lt;stop offset="75%" stop-color="blue" /&gt;
+         &lt;stop offset="100%" stop-color="#222244" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="redSphere" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" /&gt;
+         &lt;stop offset="75%" stop-color="red" /&gt;
+         &lt;stop offset="100%" stop-color="#442222" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="greenSphere" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" /&gt;
+         &lt;stop offset="75%" stop-color="green" /&gt;
+         &lt;stop offset="100%" stop-color="#113311" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="yellowSphere" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="-50"&gt;
+         &lt;stop offset="0%" stop-color="white" /&gt;
+         &lt;stop offset="75%" stop-color="yellow" /&gt;
+         &lt;stop offset="100%" stop-color="#444422" /&gt;
+       &lt;/radialGradient&gt;
+       &lt;radialGradient id="shadowGrad" gradientUnits="userSpaceOnUse"
+                       cx="0" cy="0" r="100" fx="-50" fy="50"&gt;
+         &lt;stop offset="0%" stop-color="black" stop-opacity="1.0" /&gt;
+         &lt;stop offset="100%" stop-color="black" stop-opacity="0.0" /&gt;
+       &lt;/radialGradient&gt;
+
+       &lt;!-- Define a shadow for each sphere. --&gt;
+       &lt;circle id="shadow" fill="url(#shadowGrad)" cx="0" cy="0" r="100" /&gt;
+       &lt;g id="bubble"&gt;
+         &lt;circle fill="black" cx="0" cy="0" r="50" /&gt;
+         &lt;circle fill="#a6ce39" cx="0" cy="0" r="33" /&gt;
+         &lt;path fill="black" d="M 37,50 L 50,37 L 12,-1 L 22,-11 L 10,-24 L -24,10
+                               L -11,22 L -1,12 Z" /&gt;
+         &lt;circle cx="0" cy="0" r="100" /&gt;
+       &lt;/g&gt;
+     &lt;/defs&gt;
+   &lt;g&gt;
+     &lt;rect fill="url(#background)" x="0" y="0" width="800" height="600" /&gt;
+   &lt;/g&gt;
+
+   &lt;g transform="translate(200,700)"&gt;
+     &lt;use xlink:href="#bubble" fill="url(#blueBubble)" /&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="1s" dur="10s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(315,700)"&gt;
+     &lt;g transform="scale(0.5,0.5)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#redBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="3s" dur="7s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(80,700)"&gt;
+     &lt;g transform="scale(0.65,0.65)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#greenBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="5s" dur="9s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(255,700)"&gt;
+     &lt;g transform="scale(0.3,0.3)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#yellowBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="2s" dur="6s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(565,700)"&gt;
+     &lt;g transform="scale(0.4,0.4)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#blueBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="4s" dur="8s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(715,700)"&gt;
+     &lt;g transform="scale(0.6,0.6)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#redBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="1s" dur="4s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(645,700)"&gt;
+     &lt;g transform="scale(0.375,0.375)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#greenBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="0s" dur="11s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(555,700)"&gt;
+     &lt;g transform="scale(0.9,0.9)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#yellowBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="3s" dur="7.5s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+
+   &lt;g transform="translate(360,700)"&gt;
+     &lt;g transform="scale(0.5,0.5)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#blueBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="3s" dur="6s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(215,700)"&gt;
+     &lt;g transform="scale(0.45,0.45)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#redBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="5.5s" dur="7s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(420,700)"&gt;
+     &lt;g transform="scale(0.75,0.75)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#greenBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="1s" dur="9s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+   &lt;g transform="translate(815,700)"&gt;
+     &lt;g transform="scale(0.6,0.6)"&gt;
+       &lt;use xlink:href="#bubble" fill="url(#yellowBubble)" /&gt;
+     &lt;/g&gt;
+     &lt;animateTransform attributeName="transform" type="translate" additive="sum"
+         values="0,0; 0,-800" begin="2s" dur="9.5s" fill="freeze" repeatCount="indefinite" /&gt;
+   &lt;/g&gt;
+
+   &lt;g transform="translate(225,375)" &gt;
+     &lt;g transform="scale(1.0,0.5)" &gt;
+       &lt;path d="M 0 0 L 350 0 L 450 450 L -100 450 z"
+             fill="url(#surface)" stroke="none" /&gt;
+     &lt;/g&gt;
+   &lt;/g&gt;
+     &lt;g transform="translate(200,0)" &gt;
+     &lt;g transform="translate(200,490) scale(2.0,1.0) rotate(45)" &gt;
+       &lt;rect fill="#a6ce39" x="-69" y="-69" width="138" height="138" /&gt;
+       &lt;circle fill="black" cx="0" cy="0" r="50" /&gt;
+       &lt;circle fill="#a6ce39" cx="0" cy="0" r="33" /&gt;
+       &lt;path fill="black" d="M 37,50 L 50,37 L 12,-1 L 22,-11 L 10,-24 L -24,10
+                             L -11,22 L -1,12 Z" /&gt;
+       &lt;animateTransform attributeName="transform"  type="rotate" additive="sum" values="0; 360"
+                  begin="0s" dur="10s" fill="freeze" repeatCount="indefinite" /&gt;
+     &lt;/g&gt;
+     &lt;g transform="translate(200,375)"&gt;
+       &lt;use xlink:href="#shadow" transform="translate(25,55) scale(1.0,0.5)" /&gt;
+       &lt;circle fill="url(#blueSphere)" cx="0" cy="0" r="100" /&gt;
+     &lt;/g&gt;
+     &lt;g transform="translate(315,440)"&gt;
+       &lt;g transform="scale(0.5,0.5)"&gt;
+         &lt;use xlink:href="#shadow" transform="translate(25,55) scale(1.0,0.5)" /&gt;
+         &lt;circle fill="url(#redSphere)" cx="0" cy="0" r="100" /&gt;
+       &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g transform="translate(80,475)"&gt;
+       &lt;g transform="scale(0.65,0.65)"&gt;
+         &lt;use xlink:href="#shadow" transform="translate(25,55) scale(1.0,0.5)" /&gt;
+         &lt;circle fill="url(#greenSphere)" cx="0" cy="0" r="100" /&gt;
+       &lt;/g&gt;
+     &lt;/g&gt;
+     &lt;g transform="translate(255,525)"&gt;
+       &lt;g transform="scale(0.3,0.3)"&gt;
+         &lt;use xlink:href="#shadow" transform="translate(25,55) scale(1.0,0.5)" /&gt;
+         &lt;circle fill="url(#yellowSphere)" cx="0" cy="0" r="100" /&gt;
+       &lt;/g&gt;
+     &lt;/g&gt;
+   &lt;/g&gt;
+&lt;/svg&gt;</t>
+<t tx="ekr.20241223020730.27">C:\Repos\leo-editor\leo\Icons\bubbles.svg
+</t>
+<t tx="ekr.20241223020730.28">@language rest
+@wrap
+
+''' Creates a window for *live* rendering of rst, html, etc.  (Qt only).
+
+Commands
+========
+
+viewrendered.py creates the following (``Alt-X``) commands:
+
+``viewrendered``
+    opens a new window where the current body text is rendered as HTML
+    (if it starts with '&lt;'), or otherwise reStructuredText.
+``viewrendered-big``
+    as above, but zoomed in, useful for presentations
+``viewrendered-html``
+    displays the html source generated from reStructuredText, useful for
+    debugging
+
+``viewrendered`` sets the process current directory (os.chdir()) to the path
+to the node being rendered, to allow relative paths to work in
+``.. image::`` directives.
+
+reStructuredText errors and warnings may be shown.  For example, both::
+
+    Heading
+    -------
+
+    `This` is **really** a line of text.
+
+and::
+
+    &lt;h1&gt;Heading&lt;h1&gt;
+
+    &lt;tt&gt;This&lt;/tt&gt; is &lt;b&gt;really&lt;/b&gt; a line of text.
+
+will look something like:
+
+**Heading**
+
+`This` is **really** a line of text.
+
+Settings
+========
+
+@string view-rendered-default-kind = rst
+----------------------------------------
+
+The default kind of rendering.  One of (big,rst,html)
+    
+@bool view-rendered-auto-create = False
+---------------------------------------
+
+When True, the plugin will create a rendering pane automatically.
+
+'''
+</t>
+<t tx="ekr.20241223020730.29"></t>
+<t tx="ekr.20241223020730.3">&lt;!-- Put the @language html here so it doesn't appear in the rendering. --&gt;
+
+@language html
+@tabwidth -2</t>
+<t tx="ekr.20241223020730.30">@language md
+
+# Title
+
+This is **bold** and *italics*.
+
+More info at [Leo's home page](&lt;http://leoeditor.com/).
+
+### Section
+
+- Bullet list
+- Another item
+- Third item.
+</t>
+<t tx="ekr.20241223020730.31">Inline:
+    
+\int_{b^a} \, x^2 \, dx: :math:`\int_{b^a} \, x^2 \, dx`
+
+d/dx \int_{0^x}\,f(u)\,du=f(x): :math:`d/dx \int_{0^x}\,f(u)\,du=f(x)`
+
+\int_{0^x}: :math:`\int_{0^x}`
+
+block:
+
+.. math::
+
+    x + 5 = -3
+
+    \int_{b^a} \, x^2 \, dx
+
+    d / dx \, \left(\int_{0^x} f(u)\,du\right)=f(x)
+
+    d / dx (\int_{0^x} f(u)\,du ) = f(x)
+
+    y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})
+    
+Alignment with \\\\ in \\begin{equation}:
+
+.. math::
+
+    \begin{equation}
+    x + 5 = -3 \\
+    \int_{b^a} \, x^2 \, dx\\
+    d / dx \left(\int_{0^x} f(u)\,du\right)=f(x)\\
+    d / dx (\int_{0^x} f(u)\,du) = f(x)\\
+    y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})
+    \end{equation}
+    
+Inline: :math:`y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})`
+
+Inline: :math:`(\sum_{t=0}^{N}\,f(t,k))/N`
+    
+The final output will be a vector :math:`Y` with :math:`K` elements, :math:`y_k`, where
+:math:`y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})` is the probability that node :math:`k` is in class :math:`C_1` and
+:math:`p(C_2|\mathbf{x}) = 1-p(C_1|\mathbf{x})`
+
+</t>
+<t tx="ekr.20241223020730.32">@language md
+
+- Item
+
+[link](xxx)</t>
+<t tx="ekr.20241223020730.33"></t>
+<t tx="ekr.20241223020730.34">@language rest
+
+#####
+Title
+#####
+
+This is **bold** and *italics*.
+
+More info at `Leo's home page &lt;http://leoeditor.com/&gt;`_.
+
+Section
+=======
+
+- Bullet list
+- Another item
+- Third item.</t>
+<t tx="ekr.20241223020730.35">@language rest
+@wrap
+
+- test2
+
+*italic*
+
+**bold**
+
+@language python</t>
+<t tx="ekr.20241223020730.36">@language python
+
+def foo():
+    pass</t>
+<t tx="ekr.20241223020730.37">@language rest
+@wrap
+code::
+
+    print('Hello world')
+    for i in 0,1:
+        print(i)
+    
+</t>
+<t tx="ekr.20241223020730.38"></t>
+<t tx="ekr.20241223020730.39">@language md
+@wrap
+
+[Leo's home page](https://leo-editor.github.io/leo-editor/)
+</t>
+<t tx="ekr.20241223020730.40">@language rest
+@wrap
+
+`Leo's home page &lt;https://leo-editor.github.io/leo-editor/&gt;`_
+
+</t>
+<t tx="ekr.20241223020730.41">@language rest
+@wrap
+
+`EKR mail &lt;http://mail.google.com/mail/#inbox&gt;`_</t>
+<t tx="ekr.20241223020730.42">@language md
+@wrap
+
+[weather.com](http://www.weather.com/weather/today/Madison+WI+53705?from=hp_promolocator&amp;lswe=53705&amp;lwsa=Weather36HourHealthCommand)
+</t>
+<t tx="ekr.20241223020730.5">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script type="text/x-mathjax-config"&gt;
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  &lt;/script&gt;
+
+  &lt;script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"&gt;
+  &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;p&gt;&lt;mathjax&gt;
+
+&lt;h2&gt;Feed-forward Network Functions&lt;/h2&gt;
+We will consider a basic two layer neural network model, i.e a model that maps inputs to a hidden layer and then to an output layer. We will make &lt;b&gt;the following 
+assumptions&lt;/b&gt;
+
+1. The final output will be a vector $Y$ with $K$ elements, $y_k$, where $y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})$ is the probability that node $k$ is in class $C_1$ and $p(C_2|\mathbf{x}) = 1-p(C_1|\mathbf{x})$
+2. The activation function at a given layer is an arbitrary nonlinear function of a linear combination of the inputs and parameters for that layer
+3. The network is fully connected, i.e. every node at the input layer is connected to every node in the hidden layer and every node in the hidden layer is connected to every node in the output layer
+4. A bias parameter is included at the hidden and output layers
+
+Working from the input layer toward the output layer, we can build this model as follows:
+
+&lt;h3&gt;Input Layer&lt;/h3&gt;
+Assume we have an input vector $\mathbf{x} \in \Re^D$. Then the input layer consists of $D+1$ nodes where the value of the $i^{th}$ node for $i=0\ldots D$, is 0 if $i=0$ and $x_i$, i.e. the $i^{th}$ value of $\mathbf{x}$, otherwise.
+
+&lt;h3&gt;Hidden Layer&lt;/h3&gt;
+At the hidden layer we construct $M$ nodes where the value of $M$ depends on the specifics of the particular modeling problem. For each node, we define a *unit activation*, $a_m$, for $m=1\ldots M$ as &lt;br/&gt;
+$a_m = \sum_{i=0}^D w_{ji}^{(1)}x_i$ &lt;br/&gt;
+where the $(1)$ superscript indicates this weight is for the hidden layer. The output from each node, $z_m$, is then given by the value of a *fixed nonlinear function*, $h$, known as the *activation function*, acting on the unit activation&lt;br/&gt;
+$z_m = h(a_m) = h \left( \sum_{i=0}^D w_{mi}^{(1)}x_i \right)$&lt;br/&gt;
+Notice that $h$ is the same function for all nodes.
+&lt;h3&gt;Output Layer&lt;/h3&gt;
+The process at the output layer is essentially the same as at the hidden layer. We construct $K$ nodes, where again the value of $K$ depends on the specific modeling problem. For each node, we again define a *unit activation*, $a_k$, for $k=1 \ldots K$ by&lt;br/&gt;
+$a_k = \\sum_{m=0}^M w_{km}^{(2)} z_m$ &lt;br/&gt;
+We again apply a nonlinear activation function, say $y$, to produce the output&lt;br/&gt;
+$y_k = y(a_k)$
+
+Thus, the entire model can be summarized as a $K$ dimensional output vector $Y \in \Re^K$ where each element $y_k$ by&lt;br/&gt;
+$y_k(\mathbf{x},\mathbf{w}) = y \left( \sum_{m=0}^M w_{km}^{(2)} h \left( \sum_{i=0}^D w_{mi}^{(1)}x_i \right) \right)$
+
+&lt;h3&gt;Generalizations&lt;/h3&gt;
+There are a wide variety of generalizations possible for this model. Some of the more important ones for practical applications include
+
+* Addition of hidden layers
+* Inclusion of *skip-layer* connections, e.g. a connection from an input node directly to an output node
+* Sparse network, i.e. not a fully connected network
+
+&lt;!-- $$ --&gt;
+&lt;/mathjax&gt;&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;
+
+</t>
+<t tx="ekr.20241223020730.7" __bookmarks="7d7100580700000069735f6475706571014930300a732e">@language python
+@nosearch
+# changed
+</t>
+<t tx="ekr.20241223020730.8"></t>
+<t tx="ekr.20241223020730.9" __bookmarks="7d7100580700000069735f6475706571014930300a732e">@language html
+&lt;a href="http://127.0.0.1:8000/leo_toc.html"&gt;Link&lt;/a&gt;</t>
+<t tx="ekr.20241223024752.1">@language latex
+
+% To do:
+% - Add standard header &amp; trailer.
+% - Easier way to type percent.
+% - Ctrl-[ should insert percent at the cursor?
+% - Render to VR pane?
+</t>
+<t tx="ekr.20241223024937.1"></t>
+<t tx="ekr.20241223031235.1">@language latex
+
+head = r"""
+
+\documentclass[12pt, letter-paper]{article}
+% \usepackage{graphicx} % Images.
+% \usepackage{tikz}     % Evaluate expressions.
+\usepackage{hyperref}   % For \href.
+\hypersetup{colorlinks=true, urlcolor=cyan}
+\urlstyle{same}
+\usepackage{pgfplots}   % For inline plots.
+\usepackage{amsmath}    % For alignment.
+\usepackage[
+    bindingoffset=0.2in, footskip=.25in,
+    left=0.5in, right=2.5in, top=0.5in, bottom=0.5in,
+]{geometry}
+
+\pagenumbering{gobble}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+
+"""</t>
+<t tx="ekr.20241223031312.1">@language latex
+
+tail = r"""
+
+\end{document}
+
+"""
+</t>
+<t tx="ekr.20241223031647.1">@language latex
+
+Leo's pdflatex command adds the 
+
+\section*{Math Notes}
+
+\subsection*{Horizontal spacing}
+\vspace{-1mm}
+
+\href{https://tex.stackexchange.com/questions/74353}{About horizontal spacing}
+$\backslash , \backslash ; \backslash quad \,etc.$
+
+\subsection*{Special characters}
+\vspace{-5mm}
+
+% flalign and `&amp;&amp;` create left alignment.
+\begin{flalign*} 
+    \backslash circ     &amp; \quad \circ &amp;&amp;\\
+    \backslash cdot     &amp; \quad \cdot \\
+    \backslash dot\{x\} &amp; \quad \dot{x}
+\end{flalign*}
+
+\subsection*{Point-slope form of lines}
+
+\href{https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:point-slope-form/a/point-slope-form-review}{Khan: Point-slope form}
+
+The line passing through $(x1, y1)$ is $y-y1= m(x-x1)$.
+
+Setting $y=0$ and solving for $x$, the $x$ intercept is 
+$x = x1 -y1 / m$.
+
+\subsection*{Exponential functions}
+
+$e = \quad \lim\limits_{n\to\infty}(1 + \dfrac{1}{n})^n \quad = \quad \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}$
+
+The solution to the equation $\dot{x} = rx$ is $x(t) = e^{rt}\,x(0) $.
+</t>
+<t tx="ekr.20241223031814.1">def get_contents(p):
+
+    contents = p.b.replace('@language latex', '').strip() + '\n\n'
+    if not contents.startswith(r'\documentclass'):
+        contents = (
+            textwrap.dedent(head).strip()
+            + '\n\n'
+            + contents
+            + textwrap.dedent(tail).strip()
+            + '\n\n'
+        )
+        g.trace('Add LaTeX head and tail')
+    # g.printObj(contents, tag=p.h)
+    return contents
 </t>
 </tnodes>
 </leo_file>
