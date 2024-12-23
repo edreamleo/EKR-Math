@@ -1,5 +1,5 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100513.14: * @file C:\Users\Dev\EKR-Study\python\CODE_PYTHON\CH01\CH01_SEC04_1_Linear.py
+#@+node:ekr.20241212100513.14: * @file Python/CH01\CH01_SEC04_1_Linear.py
 #@+others
 #@+node:ekr.20241212100513.16: ** import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
@@ -12,13 +12,13 @@ a = np.arange(-2, 2, 0.25)
 a = a.reshape(-1, 1)
 b = x * a + np.random.randn(*a.shape)  # Add noise
 
-plt.plot(a, x * a, Color='k', LineWidth=2, label='True line')  # True relationship
-plt.plot(a, b, 'x', Color='r', MarkerSize=10, label='Noisy data')  # Noisy measurements
+plt.plot(a, x * a, color='k', linewidth=2, label='True line')  # True relationship
+plt.plot(a, b, 'x', color='r', markersize=10, label='Noisy data')  # Noisy measurements
 
 U, S, VT = np.linalg.svd(a, full_matrices=False)
 xtilde = VT.T @np.linalg.inv(np.diag(S)) @U.T @b  # Least-square fit
 
-plt.plot(a, xtilde * a, '--', Color='b', LineWidth=4, label='Regression line')
+plt.plot(a, xtilde * a, '--', color='b', linewidth=4, label='Regression line')
 
 plt.xlabel('a')
 plt.ylabel('b')

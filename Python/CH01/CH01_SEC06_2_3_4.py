@@ -1,11 +1,18 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100513.39: * @file C:\Users\Dev\EKR-Study\python\CODE_PYTHON\CH01\CH01_SEC06_2_3_4.py
-#@+others
-#@+node:ekr.20241212100513.41: ** import matplotlib.pyplot as plt
+#@+node:ekr.20241212100513.39: * @file Python/CH01\CH01_SEC06_2_3_4.py
+# DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated...
+# Ensure you extract a single element from your array before performing this operation.
+# (Deprecated NumPy 1.25.)
+    # m = int(mat_contents['m'])
+    # n = int(mat_contents['n'])
+
+import os
 import matplotlib.pyplot as plt
 import numpy as np
-import os
 import scipy.io
+
+#@+others
+#@+node:ekr.20241212100513.41: ** import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = [8, 8]
 plt.rcParams.update({'font.size': 18})
 
@@ -36,7 +43,7 @@ plt.axis('off')
 
 plt.show()
 
-#@+node:ekr.20241212100513.42: ** # Now show eigenface reconstruction of
+#@+node:ekr.20241212100513.42: ** Show eigenface reconstruction
 ## Now show eigenface reconstruction of image that was omitted from test set
 
 testFace = faces[:, np.sum(nfaces[:36])]  # First face of person 37
@@ -57,7 +64,7 @@ for r in r_list:
     plt.axis('off')
     plt.show()
 
-#@+node:ekr.20241212100513.43: ** # Project person 2 and 7 onto PC5 and
+#@+node:ekr.20241212100513.43: ** Project person 2 and 7 onto PC5 and
 ## Project person 2 and 7 onto PC5 and PC6
 
 P1num = 2  # Person number 2
@@ -73,13 +80,12 @@ PCAmodes = [5, 6]  # Project onto PCA modes 5 and 6
 PCACoordsP1 = U[:, PCAmodes - np.ones_like(PCAmodes)].T @P1
 PCACoordsP2 = U[:, PCAmodes - np.ones_like(PCAmodes)].T @P2
 
-plt.plot(PCACoordsP1[0, :], PCACoordsP1[1, :], 'd', Color='k', label='Person 2')
-plt.plot(PCACoordsP2[0, :], PCACoordsP2[1, :], '^', Color='r', label='Person 7')
+plt.plot(PCACoordsP1[0, :], PCACoordsP1[1, :], 'd', color='k', label='Person 2')
+plt.plot(PCACoordsP2[0, :], PCACoordsP2[1, :], '^', color='r', label='Person 7')
 
 plt.legend()
 plt.show()
 
-#@+node:ekr.20241212100513.44: ** Cell 4
 #@-others
 #@@language python
 #@@tabwidth -4

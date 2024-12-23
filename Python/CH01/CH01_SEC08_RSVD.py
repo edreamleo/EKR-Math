@@ -1,5 +1,5 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100514.13: * @file C:\Users\Dev\EKR-Study\python\CODE_PYTHON\CH01\CH01_SEC08_RSVD.py
+#@+node:ekr.20241212100514.13: * @file Python/CH01\CH01_SEC08_RSVD.py
 #@+others
 #@+node:ekr.20241212100514.15: ** import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
@@ -83,14 +83,14 @@ color_list = np.array([[0, 0, 2 / 3],  # Define color map
                  [1, 0, 0],
                  [2 / 3, 0, 0]])
 
-plt.plot(S, 'o-', color='k', LineWidth=2, label='SVD')
+plt.plot(S, 'o-', color='k', linewidth=2, label='SVD')
 
 Y = X
 for q in range(1, 6):
     Y = X.T @Y
     Y = X @Y
     Uq, Sq, VTq = np.linalg.svd(Y, full_matrices=0)
-    plt.plot(Sq, '-o', color=tuple(color_list[2 * q + 1]), LineWidth=2, label='rSVD, q = ' + str(q))
+    plt.plot(Sq, '-o', color=tuple(color_list[2 * q + 1]), linewidth=2, label='rSVD, q = ' + str(q))
 
 plt.legend()
 plt.show()

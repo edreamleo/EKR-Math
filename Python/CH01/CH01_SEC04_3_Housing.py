@@ -1,5 +1,5 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100513.23: * @file C:\Users\Dev\EKR-Study\python\CODE_PYTHON\CH01\CH01_SEC04_3_Housing.py
+#@+node:ekr.20241212100513.23: * @file Python/CH01\CH01_SEC04_3_Housing.py
 #@+others
 #@+node:ekr.20241212100513.25: ** import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
@@ -25,8 +25,8 @@ x = VT.T @np.linalg.inv(np.diag(S)) @U.T @b
 fig = plt.figure()
 ax1 = fig.add_subplot(121)
 
-plt.plot(b, Color='k', LineWidth=2, label='Housing Value')  # True relationship
-plt.plot(A @x, '-o', Color='r', LineWidth=1.5, MarkerSize=6, label='Regression')
+plt.plot(b, color='k', linewidth=2, label='Housing Value')  # True relationship
+plt.plot(A @x, '-o', color='r', linewidth=1.5, markersize=6, label='Regression')
 plt.xlabel('Neighborhood')
 plt.ylabel('Median Home Value [$1k]')
 plt.legend()
@@ -34,8 +34,8 @@ plt.legend()
 ax2 = fig.add_subplot(122)
 sort_ind = np.argsort(H[:, -1])
 b = b[sort_ind]  # sorted values
-plt.plot(b, Color='k', LineWidth=2, label='Housing Value')  # True relationship
-plt.plot(A[sort_ind, :]@x, '-o', Color='r', LineWidth=1.5, MarkerSize=6, label='Regression')
+plt.plot(b, color='k', linewidth=2, label='Housing Value')  # True relationship
+plt.plot(A[sort_ind, :]@x, '-o', color='r', linewidth=1.5, markersize=6, label='Regression')
 plt.xlabel('Neighborhood')
 plt.legend()
 

@@ -1,10 +1,11 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100513.45: * @file C:\Users\Dev\EKR-Study\python\CODE_PYTHON\CH01\CH01_SEC07_1.py
-#@+others
-#@+node:ekr.20241212100513.47: ** import matplotlib.pyplot as plt
+#@+node:ekr.20241212100513.45: * @file Python/CH01\CH01_SEC07_1.py
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
+
+#@+others
+#@+node:ekr.20241212100513.47: ** Plot
 plt.rcParams['figure.figsize'] = [8, 8]
 plt.rcParams.update({'font.size': 18})
 
@@ -21,7 +22,7 @@ plt.set_cmap('gray')
 plt.axis('off')
 plt.show()
 
-#@+node:ekr.20241212100513.48: ** sigma = 1
+#@+node:ekr.20241212100513.48: ** Plot
 sigma = 1
 Xnoisy = X + sigma * np.random.randn(*X.shape)
 plt.imshow(Xnoisy)
@@ -29,7 +30,7 @@ plt.set_cmap('gray')
 plt.axis('off')
 plt.show()
 
-#@+node:ekr.20241212100513.49: ** U, S, VT =
+#@+node:ekr.20241212100513.49: ** Plot
 U, S, VT = np.linalg.svd(Xnoisy, full_matrices=0)
 N = Xnoisy.shape[0]
 cutoff = (4 / np.sqrt(3)) * np.sqrt(N) * sigma  # Hard threshold
@@ -51,15 +52,15 @@ plt.set_cmap('gray')
 plt.axis('off')
 plt.show()
 
-#@+node:ekr.20241212100513.51: ** # Plot Singular Values
+#@+node:ekr.20241212100513.51: ** Singular Values
 ## Plot Singular Values
 
 fig1, ax1 = plt.subplots(1)
 
-ax1.semilogy(S, '-o', color='k', LineWidth=2)
-ax1.semilogy(np.diag(S[: (r + 1)]), 'o', color='r', LineWidth=2)
-ax1.plot(np.array([-20, N + 20]), np.array([cutoff, cutoff]), '--', color='r', LineWidth=2)
-rect = patches.Rectangle((-5, 20), 100, 200, LineWidth=2, LineStyle='--', FaceColor='none', EdgeColor='k')
+ax1.semilogy(S, '-o', color='k', linewidth=2)
+ax1.semilogy(np.diag(S[: (r + 1)]), 'o', color='r', linewidth=2)
+ax1.plot(np.array([-20, N + 20]), np.array([cutoff, cutoff]), '--', color='r', linewidth=2)
+rect = patches.Rectangle((-5, 20), 100, 200, linewidth=2, linestyle='--', edgecolor='k')  ### FaceColor='none',
 ax1.add_patch(rect)
 plt.xlim((-10, 610))
 plt.ylim((0.003, 300))
@@ -68,29 +69,28 @@ plt.show()
 
 fig2, ax2 = plt.subplots(1)
 
-ax2.semilogy(S, '-o', color='k', LineWidth=2)
-ax2.semilogy(np.diag(S[: (r + 1)]), 'o', color='r', LineWidth=2)
-ax2.plot(np.array([-20, N + 20]), np.array([cutoff, cutoff]), '--', color='r', LineWidth=2)
+ax2.semilogy(S, '-o', color='k', linewidth=2)
+ax2.semilogy(np.diag(S[: (r + 1)]), 'o', color='r', linewidth=2)
+ax2.plot(np.array([-20, N + 20]), np.array([cutoff, cutoff]), '--', color='r', linewidth=2)
 plt.xlim((-5, 100))
 plt.ylim((20, 200))
 ax2.grid()
 plt.show()
 
 fig3, ax3 = plt.subplots(1)
-ax3.plot(cdS, '-o', color='k', LineWidth=2)
-ax3.plot(cdS[: (r90 + 1)], 'o', color='b', LineWidth=2)
-ax3.plot(cdS[: (r + 1)], 'o', color='r', LineWidth=2)
+ax3.plot(cdS, '-o', color='k', linewidth=2)
+ax3.plot(cdS[: (r90 + 1)], 'o', color='b', linewidth=2)
+ax3.plot(cdS[: (r + 1)], 'o', color='r', linewidth=2)
 plt.xticks(np.array([0, 300, r90, 600]))
 plt.yticks(np.array([0, 0.5, 0.9, 1]))
 plt.xlim((-10, 610))
-ax3.plot(np.array([r90, r90, -10]), np.array([0, 0.9, 0.9]), '--', color='b', LineWidth=2)
+ax3.plot(np.array([r90, r90, -10]), np.array([0, 0.9, 0.9]), '--', color='b', linewidth=2)
 
 ax3.grid()
 plt.show()
 
 
 
-#@+node:ekr.20241212100513.52: ** Cell 6
 #@-others
 #@@language python
 #@@tabwidth -4

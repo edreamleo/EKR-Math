@@ -1,12 +1,12 @@
 #@+leo-ver=5-thin
-#@+node:ekr.20241212100514.8: * @file C:\Users\Dev\EKR-Study\python\CODE_PYTHON\CH01\CH01_SEC07_3.py
-#@+others
-#@+node:ekr.20241212100514.10: ** import matplotlib.pyplot as plt
+#@+node:ekr.20241212100514.8: * @file Python/CH01\CH01_SEC07_3.py
 import matplotlib.pyplot as plt
 import matplotlib.cm
 import numpy as np
-import skimage.transform
+import skimage.transform  ### pip install skikit-image
 
+#@+others
+#@+node:ekr.20241212100514.10: ** Plot
 plt.rcParams['figure.figsize'] = [12, 6]
 plt.rcParams.update({'font.size': 18})
 
