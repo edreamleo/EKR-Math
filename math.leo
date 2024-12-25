@@ -10335,8 +10335,7 @@ $\quad \sum\limits_{n = 0}^{\infty}$</t>
   &lt;/script&gt;
 &lt;/head&gt;
 
-&lt;!-- For alignment --&gt;
-&lt;!-- $\require{amsmath}$ --&gt;
+&lt;!-- Comment --&gt;
 
 $px^2 + qx + r = 0$
 &lt;p&gt;
@@ -10364,8 +10363,7 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 <t tx="ekr.20241225091209.1">@language latex
 @tabwidth -2
 
-&lt;!-- For alignment --&gt;
-&lt;!-- $\require{amsmath}$ --&gt;
+% Comment
 
 $px^2 + qx + r = 0$
 &lt;p&gt;
@@ -10392,8 +10390,7 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 <t tx="ekr.20241225091600.1">@language mathjax
 @tabwidth -2
 
-&lt;!-- For alignment --&gt;
-&lt;!-- $\require{amsmath}$ --&gt;
+&lt;!-- Comment --&gt;
 
 $px^2 + qx + r = 0$
 &lt;p&gt;
