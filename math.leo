@@ -7,13 +7,14 @@
 <find_panel_settings/>
 <vnodes>
 <v t="ekr.20241212164559.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735803000000302e3571067d71075808000000616e6e6f7461746571087d71092858080000007072696f72697479710a4d0f27580a00000070726973657464617465710b580a000000323032312d30332d3330710c75735803000000302e32710d7d710e580b0000005f5f626f6f6b6d61726b73710f7d7110580700000069735f6475706571114930300a7373752e"><vh>Startup</vh>
-<v t="ekr.20241212164559.3" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735806000000302e32302e3071067d71075808000000616e6e6f7461746571087d71092858080000007072696f72697479710a4d0f27580a00000070726973657464617465710b580a000000323032312d30332d3330710c7573752e"><vh>@settings</vh>
+<v t="ekr.20241212164559.3" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735806000000302e32312e3071067d71075808000000616e6e6f7461746571087d71092858080000007072696f72697479710a4d0f27580a00000070726973657464617465710b580a000000323032312d30332d3330710c7573752e"><vh>@settings</vh>
 <v t="ekr.20241212164559.4"><vh>@bool allow-text-zoom = True</vh></v>
 <v t="ekr.20241212164559.5"><vh>@bool check-python-code-on-write = True</vh></v>
 <v t="ekr.20241212164559.7"><vh>@bool use-mouse-expand-gestures = False</vh></v>
 <v t="ekr.20241212164559.8"><vh>@data exec-script-commands</vh></v>
 <v t="ekr.20241212164559.9"><vh>@data exec-script-patterns</vh></v>
 <v t="ekr.20241212164559.305"><vh>@data history-list</vh></v>
+<v t="ekr.20241224161542.1"><vh>@int qweb-view-font-size = 18</vh></v>
 <v t="ekr.20241212164559.11"><vh>@rclick say-hi @args=say hi</vh></v>
 <v t="ekr.20241212164559.306"><vh>@string qt-layout-name = legacy</vh></v>
 <v t="ekr.20241212164559.13"><vh>Abbreviation settings</vh>
@@ -68,14 +69,13 @@
 <v t="ekr.20241212164559.48"><vh>@bool use-chapter-tabs = True</vh></v>
 <v t="ekr.20241212164559.49"><vh>@bool use-chapters = True</vh></v>
 <v t="ekr.20241212164559.50"><vh>@bool use-gutter = False</vh></v>
-<v t="ekr.20241212164559.51"><vh>@int qweb-view-font-size = 30</vh></v>
 <v t="ekr.20241212164559.52"><vh>@string initial-split-orientation = v</vh></v>
 </v>
 <v t="ekr.20241212164559.217"><vh>Buttons &amp; commands</vh>
 <v t="ekr.20241212164559.223"><vh>@button backup</vh></v>
 <v t="ekr.20241217065902.1"><vh>@button close-figures</vh></v>
 <v t="ekr.20241212164526.14"><vh>@button exec-py-file</vh></v>
-<v t="ekr.20241217135604.1"><vh>@button pdflatex</vh>
+<v t="ekr.20241217135604.1"><vh>@button render-latex</vh>
 <v t="ekr.20241223031235.1"><vh>head</vh></v>
 <v t="ekr.20241223031312.1"><vh>tail</vh></v>
 <v t="ekr.20241223031814.1"><vh>get_contents</vh></v>
@@ -216,6 +216,7 @@
 </v>
 <v t="ekr.20241212164559.305"></v>
 <v t="ekr.20241212164559.307" descendentVnodeUnknownAttributes="7d710058010000003071017d71025808000000616e6e6f7461746571037d71042858080000007072696f7269747971054d0f27580a000000707269736574646174657106580a000000323032312d30332d333071077573732e"></v>
+<v t="ekr.20241224161542.1"></v>
 </v>
 <v t="ekr.20241212171838.1"><vh>Files</vh>
 <v t="ekr.20241212071918.1"><vh>@file weather.py</vh></v>
@@ -900,11 +901,8 @@
 </v>
 </v>
 </v>
-<v t="ekr.20241223024937.1" descendentVnodeUnknownAttributes="7d7100285805000000302e302e3171017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735809000000302e302e312e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Projects</vh>
-<v t="ekr.20241223020730.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3171017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735807000000302e312e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Rendering</vh>
-<v t="ekr.20241223020730.3"><vh>mathjax (VR3 only)</vh>
-<v t="ekr.20241223020730.5"><vh>mathjax-test2.html (works)</vh></v>
-</v>
+<v t="ekr.20241223024937.1" descendentVnodeUnknownAttributes="7d7100285805000000302e302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735809000000302e302e302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Projects</vh>
+<v t="ekr.20241223020730.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735807000000302e302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Rendering</vh>
 <v t="ekr.20241223020730.7" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735805000000302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>working VR examples</vh>
 <v t="ekr.20241223020730.8" descendentVnodeUnknownAttributes="7d71005803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a7373732e"><vh>at-html tests</vh>
 <v t="ekr.20241223020730.9" descendentVnodeUnknownAttributes="7d710058010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a7373732e"><vh>@html sphinx Link</vh></v>
@@ -951,6 +949,8 @@
 <v t="ekr.20241223020730.41"><vh>@url mail (rst)</vh></v>
 <v t="ekr.20241223020730.42"><vh>@url weather (md)</vh></v>
 </v>
+<v t="ekr.20241224065831.1"><vh>Hidden layer: mathjax</vh></v>
+<v t="ekr.20241224080118.1"><vh>Hidden layer: latex</vh></v>
 </v>
 </v>
 <v t="ekr.20241217150611.1"><vh>Plt scripts: Use execute-script!</vh>
@@ -959,18 +959,22 @@
 <v t="ekr.20241217093836.1"><vh>Pyplot: graph table of x-intercepts</vh></v>
 </v>
 </v>
-<v t="ekr.20241223024752.1"><vh>LaTeX study notes</vh>
-<v t="ekr.20241223031647.1"><vh>Math notes</vh></v>
+<v t="ekr.20241223024752.1"><vh>LaTeX study notes</vh></v>
+<v t="ekr.20241225032316.1"><vh>Problems</vh>
 <v t="ekr.20241214073404.1"><vh>Problem set 1</vh>
-<v t="ekr.20241214073548.1"><vh>1-1</vh>
-<v t="ekr.20241214074624.1"><vh>Derivative of f(x) = cos(x^3)</vh></v>
-</v>
+<v t="ekr.20241214073548.1"><vh>1-1</vh></v>
 <v t="ekr.20241214074032.1"><vh>1-2</vh></v>
 <v t="ekr.20241214074032.2"><vh>1-3</vh></v>
 <v t="ekr.20241214074033.1"><vh>1-4</vh></v>
 </v>
 </v>
-<v t="ekr.20241217135604.1"></v>
+<v t="ekr.20241224172245.1"><vh>Math notes: latex</vh>
+<v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
+<v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
+<v t="ekr.20241225034001.1"><vh>Alignment (to do)</vh></v>
+<v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
+<v t="ekr.20241224173158.1"><vh>Exponential functions</vh></v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
@@ -1632,7 +1636,7 @@ print('Done')</t>
     r'C:\Repos\RustPython\vm\src\stdlib\ast', # gen.rs automatically generated by ast/asdl_rs.py.
 )
 </t>
-<t tx="ekr.20241212164559.305">pdflatex
+<t tx="ekr.20241212164559.305">render-latex
 exec-py-file
 close-figures
 
@@ -1804,7 +1808,6 @@ is true (and recent_files_omit_directories is False)
 <t tx="ekr.20241212164559.49"></t>
 <t tx="ekr.20241212164559.5"></t>
 <t tx="ekr.20241212164559.50"></t>
-<t tx="ekr.20241212164559.51"></t>
 <t tx="ekr.20241212164559.52">vertical (v) or horizontal (h)
 
 myLeoSettings.leo: vertical</t>
@@ -1836,12 +1839,11 @@ go: ^\s*(.*):([0-9]+):([0-9]+):.+$
 python: ^\s*File "(.+)", line ([0-9]+), in .+$
 rust: ^\s*--&gt; (.+):([0-9]+):([0-9]+)\s*$</t>
 <t tx="ekr.20241212171838.1"></t>
-<t tx="ekr.20241214073404.1">@language rest
-@wrap
+<t tx="ekr.20241214073404.1">@language latex
 
-http://faculty.washington.edu/sbrunton/me564/hw/2022_564hw1.pdf
+% http://faculty.washington.edu/sbrunton/me564/hw/2022_564hw1.pdf
 
-https://www.overleaf.com/project/675d9303d9ec3ac6df5baf7c
+% https://www.overleaf.com/project/675d9303d9ec3ac6df5baf7c
 
 
 </t>
@@ -1899,7 +1901,6 @@ Plot these in Matlab for t=0:.01:10.
 (b) f (t) = e(−1−i)t,
 (c) f (t) = e1−it.
 (d) f (t) = e(−.2+3πi)t.</t>
-<t tx="ekr.20241214074624.1">f(x) = cos(x^3) = (f </t>
 <t tx="ekr.20241217063500.1"># https://stackoverflow.com/questions/4971269 Using colors.
 
 import matplotlib.pyplot as plt
@@ -2016,9 +2017,9 @@ plt.show()  # Generates a warning: The event loop is already running
 # g.cls()
 </t>
 <t tx="ekr.20241217135604.1">"""
-Convert p.b to EKR-Math/temp.pdf using pdflatex.
+Render the LaTeX document in p.b.
 
-p.b should contain the full LaTeX document.
+This script adds the LaTeX head &amp; tail if necessary.
 """
 g.cls()
 import os
@@ -2035,10 +2036,14 @@ with open(path, 'wb') as f:  # Was 'w'.
 
 # Render and open.
 g.execute_shell_commands([
-    f"&amp;pdflatex {path}", # Invoke pdflatex.cmd.
+    f"pdflatex {path}", # Invoke pdflatex.cmd.
     # '&amp;temp.pdf',      # Open in acrobat reader.
     # '&amp;moz temp.pdf',  # Open in browser!
     # '&amp;ed temp.log',   # Open in scite.
+    # Poor.
+        # '&amp;htlatex temp.tex', # Convert to html.
+    # Requires mathjax support.
+        #'pandoc temp.tex --mathjax -o temp.html',
 ])
 
 </t>
@@ -10066,10 +10071,6 @@ When True, the plugin will create a rendering pane automatically.
 '''
 </t>
 <t tx="ekr.20241223020730.29"></t>
-<t tx="ekr.20241223020730.3">&lt;!-- Put the @language html here so it doesn't appear in the rendering. --&gt;
-
-@language html
-@tabwidth -2</t>
 <t tx="ekr.20241223020730.30">@language md
 
 # Title
@@ -10193,62 +10194,6 @@ code::
 
 [weather.com](http://www.weather.com/weather/today/Madison+WI+53705?from=hp_promolocator&amp;lswe=53705&amp;lwsa=Weather36HourHealthCommand)
 </t>
-<t tx="ekr.20241223020730.5">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;script type="text/x-mathjax-config"&gt;
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-  &lt;/script&gt;
-
-  &lt;script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"&gt;
-  &lt;/script&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-&lt;p&gt;&lt;mathjax&gt;
-
-&lt;h2&gt;Feed-forward Network Functions&lt;/h2&gt;
-We will consider a basic two layer neural network model, i.e a model that maps inputs to a hidden layer and then to an output layer. We will make &lt;b&gt;the following 
-assumptions&lt;/b&gt;
-
-1. The final output will be a vector $Y$ with $K$ elements, $y_k$, where $y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})$ is the probability that node $k$ is in class $C_1$ and $p(C_2|\mathbf{x}) = 1-p(C_1|\mathbf{x})$
-2. The activation function at a given layer is an arbitrary nonlinear function of a linear combination of the inputs and parameters for that layer
-3. The network is fully connected, i.e. every node at the input layer is connected to every node in the hidden layer and every node in the hidden layer is connected to every node in the output layer
-4. A bias parameter is included at the hidden and output layers
-
-Working from the input layer toward the output layer, we can build this model as follows:
-
-&lt;h3&gt;Input Layer&lt;/h3&gt;
-Assume we have an input vector $\mathbf{x} \in \Re^D$. Then the input layer consists of $D+1$ nodes where the value of the $i^{th}$ node for $i=0\ldots D$, is 0 if $i=0$ and $x_i$, i.e. the $i^{th}$ value of $\mathbf{x}$, otherwise.
-
-&lt;h3&gt;Hidden Layer&lt;/h3&gt;
-At the hidden layer we construct $M$ nodes where the value of $M$ depends on the specifics of the particular modeling problem. For each node, we define a *unit activation*, $a_m$, for $m=1\ldots M$ as &lt;br/&gt;
-$a_m = \sum_{i=0}^D w_{ji}^{(1)}x_i$ &lt;br/&gt;
-where the $(1)$ superscript indicates this weight is for the hidden layer. The output from each node, $z_m$, is then given by the value of a *fixed nonlinear function*, $h$, known as the *activation function*, acting on the unit activation&lt;br/&gt;
-$z_m = h(a_m) = h \left( \sum_{i=0}^D w_{mi}^{(1)}x_i \right)$&lt;br/&gt;
-Notice that $h$ is the same function for all nodes.
-&lt;h3&gt;Output Layer&lt;/h3&gt;
-The process at the output layer is essentially the same as at the hidden layer. We construct $K$ nodes, where again the value of $K$ depends on the specific modeling problem. For each node, we again define a *unit activation*, $a_k$, for $k=1 \ldots K$ by&lt;br/&gt;
-$a_k = \\sum_{m=0}^M w_{km}^{(2)} z_m$ &lt;br/&gt;
-We again apply a nonlinear activation function, say $y$, to produce the output&lt;br/&gt;
-$y_k = y(a_k)$
-
-Thus, the entire model can be summarized as a $K$ dimensional output vector $Y \in \Re^K$ where each element $y_k$ by&lt;br/&gt;
-$y_k(\mathbf{x},\mathbf{w}) = y \left( \sum_{m=0}^M w_{km}^{(2)} h \left( \sum_{i=0}^D w_{mi}^{(1)}x_i \right) \right)$
-
-&lt;h3&gt;Generalizations&lt;/h3&gt;
-There are a wide variety of generalizations possible for this model. Some of the more important ones for practical applications include
-
-* Addition of hidden layers
-* Inclusion of *skip-layer* connections, e.g. a connection from an input node directly to an output node
-* Sparse network, i.e. not a fully connected network
-
-&lt;!-- $$ --&gt;
-&lt;/mathjax&gt;&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;
-
-</t>
 <t tx="ekr.20241223020730.7" __bookmarks="7d7100580700000069735f6475706571014930300a732e">@language python
 @nosearch
 # changed
@@ -10257,12 +10202,6 @@ There are a wide variety of generalizations possible for this model. Some of the
 <t tx="ekr.20241223020730.9" __bookmarks="7d7100580700000069735f6475706571014930300a732e">@language html
 &lt;a href="http://127.0.0.1:8000/leo_toc.html"&gt;Link&lt;/a&gt;</t>
 <t tx="ekr.20241223024752.1">@language latex
-
-% To do:
-% - Add standard header &amp; trailer.
-% - Easier way to type percent.
-% - Ctrl-[ should insert percent at the cursor?
-% - Render to VR pane?
 </t>
 <t tx="ekr.20241223024937.1"></t>
 <t tx="ekr.20241223031235.1">@language latex
@@ -10298,43 +10237,6 @@ tail = r"""
 
 """
 </t>
-<t tx="ekr.20241223031647.1">@language latex
-
-Leo's pdflatex command adds the 
-
-\section*{Math Notes}
-
-\subsection*{Horizontal spacing}
-\vspace{-1mm}
-
-\href{https://tex.stackexchange.com/questions/74353}{About horizontal spacing}
-$\backslash , \backslash ; \backslash quad \,etc.$
-
-\subsection*{Special characters}
-\vspace{-5mm}
-
-% flalign and `&amp;&amp;` create left alignment.
-\begin{flalign*} 
-    \backslash circ     &amp; \quad \circ &amp;&amp;\\
-    \backslash cdot     &amp; \quad \cdot \\
-    \backslash dot\{x\} &amp; \quad \dot{x}
-\end{flalign*}
-
-\subsection*{Point-slope form of lines}
-
-\href{https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:point-slope-form/a/point-slope-form-review}{Khan: Point-slope form}
-
-The line passing through $(x1, y1)$ is $y-y1= m(x-x1)$.
-
-Setting $y=0$ and solving for $x$, the $x$ intercept is 
-$x = x1 -y1 / m$.
-
-\subsection*{Exponential functions}
-
-$e = \quad \lim\limits_{n\to\infty}(1 + \dfrac{1}{n})^n \quad = \quad \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}$
-
-The solution to the equation $\dot{x} = rx$ is $x(t) = e^{rt}\,x(0) $.
-</t>
 <t tx="ekr.20241223031814.1">def get_contents(p):
 
     contents = p.b.replace('@language latex', '').strip() + '\n\n'
@@ -10350,5 +10252,70 @@ The solution to the equation $\dot{x} = rx$ is $x(t) = e^{rt}\,x(0) $.
     # g.printObj(contents, tag=p.h)
     return contents
 </t>
+<t tx="ekr.20241224065831.1">@language mathjax
+
+Define the &lt;b&gt;unit activation&lt;/b&gt;, $a_m$,
+&lt;p&gt;
+$a_m = \sum_{i=0}^D w_{ji}^{(1)}x_i$
+&lt;p&gt;
+for $m=1\ldots M$
+</t>
+<t tx="ekr.20241224080118.1">@language latex
+
+quadratic equation: 
+$px^2 + qx + r = 0$
+
+&lt;p&gt;
+roots of quadratic equation:
+$x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
+</t>
+<t tx="ekr.20241224161542.1"></t>
+<t tx="ekr.20241224172245.1">@language latex
+
+</t>
+<t tx="ekr.20241224173005.1">% https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86
+
+The line passing through $(x1, y1)$ is
+\\
+$y-y1= m(x-x1)$
+
+Setting $y=0$ and solving for $x$,
+the $x$ intercept is \\
+$x = x1 -y1 / m$
+
+</t>
+<t tx="ekr.20241224173158.1">$
+    e = \lim\limits_{n\to\infty}(1 + \dfrac{1}{n})^n
+    \quad = \quad \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}
+$
+
+The solution to the equation
+$\dot{x} = rx$
+\\
+is $x(t) = e^{rt} \cdot x(0)$
+</t>
+<t tx="ekr.20241224174349.1">The \ \ hack works only &lt;i&gt;outside&lt;/i&gt; math mode.
+
+$
+\backslash circ \; \circ,
+\backslash cdot \; \cdot
+\backslash dot\{x\} \; \dot{x}
+$
+
+&lt;h3&gt;Horizontal spacing&lt;/h3&gt;
+$
+    \backslash , small, \;
+    \backslash ; medium, \;
+    \backslash quad \; large.
+$
+
+</t>
+<t tx="ekr.20241225032316.1"></t>
+<t tx="ekr.20241225033647.1">\lim\limits_{n\to\infty}:
+$\quad\quad\quad \lim\limits_{n\to\infty}$
+
+\sum\limits_{n = 0}^{\infty}:
+$\quad \sum\limits_{n = 0}^{\infty}$</t>
+<t tx="ekr.20241225034001.1"></t>
 </tnodes>
 </leo_file>
