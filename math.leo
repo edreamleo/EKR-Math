@@ -971,9 +971,8 @@
 <v t="ekr.20241224172245.1"><vh>Math notes: latex</vh>
 <v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
 <v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
-<v t="ekr.20241225034001.1"><vh>Alignment (to do)</vh></v>
 <v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
-<v t="ekr.20241224173158.1"><vh>Exponential functions</vh></v>
+<v t="ekr.20241224173158.1"><vh>Exponentials</vh></v>
 </v>
 <v t="ekr.20241225053337.1"><vh>Math experiments</vh></v>
 </vnodes>
@@ -10277,53 +10276,45 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 <t tx="ekr.20241224173005.1">% https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86
 
 The line passing through $(x1, y1)$ is
-\\
+&lt;br&gt;
 $y-y1= m(x-x1)$
 
 Setting $y=0$ and solving for $x$,
-the $x$ intercept is \\
+the $x$ intercept is
+&lt;br&gt;
 $x = x1 -y1 / m$
-
 </t>
-<t tx="ekr.20241224173158.1">$
-    e = \lim\limits_{n\to\infty}(1 + \dfrac{1}{n})^n
-    \quad = \quad \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}
-$
+<t tx="ekr.20241224173158.1">\begin{align}
+  e &amp; = \lim\limits_{n\to\infty}(1 + \dfrac{1}{n})^n \hspace{100cm} \\
+    &amp; = \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}
+\end{align}
 
-The solution to the equation
-$\dot{x} = rx$
-\\
-is $x(t) = e^{rt} \cdot x(0)$
+The solution to the equation $\dot{x} = rx$ is
+&lt;br&gt;
+$x(t) = e^{rt} \cdot x(0)$
 </t>
-<t tx="ekr.20241224174349.1">$
-\backslash circ \; \circ,
-\backslash cdot \; \cdot
-\backslash dot\{x\} \; \dot{x}
-$
+<t tx="ekr.20241224174349.1">% Note \hspace{100cm}
 
-\begin{align*} 
+\begin{align} 
     \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
     \backslash cdot     &amp; \quad \cdot \\ 
     \backslash dot\{x\} &amp; \quad \dot{x}
-\end{align*}
+\end{align}
 
 &lt;h3&gt;Horizontal spacing&lt;/h3&gt;
-$
-    \backslash , small, \;
-    \backslash ; medium, \;
-    \backslash quad \; large.
-$
 
-
-
+\begin{align} 
+    \backslash , &amp; \quad small \hspace{100cm} \\
+    \backslash ; &amp; \quad medium \\
+    \backslash quad &amp; \quad large \\
+\end{align} 
 </t>
 <t tx="ekr.20241225032316.1"></t>
-<t tx="ekr.20241225033647.1">\lim\limits_{n\to\infty}:
+<t tx="ekr.20241225033647.1">&lt;tt&gt;\lim\limits_{n\to\infty}&lt;/tt&gt;:
 $\quad\quad\quad \lim\limits_{n\to\infty}$
 
-\sum\limits_{n = 0}^{\infty}:
+&lt;tt&gt;\sum\limits_{n = 0}^{\infty}&lt;/tt&gt;:
 $\quad \sum\limits_{n = 0}^{\infty}$</t>
-<t tx="ekr.20241225034001.1"></t>
 <t tx="ekr.20241225053337.1">@language html
 @tabwidth -2
 
