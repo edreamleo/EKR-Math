@@ -975,6 +975,7 @@
 <v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
 <v t="ekr.20241224173158.1"><vh>Exponential functions</vh></v>
 </v>
+<v t="ekr.20241225053337.1"><vh>Math experiments</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
@@ -10294,13 +10295,17 @@ $\dot{x} = rx$
 \\
 is $x(t) = e^{rt} \cdot x(0)$
 </t>
-<t tx="ekr.20241224174349.1">The \ \ hack works only &lt;i&gt;outside&lt;/i&gt; math mode.
-
-$
+<t tx="ekr.20241224174349.1">$
 \backslash circ \; \circ,
 \backslash cdot \; \cdot
 \backslash dot\{x\} \; \dot{x}
 $
+
+\begin{align*} 
+    \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
+    \backslash cdot     &amp; \quad \cdot \\ 
+    \backslash dot\{x\} &amp; \quad \dot{x}
+\end{align*}
 
 &lt;h3&gt;Horizontal spacing&lt;/h3&gt;
 $
@@ -10308,6 +10313,8 @@ $
     \backslash ; medium, \;
     \backslash quad \; large.
 $
+
+
 
 </t>
 <t tx="ekr.20241225032316.1"></t>
@@ -10317,5 +10324,45 @@ $\quad\quad\quad \lim\limits_{n\to\infty}$
 \sum\limits_{n = 0}^{\infty}:
 $\quad \sum\limits_{n = 0}^{\infty}$</t>
 <t tx="ekr.20241225034001.1"></t>
+<t tx="ekr.20241225053337.1">@language html
+@tabwidth -2
+
+&lt;head&gt;
+  &lt;script type="text/x-mathjax-config"&gt;
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+  &lt;/script&gt;
+  &lt;script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"&gt;
+  &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;!-- For alignment --&gt;
+&lt;!-- $\require{amsmath}$ --&gt;
+
+$px^2 + qx + r = 0$
+&lt;p&gt;
+Roots of quadratic equation:
+&lt;p&gt;
+$x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
+
+&lt;p&gt;
+&lt;!-- works ouside math mode --&gt;
+\begin{equation}
+  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
+  \label{eq:sample}
+\end{equation}
+
+&lt;p&gt;
+&lt;!-- works ouside math mode --&gt;
+&lt;!-- Notice the \hspace{100cm} at the end of the first aligned line. --&gt;
+
+\begin{align*} 
+    \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
+    \backslash cdot     &amp; \quad \cdot \\ 
+    \backslash dot\{x\} &amp; \quad \dot{x}
+\end{align*}
+</t>
 </tnodes>
 </leo_file>
