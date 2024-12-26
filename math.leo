@@ -76,9 +76,10 @@
 <v t="ekr.20241217065902.1"><vh>@button close-figures</vh></v>
 <v t="ekr.20241212164526.14"><vh>@button exec-py-file</vh></v>
 <v t="ekr.20241217135604.1"><vh>@button render-latex</vh>
-<v t="ekr.20241223031235.1"><vh>head</vh></v>
-<v t="ekr.20241223031312.1"><vh>tail</vh></v>
 <v t="ekr.20241223031814.1"><vh>get_contents</vh></v>
+<v t="ekr.20241223031235.1"><vh>latex_head</vh></v>
+<v t="ekr.20241223031312.1"><vh>latex_tail</vh></v>
+<v t="ekr.20241226055740.1"><vh>title</vh></v>
 </v>
 <v t="ekr.20241212164526.17"><vh>@command import-ipynb</vh></v>
 <v t="ekr.20241218050405.3"><vh>@command toggle-plot-tab</vh>
@@ -901,9 +902,13 @@
 </v>
 </v>
 </v>
-<v t="ekr.20241223024937.1" descendentVnodeUnknownAttributes="7d7100285805000000302e302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735809000000302e302e302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Projects</vh>
-<v t="ekr.20241223020730.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735807000000302e302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Rendering</vh>
-<v t="ekr.20241223020730.7" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735805000000302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>working VR examples</vh>
+<v t="ekr.20241223024937.1" descendentVnodeUnknownAttributes="7d7100285803000000302e3171017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735807000000302e312e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Projects</vh>
+<v t="ekr.20241217150611.1"><vh>Plt scripts: Use execute-script!</vh>
+<v t="ekr.20241217063500.1"><vh>Pyplot: graph parabola with slopes</vh></v>
+<v t="ekr.20241217092849.1"><vh>Pyplot: graph parabola and table of x-intercepts</vh></v>
+<v t="ekr.20241217093836.1"><vh>Pyplot: graph table of x-intercepts</vh></v>
+</v>
+<v t="ekr.20241223020730.7" descendentVnodeUnknownAttributes="7d71002858010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a73735805000000302e302e3071067d7107580b0000005f5f626f6f6b6d61726b7371087d7109580700000069735f64757065710a4930300a7373752e"><vh>Working VR examples</vh>
 <v t="ekr.20241223020730.8" descendentVnodeUnknownAttributes="7d71005803000000302e3071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a7373732e"><vh>at-html tests</vh>
 <v t="ekr.20241223020730.9" descendentVnodeUnknownAttributes="7d710058010000003071017d7102580b0000005f5f626f6f6b6d61726b7371037d7104580700000069735f6475706571054930300a7373732e"><vh>@html sphinx Link</vh></v>
 <v t="ekr.20241223020730.10"><vh>@html display Leo tree (cool)</vh></v>
@@ -953,13 +958,6 @@
 <v t="ekr.20241224080118.1"><vh>Hidden layer: latex</vh></v>
 </v>
 </v>
-<v t="ekr.20241217150611.1"><vh>Plt scripts: Use execute-script!</vh>
-<v t="ekr.20241217063500.1"><vh>Pyplot: graph parabola with slopes</vh></v>
-<v t="ekr.20241217092849.1"><vh>Pyplot: graph parabola and table of x-intercepts</vh></v>
-<v t="ekr.20241217093836.1"><vh>Pyplot: graph table of x-intercepts</vh></v>
-</v>
-</v>
-<v t="ekr.20241223024752.1"><vh>LaTeX study notes</vh></v>
 <v t="ekr.20241225032316.1"><vh>Problems</vh>
 <v t="ekr.20241214073404.1"><vh>Problem set 1</vh>
 <v t="ekr.20241214073548.1"><vh>1-1</vh></v>
@@ -968,6 +966,7 @@
 <v t="ekr.20241214074033.1"><vh>1-4</vh></v>
 </v>
 </v>
+<v t="ekr.20241226004910.1"><vh>Notes</vh>
 <v t="ekr.20241224172245.1"><vh>Math notes: latex</vh>
 <v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
 <v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
@@ -977,6 +976,15 @@
 <v t="ekr.20241225091209.1"><vh>latex experiments</vh></v>
 <v t="ekr.20241225091600.1"><vh>mathjax experiments</vh></v>
 <v t="ekr.20241225053337.1"><vh>html experiments</vh></v>
+</v>
+<v t="ekr.20241226012245.1"><vh>--- recent</vh>
+<v t="ekr.20241223020730.26"></v>
+<v t="ekr.20241226013008.1"><vh>@pdf temp</vh></v>
+</v>
+<v t="ekr.20241226004919.1"><vh>*** To do</vh></v>
+<v t="ekr.20241217135604.1"></v>
+<v t="ekr.20241226055452.1"><vh>Latex example 2</vh></v>
+<v t="ekr.20241226063042.1"><vh>@pdf Latex example 2</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
@@ -1639,6 +1647,7 @@ print('Done')</t>
 )
 </t>
 <t tx="ekr.20241212164559.305">render-latex
+vr-toggle
 exec-py-file
 close-figures
 
@@ -2019,7 +2028,7 @@ plt.show()  # Generates a warning: The event loop is already running
 # g.cls()
 </t>
 <t tx="ekr.20241217135604.1">"""
-Render the LaTeX document in p.b.
+Render the LaTeX document in p.b to title(p.b).tex
 
 This script adds the LaTeX head &amp; tail if necessary.
 """
@@ -2029,24 +2038,31 @@ import textwrap
 
 @others  # Define head, tail, helpers.
 
-# Create EKR-Math/temp.tex
-path = g.os_path_finalize_join(os.getcwd(), 'temp.tex')
+# Create EKR-Math/title(p).tex
+path = g.os_path_finalize_join(os.getcwd(), f"{title(p)}.tex")
 contents = get_contents(p)
 with open(path, 'wb') as f:  # Was 'w'.
     f.write(g.toEncodedString(contents))
     print(f"Wrote {path}")
+    
+# Find or create the @pdf node.
+h = f"@pdf {p.h}"
+pdf_node = g.findNodeAnywhere(c,h)
+if not pdf_node:
+    last = c.lastTopLevel()
+    pdf_node = last.insertAfter()
+    pdf_node.h = h
+    pdf_node.b = path.replace('.tex', '.pdf')
 
 # Render and open.
 g.execute_shell_commands([
     f"pdflatex {path}", # Invoke pdflatex.cmd.
-    # '&amp;temp.pdf',      # Open in acrobat reader.
-    # '&amp;moz temp.pdf',  # Open in browser!
-    # '&amp;ed temp.log',   # Open in scite.
-    # Poor.
-        # '&amp;htlatex temp.tex', # Convert to html.
-    # Requires mathjax support.
-        #'pandoc temp.tex --mathjax -o temp.html',
 ])
+
+c.redraw(pdf_node)
+# c.selectPosition(pdf_node)
+c.vr.show()
+
 
 </t>
 <t tx="ekr.20241217150611.1">
@@ -9361,7 +9377,6 @@ QDialog = QtWidgets.QDialog
 QVBoxLayout = QtWidgets.QVBoxLayout
 QWidget = QtWidgets.QWidget
 </t>
-<t tx="ekr.20241223020730.1"></t>
 <t tx="ekr.20241223020730.10">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10203,12 +10218,10 @@ code::
 <t tx="ekr.20241223020730.8"></t>
 <t tx="ekr.20241223020730.9" __bookmarks="7d7100580700000069735f6475706571014930300a732e">@language html
 &lt;a href="http://127.0.0.1:8000/leo_toc.html"&gt;Link&lt;/a&gt;</t>
-<t tx="ekr.20241223024752.1">@language latex
-</t>
 <t tx="ekr.20241223024937.1"></t>
 <t tx="ekr.20241223031235.1">@language latex
 
-head = r"""
+latex_head = r"""
 
 \documentclass[12pt, letter-paper]{article}
 % \usepackage{graphicx} % Images.
@@ -10233,24 +10246,24 @@ head = r"""
 """</t>
 <t tx="ekr.20241223031312.1">@language latex
 
-tail = r"""
+latex_tail = r"""
 
 \end{document}
 
 """
 </t>
-<t tx="ekr.20241223031814.1">def get_contents(p):
+<t tx="ekr.20241223031814.1">def get_contents(p) -&gt; str:
 
     contents = p.b.replace('@language latex', '').strip() + '\n\n'
     if not contents.startswith(r'\documentclass'):
         contents = (
-            textwrap.dedent(head).strip()
+            textwrap.dedent(latex_head).strip()
             + '\n\n'
             + contents
-            + textwrap.dedent(tail).strip()
+            + textwrap.dedent(latex_tail).strip()
             + '\n\n'
         )
-        g.trace('Add LaTeX head and tail')
+        # g.trace('Add LaTeX head and tail')
     # g.printObj(contents, tag=p.h)
     return contents
 </t>
@@ -10414,5 +10427,26 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
     \backslash dot\{x\} &amp; \quad \dot{x}
 \end{align*}
 </t>
+<t tx="ekr.20241226004910.1"></t>
+<t tx="ekr.20241226004919.1">@language rest
+@wrap
+
+- (Done) Improve @button render-latex
+- vr-zoom-in, etc.</t>
+<t tx="ekr.20241226012245.1"></t>
+<t tx="ekr.20241226013008.1">C:\Repos\EKR-Math\temp.pdf
+</t>
+<t tx="ekr.20241226055452.1">@language latex
+
+quadratic equation: 
+$px^2 + qx + r = 0$
+
+roots of quadratic equation:
+$x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
+</t>
+<t tx="ekr.20241226055740.1">def title(p) -&gt; str:
+    return p.h.strip().replace(' ','-')
+    </t>
+<t tx="ekr.20241226063042.1">c:/Repos/EKR-Math/Latex-example-2.pdf</t>
 </tnodes>
 </leo_file>

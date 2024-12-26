@@ -9,6 +9,10 @@ ZipFiles
 # Ignore all temp files.
 
 temp*.*
+*.aux
+*.out
+*.pdf
+*.tex
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
