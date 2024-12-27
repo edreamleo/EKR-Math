@@ -14,7 +14,7 @@
 <v t="ekr.20241212164559.8"><vh>@data exec-script-commands</vh></v>
 <v t="ekr.20241212164559.9"><vh>@data exec-script-patterns</vh></v>
 <v t="ekr.20241212164559.305"><vh>@data history-list</vh></v>
-<v t="ekr.20241224161542.1"><vh>@int qweb-view-font-size = 18</vh></v>
+<v t="ekr.20241224161542.1"><vh>@int qweb-view-font-size = 16</vh></v>
 <v t="ekr.20241212164559.11"><vh>@rclick say-hi @args=say hi</vh></v>
 <v t="ekr.20241212164559.306"><vh>@string qt-layout-name = legacy</vh></v>
 <v t="ekr.20241212164559.13"><vh>Abbreviation settings</vh>
@@ -72,15 +72,15 @@
 <v t="ekr.20241212164559.52"><vh>@string initial-split-orientation = v</vh></v>
 </v>
 <v t="ekr.20241212164559.217"><vh>Buttons &amp; commands</vh>
-<v t="ekr.20241212164559.223"><vh>@button backup</vh></v>
-<v t="ekr.20241217065902.1"><vh>@button close-figures</vh></v>
-<v t="ekr.20241212164526.14"><vh>@button exec-py-file</vh></v>
-<v t="ekr.20241217135604.1"><vh>@button render-latex</vh>
+<v t="ekr.20241217135604.1"><vh>@@@button render-latex</vh>
 <v t="ekr.20241223031814.1"><vh>get_contents</vh></v>
 <v t="ekr.20241223031235.1"><vh>latex_head</vh></v>
 <v t="ekr.20241223031312.1"><vh>latex_tail</vh></v>
 <v t="ekr.20241226055740.1"><vh>title</vh></v>
 </v>
+<v t="ekr.20241212164559.223"><vh>@button backup</vh></v>
+<v t="ekr.20241217065902.1"><vh>@button close-figures</vh></v>
+<v t="ekr.20241212164526.14"><vh>@button exec-py-file</vh></v>
 <v t="ekr.20241212164526.17"><vh>@command import-ipynb</vh></v>
 <v t="ekr.20241218050405.3"><vh>@command toggle-plot-tab</vh>
 <v t="ekr.20241218050659.1"><vh>&lt;&lt; PlotWindow imports &gt;&gt;</vh></v>
@@ -936,10 +936,16 @@
 <v t="ekr.20241223020730.27"><vh>@svg bubbles.svg</vh></v>
 </v>
 <v t="ekr.20241223020730.28"><vh>docstring test</vh></v>
+<v t="ekr.20241224080118.1"><vh>Hidden layer: latex</vh></v>
+<v t="ekr.20241224065831.1"><vh>Hidden layer: mathjax</vh></v>
 <v t="ekr.20241223020730.29"><vh>markdown tests</vh>
 <v t="ekr.20241223020730.30"><vh>markdown test (including url)</vh></v>
 <v t="ekr.20241223020730.31"><vh>markdown test (math)</vh></v>
 <v t="ekr.20241223020730.32"><vh>markdown test (link)</vh></v>
+</v>
+<v t="ekr.20241226180843.1"><vh>pdf tests</vh>
+<v t="ekr.20241226013008.1"><vh>@pdf temp</vh></v>
+<v t="ekr.20241226113937.1"><vh>@pdf Pdf example</vh></v>
 </v>
 <v t="ekr.20241223020730.33"><vh>rst tests</vh>
 <v t="ekr.20241223020730.34"><vh>rst test (including url)</vh></v>
@@ -954,8 +960,12 @@
 <v t="ekr.20241223020730.41"><vh>@url mail (rst)</vh></v>
 <v t="ekr.20241223020730.42"><vh>@url weather (md)</vh></v>
 </v>
-<v t="ekr.20241224065831.1"><vh>Hidden layer: mathjax</vh></v>
-<v t="ekr.20241224080118.1"><vh>Hidden layer: latex</vh></v>
+</v>
+<v t="ekr.20241226181122.1"><vh>Rendering experiments</vh>
+<v t="ekr.20241225091209.1"><vh>latex experiments</vh></v>
+<v t="ekr.20241225091600.1"><vh>mathjax experiments</vh></v>
+<v t="ekr.20241225053337.1"><vh>html experiments</vh></v>
+<v t="ekr.20241226055452.1"><vh>Latex example</vh></v>
 </v>
 </v>
 <v t="ekr.20241225032316.1"><vh>Problems</vh>
@@ -966,25 +976,13 @@
 <v t="ekr.20241214074033.1"><vh>1-4</vh></v>
 </v>
 </v>
-<v t="ekr.20241226004910.1"><vh>Notes</vh>
+<v t="ekr.20241226004919.1"><vh>*** To do</vh></v>
 <v t="ekr.20241224172245.1"><vh>Math notes: latex</vh>
 <v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
 <v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
 <v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
 <v t="ekr.20241224173158.1"><vh>Exponentials</vh></v>
 </v>
-<v t="ekr.20241225091209.1"><vh>latex experiments</vh></v>
-<v t="ekr.20241225091600.1"><vh>mathjax experiments</vh></v>
-<v t="ekr.20241225053337.1"><vh>html experiments</vh></v>
-</v>
-<v t="ekr.20241226012245.1"><vh>--- recent</vh>
-<v t="ekr.20241223020730.26"></v>
-<v t="ekr.20241226013008.1"><vh>@pdf temp</vh></v>
-</v>
-<v t="ekr.20241226004919.1"><vh>*** To do</vh></v>
-<v t="ekr.20241217135604.1"></v>
-<v t="ekr.20241226055452.1"><vh>Latex example 2</vh></v>
-<v t="ekr.20241226063042.1"><vh>@pdf Latex example 2</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
@@ -2031,10 +2029,14 @@ plt.show()  # Generates a warning: The event loop is already running
 Render the LaTeX document in p.b to title(p.b).tex
 
 This script adds the LaTeX head &amp; tail if necessary.
+
+This script works, but it's slow and not useful enough.
 """
 g.cls()
 import os
 import textwrap
+
+c.save()
 
 @others  # Define head, tail, helpers.
 
@@ -10223,7 +10225,8 @@ code::
 
 latex_head = r"""
 
-\documentclass[12pt, letter-paper]{article}
+% % % \documentclass[18pt, letter-paper]{article}
+\documentclass[26pt]{article}
 % \usepackage{graphicx} % Images.
 % \usepackage{tikz}     % Evaluate expressions.
 \usepackage{hyperref}   % For \href.
@@ -10232,8 +10235,11 @@ latex_head = r"""
 \usepackage{pgfplots}   % For inline plots.
 \usepackage{amsmath}    % For alignment.
 \usepackage[
-    bindingoffset=0.2in, footskip=.25in,
-    left=0.5in, right=2.5in, top=0.5in, bottom=0.5in,
+    % width, length
+    papersize={5.0in, 6.0in},
+    left=0.1in, right=0.1in, top=0.1in, bottom=0.1in,
+    % bindingoffset=0.2in, footskip=.25in,
+    % left=0.5in, right=2.5in, top=0.5in, bottom=0.5in,
 ]{geometry}
 
 \pagenumbering{gobble}
@@ -10265,7 +10271,13 @@ latex_tail = r"""
         )
         # g.trace('Add LaTeX head and tail')
     # g.printObj(contents, tag=p.h)
-    return contents
+    
+    # Remove &lt;br&gt; and &lt;p&gt; lines:
+    stripped_contents = ''.join([
+        z for z in g.splitLines(contents)
+        if z.strip() not in ('&lt;br&gt;', '&lt;p&gt;')
+    ])
+    return stripped_contents
 </t>
 <t tx="ekr.20241224065831.1">@language mathjax
 
@@ -10284,7 +10296,7 @@ $px^2 + qx + r = 0$
 roots of quadratic equation:
 $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 </t>
-<t tx="ekr.20241224161542.1"></t>
+<t tx="ekr.20241224161542.1">.. This only affects size of controls!</t>
 <t tx="ekr.20241224172245.1">@language latex
 
 </t>
@@ -10293,6 +10305,8 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 The line passing through $(x1, y1)$ is
 &lt;br&gt;
 $y-y1= m(x-x1)$
+
+&lt;p&gt;
 
 Setting $y=0$ and solving for $x$,
 the $x$ intercept is
@@ -10304,6 +10318,7 @@ $x = x1 -y1 / m$
     &amp; = \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}
 \end{align}
 
+&lt;p&gt;
 The solution to the equation $\dot{x} = rx$ is
 &lt;br&gt;
 $x(t) = e^{rt} \cdot x(0)$
@@ -10327,6 +10342,8 @@ $x(t) = e^{rt} \cdot x(0)$
 <t tx="ekr.20241225032316.1"></t>
 <t tx="ekr.20241225033647.1">&lt;tt&gt;\lim\limits_{n\to\infty}&lt;/tt&gt;:
 $\quad\quad\quad \lim\limits_{n\to\infty}$
+
+&lt;p&gt;
 
 &lt;tt&gt;\sum\limits_{n = 0}^{\infty}&lt;/tt&gt;:
 $\quad \sum\limits_{n = 0}^{\infty}$</t>
@@ -10427,13 +10444,10 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
     \backslash dot\{x\} &amp; \quad \dot{x}
 \end{align*}
 </t>
-<t tx="ekr.20241226004910.1"></t>
 <t tx="ekr.20241226004919.1">@language rest
 @wrap
 
-- (Done) Improve @button render-latex
-- vr-zoom-in, etc.</t>
-<t tx="ekr.20241226012245.1"></t>
+</t>
 <t tx="ekr.20241226013008.1">C:\Repos\EKR-Math\temp.pdf
 </t>
 <t tx="ekr.20241226055452.1">@language latex
@@ -10441,12 +10455,18 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 quadratic equation: 
 $px^2 + qx + r = 0$
 
+&lt;p&gt;
+
 roots of quadratic equation:
 $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 </t>
 <t tx="ekr.20241226055740.1">def title(p) -&gt; str:
     return p.h.strip().replace(' ','-')
     </t>
-<t tx="ekr.20241226063042.1">c:/Repos/EKR-Math/Latex-example-2.pdf</t>
+<t tx="ekr.20241226113937.1">c:/Repos/EKR-Math/Pdf-example.pdf
+
+# This may hang Leo.</t>
+<t tx="ekr.20241226180843.1"># These may hang Leo, but they do work.</t>
+<t tx="ekr.20241226181122.1"></t>
 </tnodes>
 </leo_file>
