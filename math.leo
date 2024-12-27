@@ -936,12 +936,15 @@
 <v t="ekr.20241223020730.27"><vh>@svg bubbles.svg</vh></v>
 </v>
 <v t="ekr.20241223020730.28"><vh>docstring test</vh></v>
-<v t="ekr.20241224080118.1"><vh>Hidden layer: latex</vh></v>
-<v t="ekr.20241224065831.1"><vh>Hidden layer: mathjax</vh></v>
+<v t="ekr.20241225053337.1"><vh>html tests</vh></v>
 <v t="ekr.20241223020730.29"><vh>markdown tests</vh>
 <v t="ekr.20241223020730.30"><vh>markdown test (including url)</vh></v>
-<v t="ekr.20241223020730.31"><vh>markdown test (math)</vh></v>
 <v t="ekr.20241223020730.32"><vh>markdown test (link)</vh></v>
+</v>
+<v t="ekr.20241227063213.1"><vh>mathjax tests</vh>
+<v t="ekr.20241224065831.1"><vh>Mathjax: hidden layer</vh></v>
+<v t="ekr.20241225091600.1"><vh>Mathjax equations</vh></v>
+<v t="ekr.20241226055452.1"><vh>Mathjax example</vh></v>
 </v>
 <v t="ekr.20241226180843.1"><vh>pdf tests</vh>
 <v t="ekr.20241226013008.1"><vh>@pdf temp</vh></v>
@@ -961,12 +964,6 @@
 <v t="ekr.20241223020730.42"><vh>@url weather (md)</vh></v>
 </v>
 </v>
-<v t="ekr.20241226181122.1"><vh>Rendering experiments</vh>
-<v t="ekr.20241225091209.1"><vh>latex experiments</vh></v>
-<v t="ekr.20241225091600.1"><vh>mathjax experiments</vh></v>
-<v t="ekr.20241225053337.1"><vh>html experiments</vh></v>
-<v t="ekr.20241226055452.1"><vh>Latex example</vh></v>
-</v>
 </v>
 <v t="ekr.20241225032316.1"><vh>Problems</vh>
 <v t="ekr.20241214073404.1"><vh>Problem set 1</vh>
@@ -977,7 +974,7 @@
 </v>
 </v>
 <v t="ekr.20241226004919.1"><vh>*** To do</vh></v>
-<v t="ekr.20241224172245.1"><vh>Math notes: latex</vh>
+<v t="ekr.20241224172245.1"><vh>Math notes</vh>
 <v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
 <v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
 <v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
@@ -1848,11 +1845,12 @@ go: ^\s*(.*):([0-9]+):([0-9]+):.+$
 python: ^\s*File "(.+)", line ([0-9]+), in .+$
 rust: ^\s*--&gt; (.+):([0-9]+):([0-9]+)\s*$</t>
 <t tx="ekr.20241212171838.1"></t>
-<t tx="ekr.20241214073404.1">@language latex
+<t tx="ekr.20241214073404.1">@language mathjax
 
-% http://faculty.washington.edu/sbrunton/me564/hw/2022_564hw1.pdf
-
-% https://www.overleaf.com/project/675d9303d9ec3ac6df5baf7c
+&lt;!--
+http://faculty.washington.edu/sbrunton/me564/hw/2022_564hw1.pdf
+https://www.overleaf.com/project/675d9303d9ec3ac6df5baf7c
+--&gt;
 
 
 </t>
@@ -10104,49 +10102,6 @@ More info at [Leo's home page](&lt;http://leoeditor.com/).
 - Another item
 - Third item.
 </t>
-<t tx="ekr.20241223020730.31">Inline:
-    
-\int_{b^a} \, x^2 \, dx: :math:`\int_{b^a} \, x^2 \, dx`
-
-d/dx \int_{0^x}\,f(u)\,du=f(x): :math:`d/dx \int_{0^x}\,f(u)\,du=f(x)`
-
-\int_{0^x}: :math:`\int_{0^x}`
-
-block:
-
-.. math::
-
-    x + 5 = -3
-
-    \int_{b^a} \, x^2 \, dx
-
-    d / dx \, \left(\int_{0^x} f(u)\,du\right)=f(x)
-
-    d / dx (\int_{0^x} f(u)\,du ) = f(x)
-
-    y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})
-    
-Alignment with \\\\ in \\begin{equation}:
-
-.. math::
-
-    \begin{equation}
-    x + 5 = -3 \\
-    \int_{b^a} \, x^2 \, dx\\
-    d / dx \left(\int_{0^x} f(u)\,du\right)=f(x)\\
-    d / dx (\int_{0^x} f(u)\,du) = f(x)\\
-    y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})
-    \end{equation}
-    
-Inline: :math:`y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})`
-
-Inline: :math:`(\sum_{t=0}^{N}\,f(t,k))/N`
-    
-The final output will be a vector :math:`Y` with :math:`K` elements, :math:`y_k`, where
-:math:`y_k(\mathbf{x},\mathbf{w}) = p(C_1|\mathbf{x})` is the probability that node :math:`k` is in class :math:`C_1` and
-:math:`p(C_2|\mathbf{x}) = 1-p(C_1|\mathbf{x})`
-
-</t>
 <t tx="ekr.20241223020730.32">@language md
 
 - Item
@@ -10287,20 +10242,13 @@ $a_m = \sum_{i=0}^D w_{ji}^{(1)}x_i$
 &lt;p&gt;
 for $m=1\ldots M$
 </t>
-<t tx="ekr.20241224080118.1">@language latex
-
-quadratic equation: 
-$px^2 + qx + r = 0$
-
-&lt;p&gt;
-roots of quadratic equation:
-$x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
-</t>
 <t tx="ekr.20241224161542.1">.. This only affects size of controls!</t>
-<t tx="ekr.20241224172245.1">@language latex
+<t tx="ekr.20241224172245.1">
 
 </t>
-<t tx="ekr.20241224173005.1">% https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86
+<t tx="ekr.20241224173005.1">@language mathjax
+
+% https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86 
 
 The line passing through $(x1, y1)$ is
 &lt;br&gt;
@@ -10313,7 +10261,9 @@ the $x$ intercept is
 &lt;br&gt;
 $x = x1 -y1 / m$
 </t>
-<t tx="ekr.20241224173158.1">\begin{align}
+<t tx="ekr.20241224173158.1">@language mathjax
+
+\begin{align}
   e &amp; = \lim\limits_{n\to\infty}(1 + \dfrac{1}{n})^n \hspace{100cm} \\
     &amp; = \sum\limits_{n = 0}^{\infty} \dfrac{1}{n!}
 \end{align}
@@ -10323,7 +10273,9 @@ The solution to the equation $\dot{x} = rx$ is
 &lt;br&gt;
 $x(t) = e^{rt} \cdot x(0)$
 </t>
-<t tx="ekr.20241224174349.1">% Note \hspace{100cm}
+<t tx="ekr.20241224174349.1">@language mathjax
+
+% Note \hspace{100cm}
 
 \begin{align} 
     \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
@@ -10340,7 +10292,9 @@ $x(t) = e^{rt} \cdot x(0)$
 \end{align} 
 </t>
 <t tx="ekr.20241225032316.1"></t>
-<t tx="ekr.20241225033647.1">&lt;tt&gt;\lim\limits_{n\to\infty}&lt;/tt&gt;:
+<t tx="ekr.20241225033647.1">@language mathjax
+
+&lt;tt&gt;\lim\limits_{n\to\infty}&lt;/tt&gt;:
 $\quad\quad\quad \lim\limits_{n\to\infty}$
 
 &lt;p&gt;
@@ -10390,37 +10344,10 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
     \backslash dot\{x\} &amp; \quad \dot{x}
 \end{align*}
 </t>
-<t tx="ekr.20241225091209.1">@language latex
-@tabwidth -2
-
-% Comment
-
-$px^2 + qx + r = 0$
-&lt;p&gt;
-Roots of quadratic equation:
-&lt;p&gt;
-$x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
-&lt;p&gt;
-&lt;!-- works ouside math mode --&gt;
-\begin{equation}
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
-  \label{eq:sample}
-\end{equation}
-
-&lt;p&gt;
-&lt;!-- works ouside math mode --&gt;
-&lt;!-- Notice the \hspace{100cm} at the end of the first aligned line. --&gt;
-
-\begin{align*} 
-    \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
-    \backslash cdot     &amp; \quad \cdot \\ 
-    \backslash dot\{x\} &amp; \quad \dot{x}
-\end{align*}
-</t>
 <t tx="ekr.20241225091600.1">@language mathjax
 @tabwidth -2
 
-&lt;!-- Comment --&gt;
+% comment.
 
 $px^2 + qx + r = 0$
 &lt;p&gt;
@@ -10428,16 +10355,15 @@ Roots of quadratic equation:
 &lt;p&gt;
 $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 &lt;p&gt;
-&lt;!-- works ouside math mode --&gt;
+% Works ouside math mode.
 \begin{equation}
   \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}
   \label{eq:sample}
 \end{equation}
 
 &lt;p&gt;
-&lt;!-- works ouside math mode --&gt;
-&lt;!-- Notice the \hspace{100cm} at the end of the first aligned line. --&gt;
-
+% Works ouside math mode.
+% Notice \hspace{100cm}
 \begin{align*} 
     \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
     \backslash cdot     &amp; \quad \cdot \\ 
@@ -10446,11 +10372,10 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 </t>
 <t tx="ekr.20241226004919.1">@language rest
 @wrap
-
 </t>
 <t tx="ekr.20241226013008.1">C:\Repos\EKR-Math\temp.pdf
 </t>
-<t tx="ekr.20241226055452.1">@language latex
+<t tx="ekr.20241226055452.1">@language mathjax
 
 quadratic equation: 
 $px^2 + qx + r = 0$
@@ -10467,6 +10392,6 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 
 # This may hang Leo.</t>
 <t tx="ekr.20241226180843.1"># These may hang Leo, but they do work.</t>
-<t tx="ekr.20241226181122.1"></t>
+<t tx="ekr.20241227063213.1"></t>
 </tnodes>
 </leo_file>
