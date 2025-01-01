@@ -72,12 +72,6 @@
 <v t="ekr.20241212164559.52"><vh>@string initial-split-orientation = v</vh></v>
 </v>
 <v t="ekr.20241212164559.217"><vh>Buttons &amp; commands</vh>
-<v t="ekr.20241217135604.1"><vh>@@@button render-latex</vh>
-<v t="ekr.20241223031814.1"><vh>get_contents</vh></v>
-<v t="ekr.20241223031235.1"><vh>latex_head</vh></v>
-<v t="ekr.20241223031312.1"><vh>latex_tail</vh></v>
-<v t="ekr.20241226055740.1"><vh>title</vh></v>
-</v>
 <v t="ekr.20241212164559.223"><vh>@button backup</vh></v>
 <v t="ekr.20241217065902.1"><vh>@button close-figures</vh></v>
 <v t="ekr.20241212164526.14"><vh>@button exec-py-file</vh></v>
@@ -970,8 +964,6 @@
 <v t="ekr.20241214074033.1"><vh>1-4</vh></v>
 </v>
 </v>
-<v t="ekr.20241226004919.1"><vh>*** To do</vh></v>
-<v t="ekr.20241217135604.1"></v>
 <v t="ekr.20241224172245.1"><vh>Math notes</vh>
 <v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
 <v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
@@ -2028,45 +2020,6 @@ fig.canvas.manager.window.move(50,50)  # Works for Qt. May not always work.
 plt.show()  # Generates a warning: The event loop is already running
 
 # g.cls()
-</t>
-<t tx="ekr.20241217135604.1">"""
-Render the LaTeX document in p.b to title(p.b).tex
-
-This script adds the LaTeX head &amp; tail if necessary.
-
-This script works, but it's slow and not useful enough.
-"""
-g.cls()
-import os
-import textwrap
-
-c.save()
-
-@others  # Define head, tail, helpers.
-
-# Create EKR-Math/title(p).tex
-path = g.os_path_finalize_join(os.getcwd(), f"{title(p)}.tex")
-contents = get_contents(p)
-with open(path, 'wb') as f:  # Was 'w'.
-    f.write(g.toEncodedString(contents))
-    print(f"Wrote {path}")
-    
-# Find or create the @pdf node.
-h = f"@pdf {p.h}"
-pdf_node = g.findNodeAnywhere(c,h)
-if not pdf_node:
-    last = c.lastTopLevel()
-    pdf_node = last.insertAfter()
-    pdf_node.h = h
-    pdf_node.b = path.replace('.tex', '.pdf')
-
-# Render and open.
-g.execute_shell_commands([
-    f"pdflatex {path}", # Invoke pdflatex.cmd.
-])
-
-c.redraw(pdf_node)
-c.vr.show()
 </t>
 <t tx="ekr.20241217150611.1">
 # Try plotnine.
@@ -10165,64 +10118,6 @@ code::
 <t tx="ekr.20241223020730.9" __bookmarks="7d7100580700000069735f6475706571014930300a732e">@language html
 &lt;a href="http://127.0.0.1:8000/leo_toc.html"&gt;Link&lt;/a&gt;</t>
 <t tx="ekr.20241223024937.1"></t>
-<t tx="ekr.20241223031235.1">@language latex
-
-latex_head = r"""
-
-% % % \documentclass[18pt, letter-paper]{article}
-\documentclass[26pt]{article}
-% \usepackage{graphicx} % Images.
-% \usepackage{tikz}     % Evaluate expressions.
-\usepackage{hyperref}   % For \href.
-\hypersetup{colorlinks=true, urlcolor=cyan}
-\urlstyle{same}
-\usepackage{pgfplots}   % For inline plots.
-\usepackage{amsmath}    % For alignment.
-\usepackage[
-    % width, length
-    papersize={5.0in, 6.0in},
-    left=0.1in, right=0.1in, top=0.1in, bottom=0.1in,
-    % bindingoffset=0.2in, footskip=.25in,
-    % left=0.5in, right=2.5in, top=0.5in, bottom=0.5in,
-]{geometry}
-
-\pagenumbering{gobble}
-\setlength{\parskip}{6pt}
-\setlength{\parindent}{0pt}
-\pgfplotsset{compat=1.18}
-
-\begin{document}
-
-"""</t>
-<t tx="ekr.20241223031312.1">@language latex
-
-latex_tail = r"""
-
-\end{document}
-
-"""
-</t>
-<t tx="ekr.20241223031814.1">def get_contents(p) -&gt; str:
-
-    contents = p.b.replace('@language latex', '').strip() + '\n\n'
-    if not contents.startswith(r'\documentclass'):
-        contents = (
-            textwrap.dedent(latex_head).strip()
-            + '\n\n'
-            + contents
-            + textwrap.dedent(latex_tail).strip()
-            + '\n\n'
-        )
-        # g.trace('Add LaTeX head and tail')
-    # g.printObj(contents, tag=p.h)
-    
-    # Remove &lt;br&gt; and &lt;p&gt; lines:
-    stripped_contents = ''.join([
-        z for z in g.splitLines(contents)
-        if z.strip() not in ('&lt;br&gt;', '&lt;p&gt;')
-    ])
-    return stripped_contents
-</t>
 <t tx="ekr.20241224065831.1">@language mathjax
 
 Define the &lt;b&gt;unit activation&lt;/b&gt;, $a_m$,
@@ -10360,9 +10255,6 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
     \backslash dot\{x\} &amp; \quad \dot{x}
 \end{align*}
 </t>
-<t tx="ekr.20241226004919.1">@language rest
-@wrap
-</t>
 <t tx="ekr.20241226013008.1">C:\Repos\EKR-Math\temp.pdf
 </t>
 <t tx="ekr.20241226055452.1">@language mathjax
@@ -10375,9 +10267,6 @@ $px^2 + qx + r = 0$
 roots of quadratic equation:
 $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 </t>
-<t tx="ekr.20241226055740.1">def title(p) -&gt; str:
-    return p.h.strip().replace(' ','-')
-    </t>
 <t tx="ekr.20241226113937.1">c:/Repos/EKR-Math/Pdf-example.pdf
 
 # This may hang Leo.</t>
