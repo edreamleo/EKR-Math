@@ -970,8 +970,8 @@
 <v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
 <v t="ekr.20241224173158.1"><vh>Exponentials</vh></v>
 </v>
-<v t="ekr.20241231165704.1"><vh>katex test</vh></v>
 <v t="ekr.20241231172240.1"><vh>typst test</vh></v>
+<v t="ekr.20241231191937.1"><vh>katex experiment</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
@@ -10160,7 +10160,6 @@ $x(t) = e^{rt} \cdot x(0)$
 <t tx="ekr.20241224174349.1">@language mathjax
 
 % Note \hspace{100cm}
-% Another note
 
 \begin{align} 
     \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
@@ -10272,13 +10271,19 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 # This may hang Leo.</t>
 <t tx="ekr.20241226180843.1"># These may hang Leo, but they do work.</t>
 <t tx="ekr.20241227063213.1"></t>
-<t tx="ekr.20241231165704.1">@language katex
+<t tx="ekr.20241231172240.1">@language typst
 
-% Note \hspace{100cm}
-% Another note
+#set par(justify: true)
+= Background
+
+The equation $Q = rho A v + C$
+defines the glacial flow rate.</t>
+<t tx="ekr.20241231191937.1">@language katex
+
+% Comment
 
 \begin{align} 
-    \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
+\backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
     \backslash cdot     &amp; \quad \cdot \\ 
     \backslash dot\{x\} &amp; \quad \dot{x}
 \end{align}
@@ -10289,14 +10294,7 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
     \backslash , &amp; \quad small \hspace{100cm} \\
     \backslash ; &amp; \quad medium \\
     \backslash quad &amp; \quad large \\
-\end{align} 
+\end{align}
 </t>
-<t tx="ekr.20241231172240.1">@language typst
-
-#set par(justify: true)
-= Background
-
-The equation $Q = rho A v + C$
-defines the glacial flow rate.</t>
 </tnodes>
 </leo_file>
