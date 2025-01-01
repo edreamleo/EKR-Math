@@ -952,9 +952,6 @@
 </v>
 <v t="ekr.20241223020730.33"><vh>rst tests</vh>
 <v t="ekr.20241223020730.34"><vh>rst test (including url)</vh></v>
-<v t="ekr.20241223020730.35"><vh>rst example</vh>
-<v t="ekr.20241223020730.36"><vh>python</vh></v>
-</v>
 <v t="ekr.20241223020730.37"><vh>python code block in rst</vh></v>
 </v>
 <v t="ekr.20241223020730.38"><vh>URLs tests</vh>
@@ -974,12 +971,15 @@
 </v>
 </v>
 <v t="ekr.20241226004919.1"><vh>*** To do</vh></v>
+<v t="ekr.20241217135604.1"></v>
 <v t="ekr.20241224172245.1"><vh>Math notes</vh>
 <v t="ekr.20241224174349.1"><vh>Special characters </vh></v>
 <v t="ekr.20241225033647.1"><vh>Math symbols</vh></v>
 <v t="ekr.20241224173005.1"><vh>Point-slope form of lines</vh></v>
 <v t="ekr.20241224173158.1"><vh>Exponentials</vh></v>
 </v>
+<v t="ekr.20241231165704.1"><vh>katex test</vh></v>
+<v t="ekr.20241231172240.1"><vh>typst test</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20241212100514.21">import matplotlib.pyplot as plt
@@ -1890,7 +1890,10 @@ What is the corresponding value of λ?
 
 (d) If you start with 100kg of uranium-238, how long until you have 5kg left?
 </t>
-<t tx="ekr.20241214074032.2">Compute the Taylor series expansion by hand for f (x).
+<t tx="ekr.20241214074032.2">@language rest
+@wrap
+
+Compute the Taylor series expansion by hand for f (x).
 
 (a) f (x) = sin(x)/x.
 (b) f (x) = 3x.
@@ -1899,7 +1902,10 @@ For each function, plot f (x) and the three-term expansion (i.e., the first thre
 
 
 </t>
-<t tx="ekr.20241214074033.1">Compute an analytic expression, by hand, for the real and imaginary parts
+<t tx="ekr.20241214074033.1">@language rest
+@wrap
+
+Compute an analytic expression, by hand, for the real and imaginary parts
 of the following complex functions.
 
 Plot these in Matlab for t=0:.01:10.
@@ -2060,10 +2066,7 @@ g.execute_shell_commands([
 ])
 
 c.redraw(pdf_node)
-# c.selectPosition(pdf_node)
 c.vr.show()
-
-
 </t>
 <t tx="ekr.20241217150611.1">
 # Try plotnine.
@@ -10124,20 +10127,6 @@ Section
 - Bullet list
 - Another item
 - Third item.</t>
-<t tx="ekr.20241223020730.35">@language rest
-@wrap
-
-- test2
-
-*italic*
-
-**bold**
-
-@language python</t>
-<t tx="ekr.20241223020730.36">@language python
-
-def foo():
-    pass</t>
 <t tx="ekr.20241223020730.37">@language rest
 @wrap
 code::
@@ -10276,6 +10265,7 @@ $x(t) = e^{rt} \cdot x(0)$
 <t tx="ekr.20241224174349.1">@language mathjax
 
 % Note \hspace{100cm}
+% Another note
 
 \begin{align} 
     \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
@@ -10393,5 +10383,31 @@ $x = {-q \pm \sqrt{q^2-4pr} \over 2p}$
 # This may hang Leo.</t>
 <t tx="ekr.20241226180843.1"># These may hang Leo, but they do work.</t>
 <t tx="ekr.20241227063213.1"></t>
+<t tx="ekr.20241231165704.1">@language katex
+
+% Note \hspace{100cm}
+% Another note
+
+\begin{align} 
+    \backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
+    \backslash cdot     &amp; \quad \cdot \\ 
+    \backslash dot\{x\} &amp; \quad \dot{x}
+\end{align}
+
+&lt;h3&gt;Horizontal spacing&lt;/h3&gt;
+
+\begin{align} 
+    \backslash , &amp; \quad small \hspace{100cm} \\
+    \backslash ; &amp; \quad medium \\
+    \backslash quad &amp; \quad large \\
+\end{align} 
+</t>
+<t tx="ekr.20241231172240.1">@language typst
+
+#set par(justify: true)
+= Background
+
+The equation $Q = rho A v + C$
+defines the glacial flow rate.</t>
 </tnodes>
 </leo_file>
