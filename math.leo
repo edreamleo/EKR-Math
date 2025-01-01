@@ -10282,19 +10282,49 @@ defines the glacial flow rate.</t>
 
 % Comment
 
+% &lt;style&gt;
+% .katex-version {display: none;}
+% .katex-version::after {content:"0.10.2 or earlier";}
+% &lt;/style&gt;
+% &lt;span class="katex"&gt;
+% &lt;span class="katex-mathml"&gt;The KaTeX stylesheet is not loaded!&lt;/span&gt;
+% &lt;span class="katex-version rule"&gt;KaTeX stylesheet version: &lt;/span&gt;
+% &lt;/span&gt;
+
 \begin{align} 
-\backslash circ     &amp; \quad \circ \hspace{100cm} \\ 
-    \backslash cdot     &amp; \quad \cdot \\ 
-    \backslash dot\{x\} &amp; \quad \dot{x}
+    \backslash circ     &amp; \quad \circ \hspace{10cm} \nonumber  \\ 
+    \backslash cdot     &amp; \quad \cdot               \nonumber \\ 
+    \backslash dot\{x\} &amp; \quad \dot{x}             \nonumber \\
 \end{align}
 
 &lt;h3&gt;Horizontal spacing&lt;/h3&gt;
 
 \begin{align} 
-    \backslash , &amp; \quad small \hspace{100cm} \\
-    \backslash ; &amp; \quad medium \\
-    \backslash quad &amp; \quad large \\
+    \backslash ,    &amp; \quad small \hspace{10cm} \nonumber \\
+    \backslash ;    &amp; \quad medium              \nonumber \\
+    \backslash quad &amp; \quad large               \nonumber \\
 \end{align}
+
+&lt;h3&gt;Centered equations&lt;/h3&gt;
+
+\begin{align}
+    \lim\limits_{n\to\infty}    &amp; \nonumber \\
+    \sum\limits_{n=0}^{\infty}  &amp; \nonumber \\
+\end{align}
+
+&lt;h3&gt;Left aligned equations&lt;/h3&gt;
+
+\begin{align}
+    \lim\limits_{n\to\infty}    &amp; \hspace{10cm} \nonumber \\
+    \sum\limits_{n=0}^{\infty}  &amp; \nonumber \\
+\end{align}
+
+&lt;h3&gt;Another way&lt;/h3&gt;
+
+\(
+    \lim\limits_{n\to\infty} = \sum\limits_{n=0}^{\infty}
+\)
+
 </t>
 </tnodes>
 </leo_file>
